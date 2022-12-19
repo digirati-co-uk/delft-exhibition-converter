@@ -7,9 +7,17 @@ from shutil import copy
 # settings
 CONVERT_INFO_CANVAS_BODIES = True
 CONVERT_INFO_CANVAS_POPUP = True
+PRESERVE_ANNO_LABELS = True
 PAINTING_ANNO_THUMBS = "Annotation"
 # PAINTING_ANNO_THUMBS = "Image"
 
+ITEMS_ANNOS_COUNT = 0
+ITEMS_ANNOS_WITH_LABELS_COUNT = 0
+ITEMS_ANNOS_WITH_SUMMARIES_COUNT = 0
+ANNOS_WITHOUT_LABELS = []
+ANNOS_WITHOUT_SUMMARIES = []
+REMOVED_ANNOS = []
+ANNOS_WITH_NO_DESC = []
 
 def convert_folder(old_folder):
     print(f"source: {old_folder}")
@@ -23,7 +31,7 @@ def convert_folder(old_folder):
     for exhibition in listdir(old_folder):
         source_file = join(old_folder, exhibition)
         copy(source_file, copied_source_folder)
-        with open(source_file) as source:
+        with open(source_file, encoding="utf-8") as source:
             print(f"Converting {exhibition}")
             manifest = json.load(source)
             new_manifest = convert_manifest(manifest, exhibition)
@@ -37,6 +45,16 @@ def convert_folder(old_folder):
                 json.dump(new_manifest, dest, ensure_ascii=False, indent=4)
     with open(join(this_dir, "manifests.json"), 'w', encoding='utf-8') as mini_coll:
         json.dump(manifests, mini_coll, ensure_ascii=False, indent=4)
+
+    print(f"ITEMS_ANNOS_COUNT: {ITEMS_ANNOS_COUNT}")
+    print(f"ITEMS_ANNOS_WITH_LABELS_COUNT: {ITEMS_ANNOS_WITH_LABELS_COUNT}")
+    print(f"ITEMS_ANNOS_WITH_SUMMARIES_COUNT: {ITEMS_ANNOS_WITH_SUMMARIES_COUNT}")
+    print("ANNOS_WITHOUT_LABELS")
+    print(ANNOS_WITHOUT_LABELS)
+    print("ANNOS_WITHOUT_SUMMARIES")
+    print(ANNOS_WITHOUT_SUMMARIES)
+    print("ANNOS_WITH_NO_DESC")
+    print(ANNOS_WITH_NO_DESC)
 
 
 def convert_manifest(manifest, filename):
@@ -83,36 +101,113 @@ def set_homepage(manifest, slug):
 
 def convert_canvas(canvas):
     normalise_behavior(canvas)
+
     if "info" in canvas["behavior"]:
         convert_info_canvas(canvas)
         return
 
-    move_describing_annos(canvas)
+    convert_tour_steps_to_descriptive_annos(canvas)
+
+    convert_anno_label_and_summaries_to_equivalent_canvas_targeting_descriptive_annos(canvas)
+
+    move_thumbnails_from_painting_annos_to_their_bodies(canvas)
+
+    remodel_cropped_painting_annos(canvas)
+
+    remodel_av_and_3d_painting_annos(canvas)
 
 
-def move_describing_annos(canvas):
+def convert_tour_steps_to_descriptive_annos(canvas):
+    """
+    If an anno under canvas.items has a label and summary, it needs to become a describing anno under
+    canvas.annotations[0].items.
+    We still might preserve the label of the annotation though, for ease of use
+
+    If the anno body is a TextualBody it gets removed from the painting annos altogether, it's ONLY a describing anno.
+    Tours will be run from the describing annos, moving the user around the canvas.
+
+    PRESERVE_ANNO_LABELS keeps the label property on the
+
+    """
     anno_page = required_single_item(canvas)
     for_removal = []
+    expected_body_types = ["Image", "Video", "TextualBody"]
     for anno in anno_page["items"]:
-        if anno["motivation"] != "painting":
-            if anno["motivation"] == "describing":
-                annotations = canvas.get("annotations", None)
-                if annotations is None:
-                    annotations = [{
-                        "type": "AnnotationPage",
-                        "id": f"{canvas['id']}/annotations",
-                        "items": []
-                    }]
-                    canvas["annotations"] = annotations
-                print("moving a describing anno to canvas.annotations")
+        if anno["body"]["type"] not in expected_body_types:
+            raise ValueError(f"Unexpected anno body type: {anno['body']['type']}")
+
+        update_anno_counters(anno)
+
+        label = anno.get("label", None)
+        summary = anno.get("summary", None)
+        if label is not None or summary is not None:
+            annotations = canvas.get("annotations", None)
+            if annotations is None:
+                annotations = [{
+                    "type": "AnnotationPage",
+                    "id": f"{canvas['id']}/annotations",
+                    "items": []
+                }]
+                canvas["annotations"] = annotations
+            describing_anno = {
+                "id": f"{canvas['id']}/annotations/{ITEMS_ANNOS_COUNT}",
+                "type": "Annotation",
+                "motivation": "describing",
+                "target": anno["target"]
+            }
+
+            canvas["annotations"][0]["items"].append(describing_anno)
+
+            id_root = f"{anno['id']}/desc"
+            describing_anno["body"] = []
+            nl_body = get_html_from_label_and_summary(anno, "nl", True)
+            if nl_body is not None:
+                describing_anno["body"].append(make_textual_body(nl_body, "text/html", "nl", f"{id_root}/nl"))
+            en_body = get_html_from_label_and_summary(anno, "en", True)
+            if en_body is not None:
+                describing_anno["body"].append(make_textual_body(en_body, "text/html", "en", f"{id_root}/en"))
+
+            if nl_body is None and en_body is None:
+                # If there's no summary and we're preserving labels, we might have a tour step with no textual content
+                ANNOS_WITH_NO_DESC.append(anno["id"])
+
+            if label is not None and not PRESERVE_ANNO_LABELS:
+                del anno["label"]
+            if summary is not None:
+                del anno["summary"]
+
+            if anno["body"]["type"] == "TextualBody":
                 for_removal.append(anno)
-                annotations[0]["items"].append(anno)
             else:
-                raise ValueError("Non-painting anno in canvas.items[0].items")
+                describing_anno["scope"] = anno["id"]  # reference the painting anno this is for
+
     if len(for_removal) > 0:
         print(f"{len(for_removal)} describing annos to remove")
         for moved in for_removal:
             anno_page["items"].remove(moved)
+            REMOVED_ANNOS.append(moved["id"])
+
+
+def update_anno_counters(anno):
+
+    global ITEMS_ANNOS_COUNT
+    global ITEMS_ANNOS_WITH_LABELS_COUNT
+    global ITEMS_ANNOS_WITH_SUMMARIES_COUNT
+    global ANNOS_WITHOUT_LABELS
+    global ANNOS_WITHOUT_SUMMARIES
+
+    global ITEMS_ANNOS_COUNT, ITEMS_ANNOS_WITH_LABELS_COUNT, ITEMS_ANNOS_WITH_SUMMARIES_COUNT
+    ITEMS_ANNOS_COUNT += 1
+    label = anno.get("label", None)
+    if label is not None:
+        ITEMS_ANNOS_WITH_LABELS_COUNT += 1
+    else:
+        ANNOS_WITHOUT_LABELS.append(anno["id"])
+    summary = anno.get("summary", None)
+    if summary is not None:
+        ITEMS_ANNOS_WITH_SUMMARIES_COUNT += 1
+    else:
+        ANNOS_WITHOUT_SUMMARIES.append(anno["id"])
 
 
 def normalise_behavior(canvas):
@@ -127,7 +222,7 @@ def normalise_behavior(canvas):
         canvas["behavior"].append("info")
     else:
         if "row" in behaviors or "left" in behaviors:
-            canvas["behavior"].append("left")
+            canvas["behavior"].append("left")  # we might remove this if there is no summary - see novieten.json
         elif "column" in behaviors or "bottom" in behaviors:
             canvas["behavior"].append("bottom")  # (there is no top)
         elif "right" in behaviors:
@@ -139,9 +234,11 @@ def normalise_behavior(canvas):
 
 
 def convert_info_canvas(canvas):
-    # An info canvas has no media on it, but shows text directly, and links to a pop-up with longer text.
-    # In the old version, the canvas has label and summary that are displayed directly, and the text annotation
-    # has label and summary that are displayed in the pop-up.
+    """
+    An info canvas has no media on it, but shows text directly, and links to a pop-up with longer text.
+    In the old version, the canvas has label and summary that are displayed directly, and the text annotation
+    has label and summary that are displayed in the pop-up.
+    """
     if canvas["height"] != 1000 or canvas["width"] != 1000:
         raise ValueError("Info canvas has unexpected dimensions")
     if get_value(canvas["label"]) is None:
@@ -172,6 +269,8 @@ def convert_info_canvas(canvas):
     # What is easiest for the Manifest Editor?
 
     if CONVERT_INFO_CANVAS_BODIES:
+        # Convert the canvas label and summary into a direct painting annotation on the canvas, of type text/html
+        # QUESTION - do we want to do this?
         id_root = textual_anno["body"]["id"]
         textual_anno["body"] = []
         nl_body = get_html_from_label_and_summary(canvas, "nl")
@@ -184,6 +283,9 @@ def convert_info_canvas(canvas):
         del canvas["summary"]
 
     if CONVERT_INFO_CANVAS_POPUP:
+        # Convert the label and summary of the textual annotation into a non-painting annotation
+        # (introducing an annotations property to the canvas)
+        # QUESTION - do we want to do this?
         canvas["annotations"] = [{
             "type": "AnnotationPage",
             "id": f"{canvas['id']}/annotations",
@@ -208,12 +310,46 @@ def convert_info_canvas(canvas):
         del textual_anno["summary"]
 
 
-def get_html_from_label_and_summary(resource, lang):
+def convert_anno_label_and_summaries_to_equivalent_canvas_targeting_descriptive_annos(canvas):
+    pass
+
+
+def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
+    return
+    anno_page = required_single_item(canvas)
+    for anno in anno_page["items"]:
+        if anno["motivation"] != "painting":
+            raise ValueError(f"Unexpected motivation '{anno['motivation']}' in canvas.items")
+        if anno["body"]["type"] != "Image" and anno["body"]["type"] != "Video":
+            raise ValueError(f"Unexpected body type '{ anno['body']['type']}' in canvas.items")
+        thumbnail = anno.get("thumbnail", None)
+        if thumbnail is None:
+            return
+
+        # need to tidy up the thumbnails we find
+        thumb_type = thumbnail[0].get("type", None)
+        if thumb_type is None and anno["body"]["type"] == "Image":
+            raise ValueError(f"Unexpected simple thumbnail on Image")
+
+        # if PAINTING_ANNO_THUMBS == "Image"
+
+
+
+def remodel_cropped_painting_annos(canvas):
+    pass
+
+
+def remodel_av_and_3d_painting_annos(canvas):
+    pass
+
+
+def get_html_from_label_and_summary(resource, lang, convert_label=True):
     html = ""
-    label = get_value(resource.get('label', None), lang)
-    if label is not None:
-        html = f"<h1>{label[0]}</h1>\n\n"
-    summary = get_value(resource['summary'], lang)
+    if convert_label:
+        label = get_value(resource.get('label', None), lang)
+        if label is not None:
+            html = f"<h1>{label[0]}</h1>\n\n"
+    summary = get_value(resource.get("summary", None), lang)
     if summary is not None:
         for val in summary:
             if len(val) > 0:
@@ -224,7 +360,7 @@ def get_html_from_label_and_summary(resource, lang):
     if len(html) == 0:
         return None
 
-    return html
+    return html.strip()
 
 
 def make_textual_body(body, format, language, id):
