@@ -108,8 +108,6 @@ def convert_canvas(canvas):
 
     convert_tour_steps_to_descriptive_annos(canvas)
 
-    convert_anno_label_and_summaries_to_equivalent_canvas_targeting_descriptive_annos(canvas)
-
     move_thumbnails_from_painting_annos_to_their_bodies(canvas)
 
     remodel_cropped_painting_annos(canvas)
@@ -310,12 +308,7 @@ def convert_info_canvas(canvas):
         del textual_anno["summary"]
 
 
-def convert_anno_label_and_summaries_to_equivalent_canvas_targeting_descriptive_annos(canvas):
-    pass
-
-
 def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
-    return
     anno_page = required_single_item(canvas)
     for anno in anno_page["items"]:
         if anno["motivation"] != "painting":
@@ -323,20 +316,36 @@ def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
         if anno["body"]["type"] != "Image" and anno["body"]["type"] != "Video":
             raise ValueError(f"Unexpected body type '{ anno['body']['type']}' in canvas.items")
         thumbnail = anno.get("thumbnail", None)
-        if thumbnail is None:
+        if thumbnail is None or PAINTING_ANNO_THUMBS == "Annotation":
             return
 
-        # need to tidy up the thumbnails we find
-        thumb_type = thumbnail[0].get("type", None)
-        if thumb_type is None and anno["body"]["type"] == "Image":
-            raise ValueError(f"Unexpected simple thumbnail on Image")
+        anno["body"]["thumbnail"] = thumbnail
+        del anno["thumbnail"]
 
-        # if PAINTING_ANNO_THUMBS == "Image"
-
+        # TODO: We should tidy up these thumbnails, the Video ones are... odd.
 
 
 def remodel_cropped_painting_annos(canvas):
-    pass
+    anno_page = required_single_item(canvas)
+    for anno in anno_page["items"]:
+        if anno.get("body.id", None) is None:
+            # The body.id property is how the old editor signified a crop
+            return
+
+        region = anno["body"]["id"].split("/")[-4]
+        anno["body"]["id"] = anno["body"]["id"].replace(f"/{region}/", "/full/")
+        specific_resource = {
+            "id": f"{anno['id']}/specificResource",
+            "type": "SpecificResource",
+            "source": anno["body"],
+            "selector": {
+                "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                "type": "iiif:ImageApiSelector",
+                "region": region
+            }
+        }
+        anno["body"] = specific_resource
+        del anno["body.id"]
 
 
 def remodel_av_and_3d_painting_annos(canvas):

@@ -30,75 +30,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/559,0,2666,2749/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2749,
-                                "width": 3637,
-                                "label": {
-                                    "nl": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 3637,
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2749,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 774
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 302
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 151
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 76
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 3637,
+                                    "label": {
+                                        "nl": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3637,
+                                        "height": 2749,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 774
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 302
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 151
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 76
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "559,0,2666,2749"
                                 }
                             },
                             "thumbnail": [
@@ -155,8 +164,7 @@
                                 "en": [
                                     "The only woman in the lecture hal (Orientation Week 1965)"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/21/e16c7a6b-9672-d551-70d7-08c88609efb1/559,0,2666,2749/full/0/default.jpg"
+                            }
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/705cb49b-41f4-492b-8a4c-0347efc4ba0d"

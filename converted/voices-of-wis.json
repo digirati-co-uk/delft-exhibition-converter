@@ -2899,75 +2899,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17/0,207,2840,1066/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1549,
-                                "width": 2840,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2840,
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1549,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 559
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 218
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 109
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 55
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2840,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2840,
+                                        "height": 1549,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 559
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 218
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 109
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 55
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "0,207,2840,1066"
                                 }
                             },
                             "thumbnail": [
@@ -3017,7 +3026,6 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403#xywh=8,0,2840,1066",
-                            "body.id": "https://dlc.services/iiif-img/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17/0,207,2840,1066/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Emerging applications in Soft Robotics for healthcare"

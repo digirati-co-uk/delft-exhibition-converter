@@ -1484,75 +1484,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/cc685204-e969-1696-499b-ae662b01b827/0,344,2130,1060/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1404,
-                                "width": 2130,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/cc685204-e969-1696-499b-ae662b01b827",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2130,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/8d6919e3-c0a8-8f17-5d88-a814ffa4a2f1/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/cc685204-e969-1696-499b-ae662b01b827/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1404,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 675
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 264
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 132
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 66
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2130,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/cc685204-e969-1696-499b-ae662b01b827",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2130,
+                                        "height": 1404,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 675
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 264
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 132
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 66
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "0,344,2130,1060"
                                 }
                             },
                             "thumbnail": [
@@ -1606,8 +1615,7 @@
                                 "en": [
                                     "Land surveying, presumably by the Topographical Service, in the Dutch East Indies (1910)"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/21/cc685204-e969-1696-499b-ae662b01b827/0,344,2130,1060/full/0/default.jpg"
+                            }
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/c0fe119d-6a8b-e1d6-faf1-e2fa0f262892"
@@ -2281,75 +2289,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8/128,453,2924,1591/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2360,
-                                "width": 3171,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 3171,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/928f533a-2bd8-c45d-85f3-c22d6d6dd22b/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2360,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 762
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 298
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 149
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 74
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 3171,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3171,
+                                        "height": 2360,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 762
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 298
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 149
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 74
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "128,453,2924,1591"
                                 }
                             },
                             "thumbnail": [
@@ -2399,7 +2416,6 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/928f533a-2bd8-c45d-85f3-c22d6d6dd22b",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8#xywh=0,0,2924,1591",
-                            "body.id": "https://dlc.services/iiif-img/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8/128,453,2924,1591/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Bridge and aqueduct of a secondary canal over the supply river of the main waterworks canal at Pekalen, 18 km. at Z.O. from Probolinggo, East Java (1900)"
@@ -2945,75 +2961,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48/83,545,2679,1463/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2084,
-                                "width": 2815,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2815,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b9187c97-6147-f2d6-13b1-78cc96bb1077/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2084,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 758
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 296
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 148
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 74
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2815,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2815,
+                                        "height": 2084,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 758
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 296
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 148
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 74
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "83,545,2679,1463"
                                 }
                             },
                             "thumbnail": [
@@ -3067,8 +3092,7 @@
                                 "en": [
                                     "Sugar company in East Java. Transport of the sugar cane by oxcart from the cutting field (1921)"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48/83,545,2679,1463/full/0/default.jpg"
+                            }
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/b02b0cb6-267e-f1f9-a0ea-520a80b20b14"
@@ -3121,76 +3145,85 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90/220,228,2408,4551/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 4961,
-                                "width": 2825,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2825,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 4961,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16,
-                                                32
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 583,
-                                            "height": 1024
-                                        },
-                                        {
-                                            "width": 228,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 114,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 57,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2825,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2825,
+                                        "height": 4961,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 583,
+                                                "height": 1024
+                                            },
+                                            {
+                                                "width": 228,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 114,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 57,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "220,228,2408,4551"
                                 }
                             },
                             "thumbnail": [
@@ -3244,8 +3277,7 @@
                                 "en": [
                                     "Section of the Pekalenwerken with indicated golongans (irrigation units)"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90/220,228,2408,4551/full/0/default.jpg"
+                            }
                         },
                         {
                             "motivation": "painting",
@@ -3835,75 +3867,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda/39,39,2875,2238/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2316,
-                                "width": 2953,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2953,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2316,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 803
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 314
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 157
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 78
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2953,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2953,
+                                        "height": 2316,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 803
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 314
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 157
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 78
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "39,39,2875,2238"
                                 }
                             },
                             "thumbnail": [
@@ -3953,7 +3994,6 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=48,615,459,357",
-                            "body.id": "https://dlc.services/iiif-img/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda/39,39,2875,2238/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Bamboo and rattan bridge over the Kraksaän, res. Pasuroean (1910)"
@@ -3964,75 +4004,84 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce/92,40,3463,2293/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2333,
-                                "width": 3800,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 3800,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2333,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 629
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 246
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 123
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 61
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 3800,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3800,
+                                        "height": 2333,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 629
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 246
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 123
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 61
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "92,40,3463,2293"
                                 }
                             },
                             "thumbnail": [
@@ -4082,7 +4131,6 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=132,341,512,337",
-                            "body.id": "https://dlc.services/iiif-img/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce/92,40,3463,2293/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Bamboo bridge at the Colonial Department of the International Colonial and Export Trade Exhibition in Amsterdam (P. Oosterhuis, 1883)"
@@ -4095,20 +4143,28 @@
                             "id": "https://example.org/uuid/fb1cf398-4c5a-48dd-8987-e0f1717db72d/annotation/5a220402-ec1d-4217-2bc8-c930a2b4ee9a",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=40,38,470,334",
                             "body": {
-                                "height": 3854,
-                                "width": 3246,
-                                "service": {
-                                    "protocol": "http://iiif.io/api/image",
+                                "id": "https://example.org/uuid/fb1cf398-4c5a-48dd-8987-e0f1717db72d/annotation/5a220402-ec1d-4217-2bc8-c930a2b4ee9a/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
                                     "height": 3854,
                                     "width": 3246,
-                                    "profile": "http://iiif.io/api/image/2/level1.json",
-                                    "id": "https://dlc.services/iiif-img/7/6/53899eba-1c44-41bf-b0b3-97e6535fd4db",
-                                    "type": "Service"
+                                    "service": {
+                                        "protocol": "http://iiif.io/api/image",
+                                        "height": 3854,
+                                        "width": 3246,
+                                        "profile": "http://iiif.io/api/image/2/level1.json",
+                                        "id": "https://dlc.services/iiif-img/7/6/53899eba-1c44-41bf-b0b3-97e6535fd4db",
+                                        "type": "Service"
+                                    },
+                                    "type": "Image",
+                                    "id": "https://dlc.services/iiif-img/7/6/53899eba-1c44-41bf-b0b3-97e6535fd4db/full/!2000,2000/0/default.jpg"
                                 },
-                                "type": "Image",
-                                "id": "https://dlc.services/iiif-img/7/6/53899eba-1c44-41bf-b0b3-97e6535fd4db/420,324,1232,876/!2000,2000/0/default.jpg"
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "420,324,1232,876"
+                                }
                             },
-                            "body.id": "https://dlc.services/iiif-img/7/6/53899eba-1c44-41bf-b0b3-97e6535fd4db/420,324,1232,876/!2000,2000/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School (1906)"
@@ -4209,76 +4265,85 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea/0,616,6169,3364/full/0/gray.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 4113,
-                                "width": 6169,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 6169,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/a6e3254d-3c52-a7a4-5e44-e4bb0805af63/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea/full/full/0/gray.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 4113,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16,
-                                                32
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 683
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 267
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 133
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 67
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 6169,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 6169,
+                                        "height": 4113,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 683
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 267
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 133
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 67
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "0,616,6169,3364"
                                 }
                             },
                             "thumbnail": [
@@ -4328,7 +4393,6 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/a6e3254d-3c52-a7a4-5e44-e4bb0805af63",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810#xywh=0,0,6169,3364",
-                            "body.id": "https://dlc.services/iiif-img/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea/0,616,6169,3364/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Restored bamboo bridge model on display at TU Delft Library"
