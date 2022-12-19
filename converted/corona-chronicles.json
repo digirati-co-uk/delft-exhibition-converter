@@ -8,11 +8,6 @@
     },
     "items": [
         {
-            "label": {
-                "en": [
-                    "About"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -22,43 +17,51 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/e42e7cf3-b0ed-987f-3318-d60944ca2bd8"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>About</h1>\n\n<p>This online exhibition looks at the current pandemic from a historical perspective, in collaboration with the Delft School of Microbiology Archives at the Delft Science Centre.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/e42e7cf3-b0ed-987f-3318-d60944ca2bd8/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/43a448b2-27c9-c008-6ea9-b837ad4bf939",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "Since the beginning of 2020, the world has been in the grip of a global pandemic. A new strain of Coronavirus, known as Coronavirus 19, has affected millions of people worldwide, and hundreds of thousands of people have died. Many governments have put their countries into lockdown to stop the spread of the virus. This online exhibition looks at the current pandemic from a historical perspective.",
-                                    "",
-                                    "This project is a collaboration between the Academic Heritage Team of TU Delft Library and Lesley Robertson of the Delft School of Microbiology Archives at the Delft Science Centre."
-                                ]
-                            },
-                            "label": {
-                                "en": [
-                                    "Corona Crisis from a Historical Perspective"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/a4d1ef26-407b-abcc-85b1-08ea1c300e6c"
                 }
             ],
             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d",
-            "summary": {
-                "en": [
-                    "This online exhibition looks at the current pandemic from a historical perspective, in collaboration with the Delft School of Microbiology Archives at the Delft Science Centre."
-                ]
-            },
             "behavior": [
+                "info",
                 "w-4",
-                "h-4",
-                "info"
+                "h-4"
+            ],
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Corona Crisis from a Historical Perspective</h1>\n\n<p>Since the beginning of 2020, the world has been in the grip of a global pandemic. A new strain of Coronavirus, known as Coronavirus 19, has affected millions of people worldwide, and hundreds of thousands of people have died. Many governments have put their countries into lockdown to stop the spread of the virus. This online exhibition looks at the current pandemic from a historical perspective.</p>\n\n<p>This project is a collaboration between the Academic Heritage Team of TU Delft Library and Lesley Robertson of the Delft School of Microbiology Archives at the Delft Science Centre.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/c85359bf-1e5c-2b30-9c44-02136a2d8f0d/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -362,7 +365,29 @@
                                     "Photographed in 1898. Source: Delft School of Microbiology, Beijerinck Collection."
                                 ]
                             }
-                        },
+                        }
+                    ],
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/98d58fda-44be-a947-297e-090bd22fc110"
+                }
+            ],
+            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2",
+            "behavior": [
+                "bottom",
+                "w-8",
+                "h-8"
+            ],
+            "requiredStatement": {
+                "value": {
+                    "en": [
+                        ""
+                    ]
+                }
+            },
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2/annotations",
+                    "items": [
                         {
                             "type": "Annotation",
                             "body": {
@@ -381,30 +406,11 @@
                                 ]
                             }
                         }
-                    ],
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/98d58fda-44be-a947-297e-090bd22fc110"
-                }
-            ],
-            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2",
-            "behavior": [
-                "bottom",
-                "w-8",
-                "h-8"
-            ],
-            "requiredStatement": {
-                "value": {
-                    "en": [
-                        ""
                     ]
                 }
-            }
+            ]
         },
         {
-            "label": {
-                "en": [
-                    "A Mysterious Infection"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -414,40 +420,51 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "new annotation",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/7c4ca69b-12bb-e973-ad73-60a77e824d7d"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>A Mysterious Infection</h1>\n\n<p>Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/7c4ca69b-12bb-e973-ad73-60a77e824d7d/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/49ddd806-0e6f-220e-98a8-ffc6cb90ec00",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story.",
-                                    "",
-                                    "In the 1850s, tobacco farmers in the Netherlands began reporting a new disease on their tobacco plants. This disease was characterized by mosaic-like spots and discoloration on the leaves. This infection was given the name  “Tobacco Mosaic Disease”. ",
-                                    "",
-                                    "We now know that the disease is caused by a virus known as the Tobacco Mosaic Virus (TMV). This is a single stranded RNA virus that infects tobacco plants. TMV was the first virus to be recognized as an infectious agent smaller than bacteria."
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/0bd1056e-d405-b86f-83c7-266f338b3384"
                 }
             ],
             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1",
-            "summary": {
-                "en": [
-                    "Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story."
-                ]
-            },
             "behavior": [
                 "info",
                 "w-4",
                 "h-4"
+            ],
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<p>Tobacco Mosaic Virus (TMV), which causes Tobacco Mosaic Disease, was the first virus to be recognized as an infectious biological agent smaller than even bacteria. This part of the exhibition is about how the Tobacco Mosaic disease led to important research on viruses, and the key players in this story.</p>\n\n<p>In the 1850s, tobacco farmers in the Netherlands began reporting a new disease on their tobacco plants. This disease was characterized by mosaic-like spots and discoloration on the leaves. This infection was given the name  “Tobacco Mosaic Disease”. </p>\n\n<p>We now know that the disease is caused by a virus known as the Tobacco Mosaic Virus (TMV). This is a single stranded RNA virus that infects tobacco plants. TMV was the first virus to be recognized as an infectious agent smaller than bacteria.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/765d5df1-d22b-694d-eccf-fad50ebb31e1/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -1035,11 +1052,6 @@
             }
         },
         {
-            "label": {
-                "en": [
-                    "Contagium Vivum Fluidum"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -1049,44 +1061,51 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/3b9d39ee-8799-0d75-9672-6f02ab4adf2b"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Contagium Vivum Fluidum</h1>\n\n<p>After becoming Professor of Microbiology at the Delft Polytechnic (now Delft University of Technology) in 1897, Beijerinck repeated his previous experiment.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/3b9d39ee-8799-0d75-9672-6f02ab4adf2b/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/08e0d725-4b55-d453-df09-74f1790b0c86",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "Beijerinck ground infected leaves into pulp and passed the resulting liquid through Chamberland filters, producing infectious liquid without detectable  bacteria. He painted the liquid onto healthy leaves, and found that those leaves also became infected. ",
-                                    "He repeated this procedure several times, using new leaves each time, but the effect was equally strong each time. He thereby eliminated the possibility that this could be a chemical effect. Because if the disease was caused by a chemical, the effect would get weaker with each repeat. Next to that, heating the liquid to 90°C inactivated it. Beijerinck concluded that tobacco mosaic disease was apparently caused by something biological because it could reproduce itself and was inactivated  by heat. ",
-                                    "Because it couldn’t be cultivated, Beijerinck concluded that this new form of infectious agent was too small to see under the microscope. He named it “contagium vivum fluidum”, Latin for contagious living fluid. As a shorthand, he reintroduced the term virus, Latin for liquid poison.  ",
-                                    "In a note in 1899, Beijerinck acknowledged Ivanovski’s 1892 paper, which he had not known of. However, Ivanovski, also in 1899, still insisted that the cause of Tobacco Mosaic Disease was a small bacterium or spore."
-                                ]
-                            },
-                            "label": {
-                                "en": [
-                                    "Contagium Vivum Fluidum"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/7937a226-99fb-8df6-24ea-e28a1ea1b1c9"
                 }
             ],
             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0",
-            "summary": {
-                "en": [
-                    "After becoming Professor of Microbiology at the Delft Polytechnic (now Delft University of Technology) in 1897, Beijerinck repeated his previous experiment."
-                ]
-            },
             "behavior": [
                 "info",
                 "w-4",
                 "h-4"
+            ],
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Contagium Vivum Fluidum</h1>\n\n<p>Beijerinck ground infected leaves into pulp and passed the resulting liquid through Chamberland filters, producing infectious liquid without detectable  bacteria. He painted the liquid onto healthy leaves, and found that those leaves also became infected. </p>\n\n<p>He repeated this procedure several times, using new leaves each time, but the effect was equally strong each time. He thereby eliminated the possibility that this could be a chemical effect. Because if the disease was caused by a chemical, the effect would get weaker with each repeat. Next to that, heating the liquid to 90°C inactivated it. Beijerinck concluded that tobacco mosaic disease was apparently caused by something biological because it could reproduce itself and was inactivated  by heat. </p>\n\n<p>Because it couldn’t be cultivated, Beijerinck concluded that this new form of infectious agent was too small to see under the microscope. He named it “contagium vivum fluidum”, Latin for contagious living fluid. As a shorthand, he reintroduced the term virus, Latin for liquid poison.  </p>\n\n<p>In a note in 1899, Beijerinck acknowledged Ivanovski’s 1892 paper, which he had not known of. However, Ivanovski, also in 1899, still insisted that the cause of Tobacco Mosaic Disease was a small bacterium or spore.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/85055f0e-2372-7f61-772d-e2029be272a0/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -1099,27 +1118,18 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "new annotation",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/0dedf57b-a236-5d61-39a0-3020c63193a2"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Father of Virology</h1>\n\n<p>Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/0dedf57b-a236-5d61-39a0-3020c63193a2/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/c2c124d3-c2e2-1577-0a76-6167e98a6ef4",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial. After his papers on the 'contagium vivum fluidum', or virus, described above, and unable to progress with the research, he turned to other research. He did not live long enough to actually see viruses under an electron microscope, or learn how widespread and important they are. ",
-                                    "Beijerinck died in January, 1931, 4 years before the American Wendell Meredith Stanley (later to be awarded the Nobel Prize) managed to crystallize TMV. He used an electron microscope to show that it is actually a rod-shaped particle. This first visual proof was a turning point in science as it dispelled any doubt of the existence of viruses. In the same year, Loeffler and Frosch showed that the cause of foot and mouth disease was also a virus, From then on, work proceeded apace and the true range of viruses became apparent."
-                                ]
-                            },
-                            "label": {
-                                "en": [
-                                    "Father of Virology"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/17e725ba-7d36-8509-7343-09e024508fcc"
@@ -1131,16 +1141,29 @@
                 "w-4",
                 "h-4"
             ],
-            "label": {
-                "en": [
-                    "Father of Virology"
-                ]
-            },
-            "summary": {
-                "en": [
-                    "Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial."
-                ]
-            }
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Father of Virology</h1>\n\n<p>Martinus Beijerinck is often called the Father of Virology, as he realised the infectious agent  was biological  rather than chemical, and self-replicating, but too small to be bacterial. After his papers on the 'contagium vivum fluidum', or virus, described above, and unable to progress with the research, he turned to other research. He did not live long enough to actually see viruses under an electron microscope, or learn how widespread and important they are. </p>\n\n<p>Beijerinck died in January, 1931, 4 years before the American Wendell Meredith Stanley (later to be awarded the Nobel Prize) managed to crystallize TMV. He used an electron microscope to show that it is actually a rod-shaped particle. This first visual proof was a turning point in science as it dispelled any doubt of the existence of viruses. In the same year, Loeffler and Frosch showed that the cause of foot and mouth disease was also a virus, From then on, work proceeded apace and the true range of viruses became apparent.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/ff0afa3e-8130-56eb-cf50-d013989bea9c/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "label": {
@@ -1741,11 +1764,6 @@
             ]
         },
         {
-            "label": {
-                "en": [
-                    "About Beijerinck: From Botany to Microbiology"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -1755,27 +1773,18 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "new annotation",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/4be8df3c-49a3-535f-9ef0-8d53ce801fd2"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>About Beijerinck: From Botany to Microbiology</h1>\n\n<p>Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. </p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/textualbody/4be8df3c-49a3-535f-9ef0-8d53ce801fd2/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/20b29783-32bf-b7f5-16c3-2176ce947f5e",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. In his spare time, he carried out research and gained his doctorate in 1877 on the subject of plant galls, which are abnormal outgrowths in plant tissue. Due to the high quality of his scientific publications, J.C. van Marken, the Director of the Netherlands Yeast and Spirits Factory persuaded him to move to Delft in 1884, to research ways of improving the quality of the factory’s products and controlling contamination problems. ",
-                                    "Beijerinck was not very happy as an industrial scientist because his wide range of interests did not suit the more focussed requirements of industrial life, despite the broad freedom that Van Marken gave him. In theory, he should have been working on fermentation, the yeasts involved, kefir and related analytical methods. However, during this time he published research on a very wide range of topics including different sorts of bacteria and their enzymes, plants and microorganisms in drinking water, and even the spectacular sunsets caused by the eruption of Krakatoa. He also continued his work on plant galls and the wasps that cause them. "
-                                ]
-                            },
-                            "label": {
-                                "en": [
-                                    "About Beijerinck: From Botany to Microbiology"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/list/48f76617-5415-2e71-2ec8-c3c7a0d67a03"
@@ -1787,11 +1796,29 @@
                 "w-4",
                 "h-4"
             ],
-            "summary": {
-                "en": [
-                    "Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. "
-                ]
-            }
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>About Beijerinck: From Botany to Microbiology</h1>\n\n<p>Beijerinck began his scientific life as a teacher of botany at an agricultural school in Wageningen. In his spare time, he carried out research and gained his doctorate in 1877 on the subject of plant galls, which are abnormal outgrowths in plant tissue. Due to the high quality of his scientific publications, J.C. van Marken, the Director of the Netherlands Yeast and Spirits Factory persuaded him to move to Delft in 1884, to research ways of improving the quality of the factory’s products and controlling contamination problems. </p>\n\n<p>Beijerinck was not very happy as an industrial scientist because his wide range of interests did not suit the more focussed requirements of industrial life, despite the broad freedom that Van Marken gave him. In theory, he should have been working on fermentation, the yeasts involved, kefir and related analytical methods. However, during this time he published research on a very wide range of topics including different sorts of bacteria and their enzymes, plants and microorganisms in drinking water, and even the spectacular sunsets caused by the eruption of Krakatoa. He also continued his work on plant galls and the wasps that cause them. </p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8e04d311-9419-964c-5b28-536644e8dd6c/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "label": {

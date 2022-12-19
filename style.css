@@ -1,0 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
+#theList li {
+    padding-bottom: 15px;
+}

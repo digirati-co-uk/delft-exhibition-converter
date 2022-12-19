@@ -299,11 +299,6 @@
             ]
         },
         {
-            "label": {
-                "en": [
-                    "Introduction"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -313,26 +308,18 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "new annotation",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/textualbody/acd1ac95-4a82-ee59-4d66-fcb5565b18b7"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Introduction</h1>\n\n<p>The Netherlands and Indonesia share a close relationship with water. Both countries are prone to floods from rain, rivers and the sea, and both have built up and maintained sophisticated water management systems.</p>\n\n<p>This exhibition explores the legacy of Dutch engineering in the field of irrigation in the Dutch East Indies, and the impact these systems still have on Indonesia today.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/textualbody/acd1ac95-4a82-ee59-4d66-fcb5565b18b7/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70",
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/316115fd-8e63-163e-0066-446f1dad537f",
-                            "motivation": "painting",
-                            "label": {
-                                "en": [
-                                    "Irrigation knowledge"
-                                ]
-                            },
-                            "summary": {
-                                "en": [
-                                    "<p><em>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia’s oldest technical college: Bandung Institute of Technology (ITB).</em></p><p>The Netherlands and Indonesia share a close relationship with water. Both countries are prone to floods from rain, rivers and the sea, and both have built up and maintained sophisticated water management systems. The Dutch, for example, are famous for their dams and sluices, while on the Indonesian island of Bali a complex irrigation system called Subak is used.</p><p>In the 19th and early 20th centuries, Dutch engineers transformed natural rivers into controlled environments in the Dutch East Indies, with the aim of controlling the yearly floods. They installed dams for hydropower and constructed irrigation canals. This exhibition explores the legacy of Dutch engineering in the field of irrigation in the Dutch East Indies, and the impact these systems still have on Indonesia today.</p><p><em>Curated by Geertje van Achterberg, Sarah Edrisy and Jules Schoonman (Academic Heritage team, TU Delft Library) in collaboration with </em><a href=\"https://www.tudelft.nl/citg/over-faculteit/afdelingen/watermanagement/staff/staff-water-resources-management/academic-staff/drir-maurits-w-ertsen\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Maurits W. Ertsen</em></a><em> (Civil Engineering and Geosciences).</em></p><p><em>With thanks to:</em></p><ul><li>Joop Gravesteijn</li><li>Wim Ravesteijn</li><li>NewMedia Centre</li></ul><p><em>For more information about the history of Bandung technical college, please consult the article </em><a href=\"/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>. For further reading about Dutch engineering in the East Indies, the book </em><a href=\"https://tudelft.on.worldcat.org/oclc/216914977\" rel=\"noopener noreferrer\" target=\"_blank\"><em>For profit and prosperity: the contribution made by Dutch engineers to public works in Indonesia (1800-2000)</em></a><em> is a good place to start. Digital collections of TU Delft Library and Leiden University Libraries can be explored in the </em><a href=\"http://www.colonialarchitecture.eu\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Colonial architecture &amp; town planning</em></a><em> repository.</em></p>"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/00bc4d9f-057d-9e7f-e0c9-0fe7c6680068"
@@ -340,17 +327,33 @@
             ],
             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70",
             "behavior": [
+                "info",
                 "w-4",
-                "info",
-                "info",
                 "h-4"
             ],
-            "summary": {
-                "en": [
-                    "The Netherlands and Indonesia share a close relationship with water. Both countries are prone to floods from rain, rivers and the sea, and both have built up and maintained sophisticated water management systems.",
-                    "This exhibition explores the legacy of Dutch engineering in the field of irrigation in the Dutch East Indies, and the impact these systems still have on Indonesia today."
-                ]
-            }
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Irrigation knowledge</h1>\n\n<p><em>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia’s oldest technical college: Bandung Institute of Technology (ITB).</em></p><p>The Netherlands and Indonesia share a close relationship with water. Both countries are prone to floods from rain, rivers and the sea, and both have built up and maintained sophisticated water management systems. The Dutch, for example, are famous for their dams and sluices, while on the Indonesian island of Bali a complex irrigation system called Subak is used.</p><p>In the 19th and early 20th centuries, Dutch engineers transformed natural rivers into controlled environments in the Dutch East Indies, with the aim of controlling the yearly floods. They installed dams for hydropower and constructed irrigation canals. This exhibition explores the legacy of Dutch engineering in the field of irrigation in the Dutch East Indies, and the impact these systems still have on Indonesia today.</p><p><em>Curated by Geertje van Achterberg, Sarah Edrisy and Jules Schoonman (Academic Heritage team, TU Delft Library) in collaboration with </em><a href=\"https://www.tudelft.nl/citg/over-faculteit/afdelingen/watermanagement/staff/staff-water-resources-management/academic-staff/drir-maurits-w-ertsen\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Maurits W. Ertsen</em></a><em> (Civil Engineering and Geosciences).</em></p><p><em>With thanks to:</em></p><ul><li>Joop Gravesteijn</li><li>Wim Ravesteijn</li><li>NewMedia Centre</li></ul><p><em>For more information about the history of Bandung technical college, please consult the article </em><a href=\"/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>. For further reading about Dutch engineering in the East Indies, the book </em><a href=\"https://tudelft.on.worldcat.org/oclc/216914977\" rel=\"noopener noreferrer\" target=\"_blank\"><em>For profit and prosperity: the contribution made by Dutch engineers to public works in Indonesia (1800-2000)</em></a><em> is a good place to start. Digital collections of TU Delft Library and Leiden University Libraries can be explored in the </em><a href=\"http://www.colonialarchitecture.eu\" rel=\"noopener noreferrer\" target=\"_blank\"><em>Colonial architecture &amp; town planning</em></a><em> repository.</em></p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/817d3f77-34d9-dd37-1eb9-616f078b9b70/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "height": 500,
@@ -1337,8 +1340,8 @@
             },
             "behavior": [
                 "right",
-                "h-12",
-                "w-12"
+                "w-12",
+                "h-12"
             ]
         },
         {
@@ -2651,8 +2654,8 @@
             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55",
             "behavior": [
                 "left",
-                "h-12",
-                "w-12"
+                "w-12",
+                "h-12"
             ],
             "summary": {
                 "en": [

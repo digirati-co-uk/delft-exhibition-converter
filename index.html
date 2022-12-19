@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Delft Exhibitions</title>
+</head>
+<body>
+
+<div id="allExhibitions">
+    <h2>All exhibitions</h2>
+    <ul id="theList">
+
+    </ul>
+</div>
+
+
+<div id="exhibition">
+
+</div>
+
+<script>
+    fetch("manifests.json").then(resp => resp.json()).then(manifests => {
+        const ul = document.getElementById("theList");
+        for(const manifest of manifests){
+           const original = document.createElement("a");
+           original.href = manifest["original"];
+           original.innerText = "Original";
+           const converted = document.createElement("a");
+           converted.href = manifest["id"];
+           converted.innerText = "Converted";
+           const liveLink = document.createElement("a");
+           liveLink.href = manifest["homepage"];
+           liveLink.innerText = "Live exhibition";
+           liveLink.target = "_blank";
+           const preview = document.createElement("a");
+           preview.addEventListener("click", () => load(manifest["id"]));
+           preview.innerText = "'Preview'";
+           preview.href = "#";
+           const li = document.createElement("li");
+           li.appendChild(new Text(manifest.label));
+           li.appendChild(document.createElement("br"));
+           li.appendChild(original);
+           li.appendChild(new Text(" | "));
+           li.appendChild(converted);
+           li.appendChild(new Text(" | "));
+           li.appendChild(liveLink);
+           li.appendChild(new Text(" | "));
+           li.appendChild(preview);
+           ul.appendChild(li);
+       }
+    });
+
+    function load(manifest){
+        alert(manifest);
+    }
+</script>
+</body>
+</html>

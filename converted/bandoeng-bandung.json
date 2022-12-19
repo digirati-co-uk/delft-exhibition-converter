@@ -8,11 +8,6 @@
     },
     "items": [
         {
-            "label": {
-                "en": [
-                    "Introduction"
-                ]
-            },
             "height": 1000,
             "width": 1000,
             "type": "Canvas",
@@ -22,43 +17,51 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "type": "TextualBody",
-                                "value": "new annotation",
-                                "format": "text/plain",
-                                "language": "en",
-                                "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1"
-                            },
-                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768#xywh=0,0,300,200",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Introduction</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p>\n\n<p>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021.</p>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1/en"
+                                }
+                            ],
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
                             "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/674ce695-eaca-e67f-2664-d83873bd4eaa",
-                            "motivation": "painting",
-                            "summary": {
-                                "en": [
-                                    "<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>"
-                                ]
-                            },
-                            "label": {
-                                "en": [
-                                    "Bandoeng – Bandung"
-                                ]
-                            }
+                            "motivation": "painting"
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/list/bc215a2e-967a-9f3e-6fb0-5b20784d4d9d"
                 }
             ],
             "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
-            "summary": {
-                "en": [
-                    "TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).",
-                    "NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021."
-                ]
-            },
             "behavior": [
-                "info",
                 "info",
                 "w-4",
                 "h-4"
+            ],
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations",
+                    "items": [
+                        {
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations/0",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768",
+                            "body": [
+                                {
+                                    "type": "TextualBody",
+                                    "value": "<h1>Bandoeng – Bandung</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>\n\n",
+                                    "format": "text/html",
+                                    "language": "en",
+                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations/0/en"
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
