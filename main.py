@@ -19,6 +19,13 @@ ANNOS_WITHOUT_SUMMARIES = []
 REMOVED_ANNOS = []
 ANNOS_WITH_NO_DESC = []
 
+# See https://github.com/IIIF/iiif-av/issues/27
+# and see https://gist.github.com/stephenwf/a1339aa170a2e80fa120f86027b89f46
+# via https://digirati.slack.com/archives/D0E15T142/p1663263077484059
+# YOUTUBE_CONVERT = "Objectifier"  # Tells the client what <object> tag to render
+YOUTUBE_CONVERT = "Service"  # lets the client decide but client must recognise form
+
+
 def convert_folder(old_folder):
     print(f"source: {old_folder}")
     this_dir = dirname(abspath(__file__))
@@ -349,7 +356,68 @@ def remodel_cropped_painting_annos(canvas):
 
 
 def remodel_av_and_3d_painting_annos(canvas):
-    pass
+
+    anno_page = required_single_item(canvas)
+    youtube = "https://www.youtube.com"
+    youtube_short = "https://youtu.be"  # transform this!
+    sketchfab = "https://sketchfab.com"
+    tourmake = "https://tourmake.nl"
+    known_embeds = [youtube, youtube_short, sketchfab, tourmake]
+    for anno in anno_page["items"]:
+        if not anno["body"]["type"] == "Video":
+            continue
+
+        body_id = anno["body"]["id"]
+
+        if not body_id.startswith(tuple(known_embeds)):
+            raise ValueError("Unknown embed source")
+
+        if body_id.startswith(youtube_short):
+            body_id = f"{youtube}/watch?v={body_id.split('/')[-1]}"
+
+        if body_id.startswith(youtube):
+            youtube_id = body_id.split("=")[-1]
+            if YOUTUBE_CONVERT == "Objectifier":
+                anno["body"] = {
+                    "id": body_id,
+                    "type": "Video",  # tbc
+                    "service": {
+                        "profile": "http://digirati.com/objectifier",
+                        "params": {
+                            "data": f"https://www.youtube.com/embed/{youtube_id}"
+                        }  # leave width and height to the client?
+                    }
+                }
+            else:
+                anno["body"] = {
+                    "id": body_id,
+                    "service": {
+                        "id": body_id,
+                        "profile": youtube
+                    }
+                }
+            return
+
+        if body_id.startswith(sketchfab) or body_id.startswith(tourmake):
+            # paint the thumbnail onto the canvas and supply the model as a rendering
+            # We could also do this with the objectifier, but not as a painting on the canvas because it's
+            # not an annotatable space
+            anno["body"] = {
+                "id": anno["thumbnail"][0]["id"],
+                "type": "Image",
+                "format": "image/jpg"
+            }
+            img_service =  anno["thumbnail"][0].get("service", None)
+            if img_service is not None and img_service.get("type", None) is not None:
+                # some weird IIIF for the sketchfab
+                anno["body"]["service"] = [img_service]
+            canvas["behavior"] = ["placeholder"]
+            canvas["rendering"] = [{
+                "id": body_id,  # this is the sketchfab embed ID rather than the actual model but...
+                "type": "Model",
+                "format": "text/html",  # maybe this tells
+                "behavior": ["original"]
+            }]
 
 
 def get_html_from_label_and_summary(resource, lang, convert_label=True):

@@ -228,7 +228,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa/annotations/1",
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa/annotations/133",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa#xywh=0,0,1000,707",
@@ -410,7 +410,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d/annotations/2",
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d/annotations/134",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
@@ -593,7 +593,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a/annotations/3",
+                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a/annotations/135",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",

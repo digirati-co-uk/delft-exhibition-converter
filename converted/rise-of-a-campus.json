@@ -171,7 +171,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1/annotations/130",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1/annotations/63",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1#xywh=0,0,6960,6840",
@@ -674,7 +674,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/131",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/64",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=58,76,512,406",
@@ -690,7 +690,7 @@
                             "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d77b5b7a-2bb8-8bb3-cb31-bdf395332b33"
                         },
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/132",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/65",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=652,60,188,241",
@@ -878,7 +878,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f/annotations/134",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f/annotations/67",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f#",
@@ -1119,7 +1119,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2/annotations/135",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2/annotations/68",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2#xywh=0,0,22071,15389",
@@ -1300,7 +1300,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe/annotations/136",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe/annotations/69",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe#xywh=0,0,2002,2704",
@@ -1481,7 +1481,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64/annotations/137",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64/annotations/70",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64#xywh=0,0,2291,3484",
@@ -2738,7 +2738,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations/144",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations/77",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=151,542,740,449",
@@ -2926,7 +2926,7 @@
                     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc/annotations",
                     "items": [
                         {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc/annotations/147",
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc/annotations/80",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc#xywh=0,0,3008,4512",

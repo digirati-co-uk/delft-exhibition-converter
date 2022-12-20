@@ -23,11 +23,11 @@
                         {
                             "type": "Annotation",
                             "body": {
-                                "type": "Video",
                                 "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                                "width": 320,
-                                "height": 176,
-                                "duration": 10.026667
+                                "service": {
+                                    "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                                    "profile": "https://www.youtube.com"
+                                }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,1600,1600",
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12",
@@ -59,7 +59,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d/annotations/16",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d/annotations/81",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,1600,1600",
@@ -556,7 +556,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/17",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/82",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=28,33,297,381",
@@ -572,7 +572,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/18",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/83",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=50,457,314,255",
@@ -588,7 +588,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/19",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/84",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=405,32,339,437",
@@ -825,7 +825,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826/annotations/20",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826/annotations/85",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826#xywh=0,0,5417,2344",
@@ -1532,7 +1532,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/21",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/86",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=46,75,203,296",
@@ -1548,7 +1548,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/088f52a1-830a-8bae-a182-f4edebf87e7b"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/22",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/87",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=314,58,420,261",
@@ -1564,7 +1564,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/6b47f632-f355-3fe4-1a7b-2657e62a3a6e"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/23",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/88",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=41,454,271,389",
@@ -1580,7 +1580,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3119e8c8-9eaa-cf81-068b-c8d8d7d22aa8"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/24",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/89",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=361,383,375,258",
@@ -1596,7 +1596,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/ece517b5-3e7a-cc8b-4e7b-196ab10186af"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/25",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/90",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=357,713,420,236",
@@ -1777,7 +1777,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a/annotations/26",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a/annotations/91",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a#xywh=0,0,1000,1000",
@@ -2009,7 +2009,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9/annotations/27",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9/annotations/92",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9#xywh=0,0,360,266",
@@ -2181,7 +2181,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639/annotations/28",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639/annotations/93",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639#xywh=0,0,999,999",
@@ -2883,7 +2883,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/29",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/94",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=70,60,366,240",
@@ -2899,7 +2899,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/30",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/95",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=19,351,372,486",
@@ -2915,7 +2915,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/31",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/96",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=480,41,270,372",
@@ -2931,7 +2931,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/32",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/97",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=426,452,356,259",
@@ -2947,7 +2947,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/33",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/98",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=429,744,333,222",
@@ -3129,7 +3129,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983/annotations/34",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983/annotations/99",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983#xywh=0,0,960,960",
@@ -3779,7 +3779,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/35",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/100",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=124,624,205,298",
@@ -3795,7 +3795,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/36",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/101",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=365,622,205,296",
@@ -3811,7 +3811,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/37",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/102",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=603,622,203,293",
@@ -3827,7 +3827,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/38",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/103",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=77,21,787,577",
@@ -4008,7 +4008,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e/annotations/39",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e/annotations/104",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e#xywh=-9418,-9418,10417,10417",
@@ -6642,7 +6642,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/40",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/105",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=18,42,229,146",
@@ -6658,7 +6658,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/31466717-e1ea-ecab-ddc8-ed55f334340a"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/41",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/106",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,48,230,147",
@@ -6674,7 +6674,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e2afad69-442c-82b6-259e-5b9c1efb38ab"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/42",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/107",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=508,39,230,147",
@@ -6690,7 +6690,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c24489ae-b4ed-0e1d-2cf0-b14649345be0"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/43",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/108",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=750,33,233,149",
@@ -6706,7 +6706,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/13301733-9e5a-a1b7-c5aa-46e8c8da8454"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/44",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/109",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=20,226,232,148",
@@ -6722,7 +6722,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36229569-3f9e-c11d-2f05-0016d089326f"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/45",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/110",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=266,228,222,141",
@@ -6738,7 +6738,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/09640709-1b54-a90c-114c-394424c29238"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/46",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/111",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,221,232,148",
@@ -6754,7 +6754,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/163af9c8-84b6-9d1b-99ef-9d77cb190345"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/47",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/112",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=764,234,223,144",
@@ -6770,7 +6770,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9a30bd2e-b202-adf9-0a44-2e5f650e3feb"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/48",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/113",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=15,396,235,151",
@@ -6786,7 +6786,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3bb8624e-c1dc-b07d-e301-a9cf7ef4e0c3"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/49",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/114",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=276,394,224,145",
@@ -6802,7 +6802,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/8ad0d15b-2c27-e73e-47bb-f4199056c8cf"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/50",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/115",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=518,404,218,141",
@@ -6818,7 +6818,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/513eb124-da3c-55ea-fb54-bc01a1dbbaff"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/51",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/116",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=755,411,232,148",
@@ -6834,7 +6834,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/50fe8189-90f6-1e78-e8a6-16d9688dce7c"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/52",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/117",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=12,601,229,148",
@@ -6850,7 +6850,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c0913eac-9272-0b7e-f73d-79436a9e49f1"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/53",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/118",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=257,584,237,153",
@@ -6866,7 +6866,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e6081f7c-7ba9-4f7b-990a-0e74cdabe78f"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/54",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/119",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,603,231,149",
@@ -6882,7 +6882,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/08997bad-bc2f-65d6-b918-480547ceecca"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/55",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/120",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=761,586,225,144",
@@ -6898,7 +6898,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/accc95b6-1120-fe01-e3b8-97cbc686506c"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/56",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/121",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=10,779,238,152",
@@ -6914,7 +6914,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c32d124a-718d-8e23-a519-938b6f1f8e18"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/57",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/122",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,789,237,152",
@@ -6930,7 +6930,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/836eef4d-1f08-4240-4577-10504228a3ad"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/58",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/123",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=514,809,232,148",
@@ -6946,7 +6946,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cfebe2ab-731f-400c-e336-e437f9a2ac3f"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/59",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/124",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=754,797,235,150",
@@ -7129,7 +7129,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258/annotations/60",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258/annotations/125",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258#xywh=0,0,696,1000",
@@ -7491,7 +7491,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/61",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/126",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=21,23,462,297",
@@ -7507,7 +7507,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/62",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/127",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=193,330,463,286",
@@ -7690,7 +7690,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c/annotations/63",
+                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c/annotations/128",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c#xywh=0,0,792,1000",
@@ -8271,7 +8271,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/64",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/129",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,0,500,500",
@@ -8287,7 +8287,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/6a579d95-9667-08b7-f19e-dc1749a21a74"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/65",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/130",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,500,500,500",
@@ -8303,7 +8303,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/66",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/131",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=500,0,500,500",
@@ -8319,7 +8319,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/f32da43f-0c40-36f1-49ab-355138d79cf2"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/67",
+                            "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/132",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=500,500,500,500",
