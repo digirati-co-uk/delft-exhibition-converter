@@ -35,7 +35,7 @@ def convert_folder(old_folder):
     new_folder = join(this_dir, "converted")
     print(f"dest: {new_folder}")
     manifests = []
-    for exhibition in listdir(old_folder):
+    for exhibition in sorted(listdir(old_folder)):
         source_file = join(old_folder, exhibition)
         copy(source_file, copied_source_folder)
         with open(source_file, encoding="utf-8") as source:
