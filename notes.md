@@ -484,3 +484,27 @@ But does that make sense to edit in the ME?
 
 older one has row and column as behaviors instead of left, bottom
 
+
+
+
+## Jules comments
+
+We only used html input for the text-only canvasses, in all other cases it should be plain text.
+
+The problems to solve:
+ - Where to store the individual image attributions? Can we add them as part of a property to the painting annotation? Or don’t you want those editable in the ME?
+ - How to make visible the credits and/or links to other pages on the static site if the tour doesn’t visit all painting annotations? As tooltips for example?
+
+Another way to put it:
+In the UX of the mixed media canvas, captions, attributions and links to objects are now combined in a single, linear tour.
+This limits the tour bc it visits each and every painting annotation (and is not able to highlight different types of regions: groups of images or fragments)
+This limits the attributions/links bc they cannot be accessed directly on the canvas but only through navigating the tour.
+Solution: separate the two both in terms of the data model and in the UX.
+Attributions as part of a property of the painting annotation, and accessible directly through eg a tooltip or handle together with links to object pages if available
+Tour areas by using describing annotations with a body containing the caption
+Problem is (I presume) that this will require too much work on the UX side on the static site. Solution is perhaps to keep backward compatibility for existing exhibitions (w/o describing annotations on mixed-media canvasses) and update UX later.
+Subsequently there’s also the issue of canvasses with just a single painting annotation, where the label/summary pair is also used for the caption/attribution in the zoom modal. I guess these will need to be separated in a similar way.
+
+
+## Tom notes
+
