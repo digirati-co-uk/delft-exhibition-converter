@@ -1,5 +1,35 @@
 [
     {
+        "id": "converted/bandoeng-bandung.json",
+        "original": "copied_source/bandoeng-bandung.json",
+        "label": "Bandoeng – Bandung",
+        "homepage": "https://heritage.tudelft.nl/en/exhibitions/bandoeng-bandung"
+    },
+    {
+        "id": "converted/collection-wall.json",
+        "original": "copied_source/collection-wall.json",
+        "label": "Collection wall",
+        "homepage": "https://heritage.tudelft.nl/en/exhibitions/collection-wall"
+    },
+    {
+        "id": "converted/corona-chronicles.json",
+        "original": "copied_source/corona-chronicles.json",
+        "label": "Corona Chronicles",
+        "homepage": "https://heritage.tudelft.nl/en/exhibitions/corona-chronicles"
+    },
+    {
+        "id": "converted/inventing-creativity.json",
+        "original": "copied_source/inventing-creativity.json",
+        "label": "Inventing Creativity",
+        "homepage": "https://heritage.tudelft.nl/en/exhibitions/inventing-creativity"
+    },
+    {
+        "id": "converted/irrigation-knowledge.json",
+        "original": "copied_source/irrigation-knowledge.json",
+        "label": "Irrigation knowledge",
+        "homepage": "https://heritage.tudelft.nl/en/exhibitions/irrigation-knowledge"
+    },
+    {
         "id": "converted/novieten.json",
         "original": "copied_source/novieten.json",
         "label": "Novices",
@@ -12,40 +42,10 @@
         "homepage": "https://heritage.tudelft.nl/en/exhibitions/places-of-commemoration"
     },
     {
-        "id": "converted/irrigation-knowledge.json",
-        "original": "copied_source/irrigation-knowledge.json",
-        "label": "Irrigation knowledge",
-        "homepage": "https://heritage.tudelft.nl/en/exhibitions/irrigation-knowledge"
-    },
-    {
         "id": "converted/rise-of-a-campus.json",
         "original": "copied_source/rise-of-a-campus.json",
         "label": "Rise of a Campus",
         "homepage": "https://heritage.tudelft.nl/en/exhibitions/rise-of-a-campus"
-    },
-    {
-        "id": "converted/inventing-creativity.json",
-        "original": "copied_source/inventing-creativity.json",
-        "label": "Inventing Creativity",
-        "homepage": "https://heritage.tudelft.nl/en/exhibitions/inventing-creativity"
-    },
-    {
-        "id": "converted/bandoeng-bandung.json",
-        "original": "copied_source/bandoeng-bandung.json",
-        "label": "Bandoeng – Bandung",
-        "homepage": "https://heritage.tudelft.nl/en/exhibitions/bandoeng-bandung"
-    },
-    {
-        "id": "converted/corona-chronicles.json",
-        "original": "copied_source/corona-chronicles.json",
-        "label": "Corona Chronicles",
-        "homepage": "https://heritage.tudelft.nl/en/exhibitions/corona-chronicles"
-    },
-    {
-        "id": "converted/collection-wall.json",
-        "original": "copied_source/collection-wall.json",
-        "label": "Collection wall",
-        "homepage": "https://heritage.tudelft.nl/en/exhibitions/collection-wall"
     },
     {
         "id": "converted/voices-of-wis.json",

@@ -293,7 +293,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/34",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/68",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1#xywh=341,455,609,472",
@@ -309,7 +309,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/82f216fc-6091-eb74-f37c-54e0649286a6"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/35",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/69",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1#xywh=45,70,622,444",
@@ -922,7 +922,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/36",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/70",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=0,0,1000,500",
@@ -938,7 +938,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/37",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/71",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=299,18,142,100",
@@ -954,7 +954,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/38",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/72",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=174,331,142,102",
@@ -970,7 +970,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/39",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/73",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=592,378,140,98",
@@ -1416,7 +1416,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/40",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/74",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=37,32,503,351",
@@ -1432,7 +1432,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/855d100f-b6bb-a074-a485-666f0c24b350"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/41",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/75",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=349,312,295,502",
@@ -1448,7 +1448,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/98bd6575-0d8e-532a-ce8b-48d3ad1c449a"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/42",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/76",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=35,638,416,338",
@@ -1632,7 +1632,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0/annotations/43",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0/annotations/77",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0#xywh=0,0,2130,1060",
@@ -2205,7 +2205,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/44",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/78",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=29,26,422,280",
@@ -2221,7 +2221,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/45",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/79",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=196,329,434,289",
@@ -2237,7 +2237,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/d2462fca-a912-c7d3-f76a-e7159902a225"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/46",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/80",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=39,642,399,265",
@@ -2253,7 +2253,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b052fbae-5fbf-7377-abfe-3c55fe915b7e"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/47",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/81",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=460,701,194,270",
@@ -2437,7 +2437,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8/annotations/48",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8/annotations/82",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8#xywh=0,0,2924,1591",
@@ -2893,7 +2893,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/49",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/83",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=15,13,592,521",
@@ -2909,7 +2909,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/62121c0d-4c5c-6965-ca5e-59d70dced12f"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/50",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/84",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=412,379,240,583",
@@ -2925,7 +2925,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/06345467-316a-9559-2040-b885c6532063"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/51",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/85",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=18,574,371,262",
@@ -3109,7 +3109,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1/annotations/52",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1/annotations/86",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1#xywh=0,0,2679,1463",
@@ -3694,7 +3694,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/53",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/87",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=43,54,471,898",
@@ -3710,7 +3710,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/54",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/88",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=251,584,119,228",
@@ -3725,7 +3725,7 @@
                             ]
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/55",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/89",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=407,131,283,228",
@@ -3741,7 +3741,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/35c7a7bf-7f01-c099-f7cb-cdc6904adfae"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/56",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/90",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=443,443,274,187",
@@ -3757,7 +3757,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/57",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/91",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=407,675,274,172",
@@ -3827,7 +3827,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519/annotations/58",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519/annotations/92",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519#xywh=0,0,1920,1080",
@@ -4203,7 +4203,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/59",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/93",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=48,615,459,357",
@@ -4219,7 +4219,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/60",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/94",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=132,341,512,337",
@@ -4235,7 +4235,7 @@
                             "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34"
                         },
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/61",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/95",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=40,38,470,334",
@@ -4420,7 +4420,7 @@
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810/annotations",
                     "items": [
                         {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810/annotations/62",
+                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810/annotations/96",
                             "type": "Annotation",
                             "motivation": "describing",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810#xywh=0,0,6169,3364",
