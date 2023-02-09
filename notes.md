@@ -508,3 +508,26 @@ Subsequently there’s also the issue of canvasses with just a single painting a
 
 ## Tom notes
 
+We don't need backward compatibility for the manifests, because we'll convert them with this tool.
+We want the new manifests to be something we're confident of creating in the ME.
+The issue is the static site generator - but, I'm making an assumption here, it just needs to traverse the IIIF to get the data it needs.
+That traversal will be different, but it's not a tricky UI change it's a mapping change, a change in the arrangement of the source data, which is much easier to deal with. Better to concentrate the changes there, where they are easier to deal with, than make compromises in either the manifest model or the ME.
+
+Delft tour steps can:
+
+ - target a region of the canvas
+ - target an existing painting annotation
+ - both
+
+Why do both? Because any targeted painting anno can have its label and description (and other fields) pulled in to the display for credits/attribution etc.
+
+
+For the transformer demo, have an additional transformation that adds in a couple of example tour steps that don't follow the current model.
+
+> canvasses with just a single painting annotation, where the label/summary pair is also used for the caption/attribution in the zoom modal. I guess these will need to be separated in a similar way.
+
+The first canvas of Novices is like this:
+https://heritage.tudelft.nl/en/exhibitions/novieten
+
+Having a describing anno is enough to make it a tour?
+So that goes back to being a label/desc on the painting anno.
