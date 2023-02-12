@@ -389,6 +389,10 @@ def remodel_av_and_3d_painting_annos(canvas):
 
         if body_id.startswith(youtube):
             youtube_id = body_id.split("=")[-1]
+            selector = anno["body"].get("selector", None)
+            start_time = 0
+            if selector is not None:
+                start_time = int(selector["value"].split("=")[1].split(",")[0])
             if YOUTUBE_CONVERT == "Objectifier":
                 anno["body"] = {
                     "id": body_id,
@@ -400,6 +404,8 @@ def remodel_av_and_3d_painting_annos(canvas):
                         }  # leave width and height to the client?
                     }
                 }
+                if start_time > 0:
+                    anno["body"]["service"]["params"]["data"] = f'{anno["body"]["service"]["params"]["data"]}?start={start_time}'
             else:
                 anno["body"] = {
                     "id": body_id,
@@ -408,6 +414,9 @@ def remodel_av_and_3d_painting_annos(canvas):
                         "profile": youtube
                     }
                 }
+                if start_time > 0:
+                    anno["body"]["service"]["start"] = start_time
+
             return
 
         if body_id.startswith(sketchfab) or body_id.startswith(tourmake):
