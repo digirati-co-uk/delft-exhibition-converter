@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+
+    <ul id="panels">
+        <li class="panel title" id="titlePanel"></li>
+    </ul>
+
+    <div id="readMore" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalInner" class="modal-inner">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    const params = new URLSearchParams(location.search);
+    const manifestId = params.get("manifest");
+    const panels = document.getElementById("panels");
+    const language = params.get("lang") || "en";
+
+    fetch(manifestId).then(res => res.json()).then(exhibition => show(exhibition));
+
+    function show(exhibitionManifest){
+
+        // title
+        const title = getFirstValue(exhibitionManifest.label);
+        document.getElementById("title").innerText = title;
+        document.title = title;
+        const titlePanel = document.getElementById("titlePanel");
+        addHeading(titlePanel, title, 2);
+        addLink(titlePanel, "Link to IIIF Manifest", manifestId);
+
+        for(const canvas of exhibitionManifest.items)
+        {
+            const panel = addPanel();
+            addPara(panel, "behavior: " + canvas.behavior?.join(", "), true);
+            if(canvas.behavior?.includes("info")){
+                panel.setAttribute("class", "panel info");
+                makeInfoPanel(canvas, panel);
+            } else if(canvas.behavior?.includes("left") || canvas.behavior?.includes("right")) {
+                addPara(panel, "(the canvas is a split info/media panel)", true);
+                panel.setAttribute("class", "panel split");
+                const content = document.createElement("div");
+                content.setAttribute("class", "content");
+                const info = document.createElement("div");
+                info.setAttribute("class", "info");
+                if(canvas.behavior?.includes("left")){
+                    panel.appendChild(info);
+                    panel.appendChild(content);
+                } else {
+                    panel.appendChild(content);
+                    panel.appendChild(info);
+                }
+                makeSplitPanel(canvas, panel, info, content);
+            } else {
+                panel.setAttribute("class", "panel");
+                makeContentPanel(canvas, panel);
+            }
+        }
+    }
+
+    function makeInfoPanel(canvas, panel){
+        for(const body of canvas.items[0].items[0].body){
+            if(body.language == language){
+                const infoBody = document.createElement("div");
+                infoBody.setAttribute("class", "infobody");
+                infoBody.innerHTML = body.value;
+                panel.appendChild(infoBody);
+            }
+        }
+        if(canvas.annotations?.[0]["items"]){
+            for(const body of canvas.annotations?.[0].items[0].body){
+                if(body.language == language) {
+                    const readMore = document.createElement("a");
+                    readMore.innerText = "Read more";
+                    readMore.setAttribute("class", "read-more");
+                    readMore.addEventListener("click", () => showMoreInfo(body.value));
+                    panel.appendChild(readMore);
+                }
+            }
+        }
+    }
+
+    function showMoreInfo(html){
+        let modal = document.getElementById("readMore");
+        modal.style.display = "none";
+        let close = modal.querySelector(".close");
+        close.onclick = (() => {
+            modal.style.display = "none";
+            close.onclick = null;
+        });
+        document.getElementById("modalInner").innerHTML = html;
+        modal.style.display = "block";
+    }
+
+    function getAnnotationDictionary(canvas){
+        const dict = {};
+        for(const paintingAnno of canvas.items[0].items){
+            dict[paintingAnno.id] = paintingAnno;
+        }
+        for(const otherAnno of canvas.annotations?.[0].items){
+            dict[otherAnno.id] = otherAnno;
+        }
+        return dict;
+    }
+
+    function processContentAnnotations(canvas, content, initialLabelAndSummarySource) {
+        const paintingCount = canvas.items[0].items.length;
+        addPara(content, "There " + (paintingCount == 1 ? "is only one painting annotation" : "are " + paintingCount + " painting annotations."), true);
+
+        addPara(content, "Clicking on the canvas opens the deep zoom viewer:", true);
+        if(initialLabelAndSummarySource == null){
+            initialLabelAndSummarySource = canvas.items[0].items[0]; // use the first painting anno
+            // TODO: check this logic
+        }
+        addHeading(content, getSingleValue(initialLabelAndSummarySource.label), 4);
+        addPara(content, getFirstValue(initialLabelAndSummarySource.summary));
+
+        const annotations = canvas.annotations?.[0].items || [];
+        addPara(content, "There " + (annotations.length == 1 ? "is only one tour annotation" : "are " + annotations.length + " tour annotations."), true);
+
+        if (annotations.length > 0) {
+            let counter = 1;
+            const annoDict = getAnnotationDictionary(canvas);
+            addPara(content, "Show 'start tour' link:", true);
+            for (const annotation of annotations) {
+                const tourStep = document.createElement("div");
+                tourStep.setAttribute("class", "tour-step");
+                content.appendChild(tourStep);
+                addPara(tourStep, `${counter}/${annotations.length}`);
+                counter++;
+                let label = annotation.label;         // these two are probably empty
+                let summary = annotation.summary;
+                if (label || summary) {
+                    addPara(tourStep, "WE FOUND A LABEL/SUMMARY", true);
+                }
+                let regionTarget = null;
+                let usingPaintingAnnoLabelAndSummary = false;
+                // what is the target? (Vault will make this safer)
+                if (annotation.target.hasOwnProperty("type")) {
+                    if (annotation.target.type == "Annotation") {
+                        const targetPaintingAnno = annoDict[annotation.target.id];
+                        addPara(tourStep, "annotation points at a painting annotation.", true);
+                        if (!label) {
+                            usingPaintingAnnoLabelAndSummary = true;
+                            label = targetPaintingAnno.label;
+                            summary = targetPaintingAnno.summary;
+                        }
+                    }
+                } else if (typeof annotation.target === 'string' || annotation.target instanceof String) {
+                    // again making an assumption about model/selectors that is only valid for converted manifests
+                    if (annotation.target.includes("xywh=")) {
+                        regionTarget = annotation.target.split("xywh=")[1];
+                        addPara(tourStep, `This tour step targets a specific region, xywh=${regionTarget}.`, true);
+                    }
+                }
+                if (annotation.body) {
+                    for (const body of annotation.body) {
+                        if (body.language == language) {
+                            addPara(tourStep, "Using the annotation body of this tour step annotation:", true);
+                            const tourDescribingAnno = document.createElement("div");
+                            tourDescribingAnno.setAttribute("class", "tour-step-anno-body");
+                            tourDescribingAnno.innerHTML = body.value;
+                            tourStep.appendChild(tourDescribingAnno);
+                        }
+                    }
+                } else {
+                    if (usingPaintingAnnoLabelAndSummary) {
+                        addPara(tourStep, "Using the label and summary from the linked painting annotation:", true);
+                    } else {
+                        if (label) {
+                            addPara(tourStep, "Using the label and summary from THIS describing annotation:", true);
+                        } else {
+                            addPara(tourStep, "(No label and summary for the tour step)", true);
+                        }
+                    }
+                    if (label) {
+                        addHeading(tourStep, getSingleValue(label), 4);
+                        addPara(tourStep, getSingleValue(summary));
+                    }
+                }
+            }
+        }
+    }
+
+    function makeContentPanel(canvas, panel){
+        const label = getFirstValue(canvas.label);
+        if(label){
+            addHeading(panel, label, 3);
+            addPara(panel, "(the label is visible on the canvas surface)", true);
+        }
+
+        const content = panel;
+        // how much can be reused for split content?
+        processContentAnnotations(canvas, content, null); // need to verify that this third source param SHOULD always be null here...
+
+
+    }
+
+    function makeSplitPanel(canvas, panel, info, content){
+        const label = getFirstValue(canvas.label);
+        addHeading(info, label, 3);
+        const summary = getStrings(canvas.summary);
+        for(const para of summary){
+            addPara(info, para);
+        }
+        if(canvas.requiredStatement?.value){
+            // we never use the label property of requiredStatement in this viewer
+            const requiredStatement = getFirstValue(canvas.requiredStatement.value);
+            if(requiredStatement){
+                const rs = document.createElement("em");
+                rs.innerText = requiredStatement;
+                info.appendChild(rs);
+            }
+        }
+        processContentAnnotations(canvas, content, canvas);
+    }
+
+
+    function addPanel(){
+        const li = document.createElement("li");
+        panels.appendChild(li);
+        return li;
+    }
+
+    function addPara(parent, innerHtml, asLog){
+        if(innerHtml){
+            const p = document.createElement("p");
+            p.innerHTML = innerHtml;
+            parent.appendChild(p);
+            if(asLog){
+                p.setAttribute("class", "log");
+            }
+            return p;
+        }
+        return null;
+    }
+
+    function addHeading(parent, innerHtml, size){
+        if(innerHtml){
+            const h = document.createElement("h" + size);
+            h.innerHTML = innerHtml;
+            parent.appendChild(h);
+            return h;
+        }
+        return null;
+    }
+
+
+    function addLink(parent, innerText, href){
+        const p = document.createElement("p");
+        const a = document.createElement("a");
+        a.innerText = innerText;
+        a.href = href;
+        a.target = "_blank";
+        p.appendChild(a);
+        parent.appendChild(p);
+        return p;
+    }
+
+
+    function getStrings(langMap){
+        if(langMap){
+            return langMap[language] || langMap["en"] || langMap["nl"];
+        }
+        return "";
+    }
+
+    function getSingleValue(langMap, delim){
+        const vals = getStrings(langMap);
+        if(vals){
+            return vals.join(delim);
+        }
+        return "";
+    }
+
+    function getFirstValue(langMap){
+        const vals = getStrings(langMap);
+        if(vals) return vals[0];
+        return "";
+    }
+
+</script>
+</html>

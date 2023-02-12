@@ -37,9 +37,9 @@
            liveLink.innerText = "Live exhibition";
            liveLink.target = "_blank";
            const preview = document.createElement("a");
-           preview.addEventListener("click", () => load(manifest["id"]));
-           preview.innerText = "'Preview'";
-           preview.href = "#";
+           preview.href = "viewer.html?manifest=" + manifest["id"];
+           preview.innerText = "'Text' renderer";
+           preview.target = "_blank";
            const li = document.createElement("li");
            li.appendChild(new Text(manifest.label));
            li.appendChild(document.createElement("br"));
@@ -53,10 +53,6 @@
            ul.appendChild(li);
        }
     });
-
-    function load(manifest){
-        alert(manifest);
-    }
 </script>
 </body>
 </html>
