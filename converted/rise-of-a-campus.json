@@ -142,6 +142,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/600bcbf0-2616-b7bd-01ef-30c2284973d3",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1#xywh=0,0,6960,6840",
+                            "summary": {
+                                "en": [
+                                    "Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Jan Ebbinge"
@@ -164,31 +169,7 @@
                         "Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smits"
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1/annotations/130",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1#xywh=0,0,6960,6840",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Jan Ebbinge</h1>\n\n<p>Geodesy instructor Jan Ebbinge operating a spirit level on campus in preparation for an open day of the Faculty of Geodesy around 1980.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/600bcbf0-2616-b7bd-01ef-30c2284973d3/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/600bcbf0-2616-b7bd-01ef-30c2284973d3"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -386,6 +367,11 @@
                                 "en": [
                                     "Around 1900"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Series of maps depicting the university’s growth after 1900. The southern extensions to the Polytechnic School were built along the re-routed Rijn-Schie canal after 1894. The State-commissioned buildings were designed by the government architects J. van Lokhorst and J.A.W. Vrijman. The extensions were not based on an integrated urban development plan."
+                                ]
                             }
                         },
                         {
@@ -509,6 +495,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=652,60,188,241",
+                            "summary": {
+                                "en": [
+                                    ""
+                                ]
+                            },
                             "requiredStatement": {
                                 "value": {
                                     "en": [
@@ -677,33 +668,19 @@
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/131",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=58,76,512,406",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Around 1900</h1>\n\n<p>Series of maps depicting the university’s growth after 1900. The southern extensions to the Polytechnic School were built along the re-routed Rijn-Schie canal after 1894. The State-commissioned buildings were designed by the government architects J. van Lokhorst and J.A.W. Vrijman. The extensions were not based on an integrated urban development plan.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d77b5b7a-2bb8-8bb3-cb31-bdf395332b33/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d77b5b7a-2bb8-8bb3-cb31-bdf395332b33"
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d77b5b7a-2bb8-8bb3-cb31-bdf395332b33",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/132",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635#xywh=652,60,188,241",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1></h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae"
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -844,6 +821,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f1778e82-eb1b-b09c-01ea-de17878ddc76",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f#",
+                            "summary": {
+                                "en": [
+                                    "Municipal extension plan for the city of Delft from 1921 to which H.P. Berlage contributed. It contains a design for a monumental ‘polytechnic city’ in the Wippolder in response to the chaotic growth of the university. In the plan, the Rijn-Schie canal was projected in a wide curve around the new neighbourhood in order to facilitate easy road traffic between the centre and the southern extensions. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Municipal extension plan"
@@ -871,31 +853,7 @@
                         "Stadsarchief Delft"
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f/annotations/134",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f#",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Municipal extension plan</h1>\n\n<p>Municipal extension plan for the city of Delft from 1921 to which H.P. Berlage contributed. It contains a design for a monumental ‘polytechnic city’ in the Wippolder in response to the chaotic growth of the university. In the plan, the Rijn-Schie canal was projected in a wide curve around the new neighbourhood in order to facilitate easy road traffic between the centre and the southern extensions. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f1778e82-eb1b-b09c-01ea-de17878ddc76/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f1778e82-eb1b-b09c-01ea-de17878ddc76"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -1091,6 +1049,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/113bb242-0964-6be0-8cd8-f617618b2c3f",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2#xywh=0,0,22071,15389",
+                            "summary": {
+                                "en": [
+                                    "On the left, the brand-new building for chemistry (today the Faculty of Architecture and the Built Environment). Due to economic recession the building was left unfinished at the time. After the Second World War, it was refurbished to house the university’s central administration."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "1929 aerial photograph of Delft"
@@ -1112,31 +1075,7 @@
                         "Photo AVIODROME, Lelystad "
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2/annotations/135",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2#xywh=0,0,22071,15389",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>1929 aerial photograph of Delft</h1>\n\n<p>On the left, the brand-new building for chemistry (today the Faculty of Architecture and the Built Environment). Due to economic recession the building was left unfinished at the time. After the Second World War, it was refurbished to house the university’s central administration.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/113bb242-0964-6be0-8cd8-f617618b2c3f/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/113bb242-0964-6be0-8cd8-f617618b2c3f"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "label": {
@@ -1272,6 +1211,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/9ff753e7-3dd7-d305-4c00-fcd6a3e75827",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe#xywh=0,0,2002,2704",
+                            "summary": {
+                                "en": [
+                                    "The number of students that enrolled at the university skyrocketed after the end of the Second World War. This propelled the construction of a new campus. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Students"
@@ -1293,31 +1237,7 @@
                         "TU Delft Library, Special Collections"
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe/annotations/136",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe#xywh=0,0,2002,2704",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Students</h1>\n\n<p>The number of students that enrolled at the university skyrocketed after the end of the Second World War. This propelled the construction of a new campus. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/9ff753e7-3dd7-d305-4c00-fcd6a3e75827/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/9ff753e7-3dd7-d305-4c00-fcd6a3e75827"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "label": {
@@ -1453,6 +1373,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/01e856b3-5d09-b37a-a6d3-69e447426055",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64#xywh=0,0,2291,3484",
+                            "summary": {
+                                "en": [
+                                    "Groundbreaking ceremony in 1951 for the wind tunnel building designed by the architect A. van der Steur."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Wind tunnel"
@@ -1474,31 +1399,7 @@
                         "TU Delft Library, Special Collections"
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64/annotations/137",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64#xywh=0,0,2291,3484",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Wind tunnel</h1>\n\n<p>Groundbreaking ceremony in 1951 for the wind tunnel building designed by the architect A. van der Steur.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/01e856b3-5d09-b37a-a6d3-69e447426055/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/01e856b3-5d09-b37a-a6d3-69e447426055"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -2463,6 +2364,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=151,542,740,449",
+                            "summary": {
+                                "en": [
+                                    "Plans for the extension of the Technical University (1948). Rather than proposing an isolated ‘satellite town’, the plans envisaged the university as an integral part of Delft by keeping the common university functions in the city centre. In the southern extension, each sub-department of the university obtained its own ‘pavilion’ and surrounding space for growth. A central avenue tied the different parts together and ensured that vibrations from the factories in the west did not disturb the laboratories in the east. At the end of the avenue, a large recreational forest was planned. Het Nieuwe Instituut / Hendrik Postel Archive "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Extension plan"
@@ -2741,17 +2647,10 @@
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations/144",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87#xywh=151,542,740,449",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Extension plan</h1>\n\n<p>Plans for the extension of the Technical University (1948). Rather than proposing an isolated ‘satellite town’, the plans envisaged the university as an integral part of Delft by keeping the common university functions in the city centre. In the southern extension, each sub-department of the university obtained its own ‘pavilion’ and surrounding space for growth. A central avenue tied the different parts together and ensured that vibrations from the factories in the west did not disturb the laboratories in the east. At the end of the avenue, a large recreational forest was planned. Het Nieuwe Instituut / Hendrik Postel Archive </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94"
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -2892,6 +2791,11 @@
                             ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683db162-5d1b-0d92-eb6d-82e49506c52e",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc#xywh=0,0,3008,4512",
+                            "summary": {
+                                "en": [
+                                    "Diagram showing the building plans for the Faculty of Technical Physics, 1952. In the end the separate building with lecture rooms was not built. The lecture halls for the faculty were combined with the building programme for the Aula annex Congress Centre. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Faculty of Technical Physics"
@@ -2919,31 +2823,7 @@
                         "Nationaal Archief"
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc/annotations",
-                    "items": [
-                        {
-                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc/annotations/147",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc#xywh=0,0,3008,4512",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Faculty of Technical Physics</h1>\n\n<p>Diagram showing the building plans for the Faculty of Technical Physics, 1952. In the end the separate building with lecture rooms was not built. The lecture halls for the faculty were combined with the building programme for the Aula annex Congress Centre. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683db162-5d1b-0d92-eb6d-82e49506c52e/desc/en"
-                                }
-                            ],
-                            "scope": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683db162-5d1b-0d92-eb6d-82e49506c52e"
-                        }
-                    ]
-                }
-            ]
+            }
         }
     ],
     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/manifest",

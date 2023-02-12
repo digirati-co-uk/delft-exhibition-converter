@@ -147,6 +147,11 @@
                                 "en": [
                                     "Veerpont over de Tjitaroem bij Tjiandjoer"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Libraries, KITLV A751"
+                                ]
                             }
                         },
                         {
@@ -276,6 +281,11 @@
                                 "en": [
                                     "Citarum River, West Java"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Shutterstock, Sony Herdinia"
+                                ]
                             }
                         }
                     ],
@@ -296,33 +306,19 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/68",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1#xywh=341,455,609,472",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Veerpont over de Tjitaroem bij Tjiandjoer</h1>\n\n<p>Leiden University Libraries, KITLV A751</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/82f216fc-6091-eb74-f37c-54e0649286a6/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/82f216fc-6091-eb74-f37c-54e0649286a6"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/82f216fc-6091-eb74-f37c-54e0649286a6",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1/annotations/69",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/eef7cb03-3fb9-60f5-8fea-0c9aafe0dee1#xywh=45,70,622,444",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Citarum River, West Java</h1>\n\n<p>Shutterstock, Sony Herdinia</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/7505e1bc-87e3-9d82-196d-fbb6b1485665/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/7505e1bc-87e3-9d82-196d-fbb6b1485665"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/7505e1bc-87e3-9d82-196d-fbb6b1485665",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -521,6 +517,11 @@
                                 "en": [
                                     "Map of irrigation works on Java and Madoera"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Dick van der Spek, 2003"
+                                ]
                             }
                         },
                         {
@@ -648,6 +649,11 @@
                             "label": {
                                 "en": [
                                     "Koningsplein during a flood (bandjir) in Batavia (1898)"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 81332"
                                 ]
                             }
                         },
@@ -777,6 +783,11 @@
                                 "en": [
                                     "Dam in a river behind the Beri-Beri hospital in Buitenzorg, probably in the Tji Pekantjilan (1897)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 118644"
+                                ]
                             }
                         },
                         {
@@ -905,6 +916,11 @@
                                 "en": [
                                     "Construction of a railway bridge over a river, probably at the Soedhono sugar factory of the Cultuur-Maatschappij der Vorstenlanden near Ngawi (1925)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 54475"
+                                ]
                             }
                         }
                     ],
@@ -925,65 +941,37 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/70",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=0,0,1000,500",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Map of irrigation works on Java and Madoera</h1>\n\n<p>Dick van der Spek, 2003</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/71",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=299,18,142,100",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Koningsplein during a flood (bandjir) in Batavia (1898)</h1>\n\n<p>Leiden University Collections, KITLV 81332</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/72",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=174,331,142,102",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Dam in a river behind the Beri-Beri hospital in Buitenzorg, probably in the Tji Pekantjilan (1897)</h1>\n\n<p>Leiden University Collections, KITLV 118644</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066/annotations/73",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf8c377f-c492-0fcd-8089-d904afe24066#xywh=592,378,140,98",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Construction of a railway bridge over a river, probably at the Soedhono sugar factory of the Cultuur-Maatschappij der Vorstenlanden near Ngawi (1925)</h1>\n\n<p>Leiden University Collections, KITLV 54475</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b5442fa8-846e-e591-52a6-f4a2054ea2e8/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b5442fa8-846e-e591-52a6-f4a2054ea2e8"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b5442fa8-846e-e591-52a6-f4a2054ea2e8",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1128,6 +1116,11 @@
                                 "en": [
                                     "Field trip of engineers organized by mr. Kruimel in Tegal (1901)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 114007"
+                                ]
                             }
                         },
                         {
@@ -1256,6 +1249,11 @@
                                 "en": [
                                     "Drawings for dam design"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Collectie Maurits W. Ertsen"
+                                ]
                             }
                         },
                         {
@@ -1381,6 +1379,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2b13b58-6df8-fc6d-e30a-5aa1ca812818",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=35,638,416,338",
+                            "summary": {
+                                "en": [
+                                    "Collectie Maurits W. Ertsen"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Graph for dam design"
@@ -1419,49 +1422,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/74",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=37,32,503,351",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Field trip of engineers organized by mr. Kruimel in Tegal (1901)</h1>\n\n<p>Leiden University Collections, KITLV 114007</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/855d100f-b6bb-a074-a485-666f0c24b350/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/855d100f-b6bb-a074-a485-666f0c24b350"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/855d100f-b6bb-a074-a485-666f0c24b350",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/75",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=349,312,295,502",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Drawings for dam design</h1>\n\n<p>Collectie Maurits W. Ertsen</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/98bd6575-0d8e-532a-ce8b-48d3ad1c449a/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/98bd6575-0d8e-532a-ce8b-48d3ad1c449a"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/98bd6575-0d8e-532a-ce8b-48d3ad1c449a",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096/annotations/76",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cf494123-a6e0-e815-0538-81c3481e1096#xywh=35,638,416,338",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Graph for dam design</h1>\n\n<p>Collectie Maurits W. Ertsen</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2b13b58-6df8-fc6d-e30a-5aa1ca812818/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2b13b58-6df8-fc6d-e30a-5aa1ca812818"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2b13b58-6df8-fc6d-e30a-5aa1ca812818",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1615,6 +1597,11 @@
                                 "en": [
                                     "Land surveying, presumably by the Topographical Service, in the Dutch East Indies (1910)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 86361"
+                                ]
                             }
                         }
                     ],
@@ -1625,30 +1612,6 @@
             "behavior": [
                 "w-12",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0/annotations/77",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/bf719bc4-339a-8015-88ce-e79cfc06aba0#xywh=0,0,2130,1060",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Land surveying, presumably by the Topographical Service, in the Dutch East Indies (1910)</h1>\n\n<p>Leiden University Collections, KITLV 86361</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/8d6919e3-c0a8-8f17-5d88-a814ffa4a2f1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/8d6919e3-c0a8-8f17-5d88-a814ffa4a2f1"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1781,6 +1744,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=29,26,422,280",
+                            "summary": {
+                                "en": [
+                                    " TU Delft Library, Special Collections, 2000.0254.GEO"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Boussole designed by Max Hildebrand and produced in the instrument factory of P.I. Kipp & Zonen in Delft"
@@ -1914,6 +1882,11 @@
                                 "en": [
                                     "Boussole designed by Max Hildebrand and produced in the instrument factory of P.I. Kipp & Zonen in Delft"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    " TU Delft Library, Special Collections, 2000.0254.GEO"
+                                ]
                             }
                         },
                         {
@@ -2043,6 +2016,11 @@
                                 "en": [
                                     "A removable hypsometer or cooking thermometer with calibration certificates in a leather cover"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, 2000.0346.GEO"
+                                ]
                             }
                         },
                         {
@@ -2167,6 +2145,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ea36def3-c39c-5e76-e2de-69da5f856951",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=460,701,194,270",
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Trésor Collections, TR 3088507"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Les merveilles de l'industrie ou description des principales industries modernes. 3, Industries chimiques : l'eau, les boissons gazeuses, le blanchiment et le blanchissage, le phosphore et les allumettes chimiques, le froid artificiel, l'asphalte et le bitume"
@@ -2208,65 +2191,37 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/78",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=29,26,422,280",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Boussole designed by Max Hildebrand and produced in the instrument factory of P.I. Kipp & Zonen in Delft</h1>\n\n<p> TU Delft Library, Special Collections, 2000.0254.GEO</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/79",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=196,329,434,289",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Boussole designed by Max Hildebrand and produced in the instrument factory of P.I. Kipp & Zonen in Delft</h1>\n\n<p> TU Delft Library, Special Collections, 2000.0254.GEO</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/d2462fca-a912-c7d3-f76a-e7159902a225/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/d2462fca-a912-c7d3-f76a-e7159902a225"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/d2462fca-a912-c7d3-f76a-e7159902a225",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/80",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=39,642,399,265",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>A removable hypsometer or cooking thermometer with calibration certificates in a leather cover</h1>\n\n<p>TU Delft Library, Special Collections, 2000.0346.GEO</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b052fbae-5fbf-7377-abfe-3c55fe915b7e/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b052fbae-5fbf-7377-abfe-3c55fe915b7e"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b052fbae-5fbf-7377-abfe-3c55fe915b7e",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38/annotations/81",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/a2a3e09e-9fd8-c118-db9d-96670ff6ff38#xywh=460,701,194,270",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Les merveilles de l'industrie ou description des principales industries modernes. 3, Industries chimiques : l'eau, les boissons gazeuses, le blanchiment et le blanchissage, le phosphore et les allumettes chimiques, le froid artificiel, l'asphalte et le bitume</h1>\n\n<p>TU Delft Library, Trésor Collections, TR 3088507</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ea36def3-c39c-5e76-e2de-69da5f856951/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ea36def3-c39c-5e76-e2de-69da5f856951"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ea36def3-c39c-5e76-e2de-69da5f856951",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -2420,6 +2375,11 @@
                                 "en": [
                                     "Bridge and aqueduct of a secondary canal over the supply river of the main waterworks canal at Pekalen, 18 km. at Z.O. from Probolinggo, East Java (1900)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 27708"
+                                ]
                             }
                         }
                     ],
@@ -2430,30 +2390,6 @@
             "behavior": [
                 "w-12",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8/annotations/82",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/62fece08-83de-b8c6-e386-b2e0e96b45f8#xywh=0,0,2924,1591",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bridge and aqueduct of a secondary canal over the supply river of the main waterworks canal at Pekalen, 18 km. at Z.O. from Probolinggo, East Java (1900)</h1>\n\n<p>Leiden University Collections, KITLV 27708</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/928f533a-2bd8-c45d-85f3-c22d6d6dd22b/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/928f533a-2bd8-c45d-85f3-c22d6d6dd22b"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2597,6 +2533,11 @@
                                 "en": [
                                     "Overview of the Pekalen works"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, TRL 9.3"
+                                ]
                             }
                         },
                         {
@@ -2728,6 +2669,11 @@
                                 "en": [
                                     "Canalisation of the Pekalen River"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, TRL 9.3"
+                                ]
                             }
                         },
                         {
@@ -2855,6 +2801,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/21dd8e33-5d8e-888c-bf26-73f0634e05e2",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=18,574,371,262",
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, TRL 9.3"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Section of the southern irrigation canal with height differences"
@@ -2896,49 +2847,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/83",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=15,13,592,521",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Overview of the Pekalen works</h1>\n\n<p>TU Delft Library, Special Collections, TRL 9.3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/62121c0d-4c5c-6965-ca5e-59d70dced12f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/62121c0d-4c5c-6965-ca5e-59d70dced12f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/62121c0d-4c5c-6965-ca5e-59d70dced12f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/84",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=412,379,240,583",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Canalisation of the Pekalen River</h1>\n\n<p>TU Delft Library, Special Collections, TRL 9.3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/06345467-316a-9559-2040-b885c6532063/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/06345467-316a-9559-2040-b885c6532063"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/06345467-316a-9559-2040-b885c6532063",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55/annotations/85",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/920e839a-ab35-d491-8916-7757b1ed7f55#xywh=18,574,371,262",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Section of the southern irrigation canal with height differences</h1>\n\n<p>TU Delft Library, Special Collections, TRL 9.3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/21dd8e33-5d8e-888c-bf26-73f0634e05e2/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/21dd8e33-5d8e-888c-bf26-73f0634e05e2"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/21dd8e33-5d8e-888c-bf26-73f0634e05e2",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3092,6 +3022,11 @@
                                 "en": [
                                     "Sugar company in East Java. Transport of the sugar cane by oxcart from the cutting field (1921)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 30197"
+                                ]
                             }
                         }
                     ],
@@ -3102,30 +3037,6 @@
             "behavior": [
                 "w-12",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1/annotations/86",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/1f1664e7-ee8b-12a5-a3a4-86edb3cda6e1#xywh=0,0,2679,1463",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sugar company in East Java. Transport of the sugar cane by oxcart from the cutting field (1921)</h1>\n\n<p>Leiden University Collections, KITLV 30197</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b9187c97-6147-f2d6-13b1-78cc96bb1077/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b9187c97-6147-f2d6-13b1-78cc96bb1077"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3277,6 +3188,11 @@
                                 "en": [
                                     "Section of the Pekalenwerken with indicated golongans (irrigation units)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, TRL 9.3"
+                                ]
                             }
                         },
                         {
@@ -3406,81 +3322,95 @@
                                 "en": [
                                     "Sugar factory on Java (Before 1880)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 82904"
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0/41,35,2133,1470/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1534,
-                                "width": 2215,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 2215,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1534,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 709
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 277
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 139
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 69
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 2215,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 2215,
+                                        "height": 1534,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 709
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 277
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 139
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 69
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "41,35,2133,1470"
                                 }
                             },
                             "thumbnail": [
@@ -3530,10 +3460,14 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990",
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=443,443,274,187",
-                            "body.id": "https://dlc.services/iiif-img/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0/41,35,2133,1470/full/0/default.jpg",
                             "label": {
                                 "en": [
                                     "Weir for the irrigation of Javanese agricultural colonies near Metro in the Lampoeng Districts (1940)"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 53692 (Kolk, Jan van der)"
                                 ]
                             }
                         },
@@ -3541,74 +3475,83 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd/31,40,1635,1037/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1108,
-                                "width": 1684,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 1684,
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/f7b0cca8-13eb-4c45-11c4-272c354267b6/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1108,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 674
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 263
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 132
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 66
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 1684,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1684,
+                                        "height": 1108,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 674
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 263
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 132
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 66
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "31,40,1635,1037"
                                 }
                             },
                             "thumbnail": [
@@ -3663,7 +3606,11 @@
                                     "Harvesting rice on Java (1920)"
                                 ]
                             },
-                            "body.id": "https://dlc.services/iiif-img/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd/31,40,1635,1037/full/0/default.jpg"
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 5341"
+                                ]
+                            }
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/list/23dbeb42-a0af-d78b-43fb-6118f3c5c79c"
@@ -3697,17 +3644,10 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/87",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=43,54,471,898",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Section of the Pekalenwerken with indicated golongans (irrigation units)</h1>\n\n<p>TU Delft Library, Special Collections, TRL 9.3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/88",
@@ -3728,49 +3668,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/89",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=407,131,283,228",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sugar factory on Java (Before 1880)</h1>\n\n<p>Leiden University Collections, KITLV 82904</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/35c7a7bf-7f01-c099-f7cb-cdc6904adfae/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/35c7a7bf-7f01-c099-f7cb-cdc6904adfae"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/35c7a7bf-7f01-c099-f7cb-cdc6904adfae",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/90",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=443,443,274,187",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Weir for the irrigation of Javanese agricultural colonies near Metro in the Lampoeng Districts (1940)</h1>\n\n<p>Leiden University Collections, KITLV 53692 (Kolk, Jan van der)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba/annotations/91",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/2a2464a4-322d-a22d-7c79-489f2e22acba#xywh=407,675,274,172",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Harvesting rice on Java (1920)</h1>\n\n<p>Leiden University Collections, KITLV 5341</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/f7b0cca8-13eb-4c45-11c4-272c354267b6/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/f7b0cca8-13eb-4c45-11c4-272c354267b6"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/f7b0cca8-13eb-4c45-11c4-272c354267b6",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3804,6 +3723,11 @@
                                     "Animation of a Romijn Weir near a Sugar Factory"
                                 ]
                             },
+                            "summary": {
+                                "en": [
+                                    "Made by Luuk Goossen (NewMedia Centre)"
+                                ]
+                            },
                             "thumbnail": [
                                 {
                                     "service": {
@@ -3820,30 +3744,6 @@
             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519",
             "behavior": [
                 "placeholder"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519/annotations/92",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519#xywh=0,0,1920,1080",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Animation of a Romijn Weir near a Sugar Factory</h1>\n\n<p>Made by Luuk Goossen (NewMedia Centre)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/6a3ccec4-78bb-20c4-6213-3e1a06bc0044/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/6a3ccec4-78bb-20c4-6213-3e1a06bc0044"
-                        }
-                    ]
-                }
             ],
             "rendering": [
                 {
@@ -4004,6 +3904,11 @@
                                 "en": [
                                     "Bamboo and rattan bridge over the Kraksaän, res. Pasuroean (1910)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 27672"
+                                ]
                             }
                         },
                         {
@@ -4141,6 +4046,11 @@
                                 "en": [
                                     "Bamboo bridge at the Colonial Department of the International Colonial and Export Trade Exhibition in Amsterdam (P. Oosterhuis, 1883)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Leiden University Collections, KITLV 107181"
+                                ]
                             }
                         },
                         {
@@ -4175,6 +4085,11 @@
                                 "en": [
                                     "Gedenkschrift van de Koninklijke Academie en van de Polytechnische School (1906)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, Inventory number: TRK 9811201"
+                                ]
                             }
                         }
                     ],
@@ -4206,49 +4121,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/93",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=48,615,459,357",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bamboo and rattan bridge over the Kraksaän, res. Pasuroean (1910)</h1>\n\n<p>Leiden University Collections, KITLV 27672</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/94",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=132,341,512,337",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bamboo bridge at the Colonial Department of the International Colonial and Export Trade Exhibition in Amsterdam (P. Oosterhuis, 1883)</h1>\n\n<p>Leiden University Collections, KITLV 107181</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35/annotations/95",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/c146a8ab-c824-d066-5c30-4032fb930f35#xywh=40,38,470,334",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Gedenkschrift van de Koninklijke Academie en van de Polytechnische School (1906)</h1>\n\n<p>TU Delft Library, Special Collections, Inventory number: TRK 9811201</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://example.org/uuid/fb1cf398-4c5a-48dd-8987-e0f1717db72d/annotation/5a220402-ec1d-4217-2bc8-c930a2b4ee9a/desc/en"
-                                }
-                            ],
-                            "scope": "https://example.org/uuid/fb1cf398-4c5a-48dd-8987-e0f1717db72d/annotation/5a220402-ec1d-4217-2bc8-c930a2b4ee9a"
+                            "target": {
+                                "id": "https://example.org/uuid/fb1cf398-4c5a-48dd-8987-e0f1717db72d/annotation/5a220402-ec1d-4217-2bc8-c930a2b4ee9a",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -4403,6 +4297,11 @@
                                 "en": [
                                     "Restored bamboo bridge model on display at TU Delft Library"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "TU Delft Library, Special Collections, 2016.0295.LIB"
+                                ]
                             }
                         }
                     ],
@@ -4413,30 +4312,6 @@
             "behavior": [
                 "w-12",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810/annotations/96",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/cd92d3fb-4a3b-2057-2b9c-73f569481810#xywh=0,0,6169,3364",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Restored bamboo bridge model on display at TU Delft Library</h1>\n\n<p>TU Delft Library, Special Collections, 2016.0295.LIB</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/a6e3254d-3c52-a7a4-5e44-e4bb0805af63/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/a6e3254d-3c52-a7a4-5e44-e4bb0805af63"
-                        }
-                    ]
-                }
             ]
         }
     ],

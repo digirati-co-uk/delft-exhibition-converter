@@ -199,6 +199,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/1bee9944-4dbe-47b2-00fa-95af763ef106",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa#xywh=0,0,1000,707",
+                            "summary": {
+                                "en": [
+                                    "Photo: Leiden University Library, KITLV collection, A1085"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Villa Isola"
@@ -221,30 +226,6 @@
                 "right",
                 "w-12",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa/annotations/1",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f3e1617f-a51a-c2a5-dfb1-04a401ee24aa#xywh=0,0,1000,707",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Villa Isola</h1>\n\n<p>Photo: Leiden University Library, KITLV collection, A1085</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/1bee9944-4dbe-47b2-00fa-95af763ef106/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/1bee9944-4dbe-47b2-00fa-95af763ef106"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -382,6 +363,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
+                            "summary": {
+                                "en": [
+                                    "Photo: Abel Streefland"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Bandung Institute of Technology"
@@ -403,31 +389,7 @@
                     "Henri Maclaine Pont (1884 – 1971) was born on Java in the Dutch East Indies and studied architecture in Delft from 1902-09. After his studies he returned to the East Indies and worked as a designer for the Semarang-Cheribon steam tram company in Semarang. Maclaine Pont was fascinated by indigenous building techniques and trained local craftsmen to work on his buildings.",
                     "In 1918, Maclaine Pont was asked to design the campus for the newly founded technical college in Bandung, the first institute of higher technical learning in the Dutch colony. His preliminary plans were inspired by Javanese palace complexes (kratons) in Solo and Yogjakarta. For the first two buildings, he took inspiration from the traditional Sumatran Minangkabau roof system. The buildings are still in use today by ITB."
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d/annotations/2",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f5c2baf7-4e39-6931-ba75-14129b15256d#xywh=0,0,1000,750",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bandung Institute of Technology</h1>\n\n<p>Photo: Abel Streefland</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/81e70062-e9c3-d545-93e4-0de163903fa2"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "label": {
@@ -564,6 +526,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f",
                             "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",
+                            "summary": {
+                                "en": [
+                                    "Artist’s impression: Céline Mugica"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Cikapundung Craft Community"
@@ -586,31 +553,7 @@
                     "In their projects, students connected contemporary themes such as climate, habitat and building culture to the regeneration of existing buildings and neighborhoods. Céline Mugica’s project takes the existing Cikapundung market as point of departure, connecting it to the theme of building culture.",
                     "By transforming the building into a shared workspace for local craftsmen, she envisions a knowledge community in which new technologies such as CNC milling are used to strengthen local traditions. The expressive architectural design of the new roof reflects this ambition."
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a/annotations/3",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/a5dd0db4-cd60-8558-3976-f6d70766829a#xywh=0,0,999,640",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Cikapundung Craft Community</h1>\n\n<p>Artist’s impression: Céline Mugica</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/annotation/91a8a06a-d874-512c-48a6-f7708d5da64f"
-                        }
-                    ]
-                }
-            ]
+            }
         }
     ],
     "id": "https://heritage.tudelft.nl/iiif/bandoeng-bandung/manifest",

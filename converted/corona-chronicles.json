@@ -198,6 +198,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a9966202-4c8d-7d1b-bdc4-c58c4d15d735",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac#xywh=0,0,562,1000",
+                            "summary": {
+                                "en": [
+                                    "Coronaviruses have their name because, under an electron microscope, they appear to have a ring of spikes, much like a crown, which translates as corona in Latin. Source: Centre for Disease Control and Prevention, Public Health Image Library, Alissa Eckert, MS; Dan Higgins, MAMS."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Illustration of a coronavirus"
@@ -213,30 +218,6 @@
                 "bottom",
                 "w-4",
                 "h-8"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac/annotations/4",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac#xywh=0,0,562,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Illustration of a coronavirus</h1>\n\n<p>Coronaviruses have their name because, under an electron microscope, they appear to have a ring of spikes, much like a crown, which translates as corona in Latin. Source: Centre for Disease Control and Prevention, Public Health Image Library, Alissa Eckert, MS; Dan Higgins, MAMS.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a9966202-4c8d-7d1b-bdc4-c58c4d15d735/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a9966202-4c8d-7d1b-bdc4-c58c4d15d735"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -386,6 +367,11 @@
                                 "en": [
                                     "Tobacco leaves infected with tobacco mosaic virus (TMV)"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Photographed in 1898. Source: Delft School of Microbiology, Beijerinck Collection."
+                                ]
                             }
                         }
                     ],
@@ -414,17 +400,10 @@
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2/annotations/5",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2#xywh=0,0,1554,1212",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Tobacco leaves infected with tobacco mosaic virus (TMV)</h1>\n\n<p>Photographed in 1898. Source: Delft School of Microbiology, Beijerinck Collection.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/3bb8fa06-5f80-2969-596f-83db67ec8b0f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/3bb8fa06-5f80-2969-596f-83db67ec8b0f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/3bb8fa06-5f80-2969-596f-83db67ec8b0f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2/annotations/6",
@@ -635,6 +614,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/312b70cb-281d-95c8-4604-e7f446695c25",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=17,55,391,596",
+                            "summary": {
+                                "en": [
+                                    "Tobacco Mosaic Disease was first described in 1882 by Adolf Mayer, Director of the Agricultural Experimental Station in Wageningen, who discovered that the disease could be transferred between plants. He first described it as \"a soluble, possibly enzyme-like contagium\". In 1886, he changed his mind and reported that it is \"bacterial, but that the infectious forms have not yet been isolated, nor are their forms of life known\". Mayer concluded that the disease had a lot of characteristics that looked like a bacterial infection, but the disease carrier could not be isolated, nor seen by microscope. This was strange, especially since these were known techniques at that time."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Adolf Mayer"
@@ -761,6 +745,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/19ffe93b-037b-e2f2-3994-6d87cd092bbb",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=327,463,351,521",
+                            "summary": {
+                                "en": [
+                                    "In 1892, Dmitri Ivanovski, a Russian botanist, reported \"that the sap of leaves attacked by the mosaic disease retains its infectious qualities even after filtration through Chamberland filter candles\". Ivanovski, like Mayer, was puzzled by this phenomenon. He hypothesized that the cause of the disease could be unculturable bacteria, or spores of bacteria, too small to be stopped  by the Chamberland filters. He called it a “contagion vivum fixum”, Latin for “fixed living contaminant”."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Dmitri Ivanovski"
@@ -887,6 +876,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/928e038a-e0b8-e145-3ea3-fdd699216db1",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=624,191,352,546",
+                            "summary": {
+                                "en": [
+                                    "In 1885, Mayer suggested that Martinus Beijerinck, at that time a teacher at the Agricultural School in Wageningen, later Professor of Biology and Bacteriology at the Polytechnical School in Delft, should take a look at tobacco mosaic disease as Mayer was unable to discover the cause. Beijerinck’s results were similar to Mayer’s. When he tried again in 1887, after he had moved to the Netherlands Yeast and Spirits Factory in Delft, he was still unable to find a cause."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Martinus W. Beijerinck"
@@ -924,49 +918,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75/annotations/7",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=17,55,391,596",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Adolf Mayer</h1>\n\n<p>Tobacco Mosaic Disease was first described in 1882 by Adolf Mayer, Director of the Agricultural Experimental Station in Wageningen, who discovered that the disease could be transferred between plants. He first described it as \"a soluble, possibly enzyme-like contagium\". In 1886, he changed his mind and reported that it is \"bacterial, but that the infectious forms have not yet been isolated, nor are their forms of life known\". Mayer concluded that the disease had a lot of characteristics that looked like a bacterial infection, but the disease carrier could not be isolated, nor seen by microscope. This was strange, especially since these were known techniques at that time.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/312b70cb-281d-95c8-4604-e7f446695c25/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/312b70cb-281d-95c8-4604-e7f446695c25"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/312b70cb-281d-95c8-4604-e7f446695c25",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75/annotations/8",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=327,463,351,521",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Dmitri Ivanovski</h1>\n\n<p>In 1892, Dmitri Ivanovski, a Russian botanist, reported \"that the sap of leaves attacked by the mosaic disease retains its infectious qualities even after filtration through Chamberland filter candles\". Ivanovski, like Mayer, was puzzled by this phenomenon. He hypothesized that the cause of the disease could be unculturable bacteria, or spores of bacteria, too small to be stopped  by the Chamberland filters. He called it a “contagion vivum fixum”, Latin for “fixed living contaminant”.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/19ffe93b-037b-e2f2-3994-6d87cd092bbb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/19ffe93b-037b-e2f2-3994-6d87cd092bbb"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/19ffe93b-037b-e2f2-3994-6d87cd092bbb",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75/annotations/9",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/620868e2-ec1a-9007-4fb3-0b59dc24bf75#xywh=624,191,352,546",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Martinus W. Beijerinck</h1>\n\n<p>In 1885, Mayer suggested that Martinus Beijerinck, at that time a teacher at the Agricultural School in Wageningen, later Professor of Biology and Bacteriology at the Polytechnical School in Delft, should take a look at tobacco mosaic disease as Mayer was unable to discover the cause. Beijerinck’s results were similar to Mayer’s. When he tried again in 1887, after he had moved to the Netherlands Yeast and Spirits Factory in Delft, he was still unable to find a cause.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/928e038a-e0b8-e145-3ea3-fdd699216db1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/928e038a-e0b8-e145-3ea3-fdd699216db1"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/928e038a-e0b8-e145-3ea3-fdd699216db1",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1100,6 +1073,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a5429baf-5ef7-abe4-1550-4c20ac15a3e3",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e#xywh=0,0,1000,751",
+                            "summary": {
+                                "en": [
+                                    "Chamberland filters are made from porous glass. They were made in different sizes, and the finest pores could prevent bacteria from passing through. They were held in the neck of a sterile flask with a rubber stopper, and the liquid to be filtered was poured through. Source: Delft School of Microbiology, Beijerinck Collection."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Chamberland filters"
@@ -1120,31 +1098,7 @@
                 "en": [
                     "Chamberland filters"
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e/annotations/10",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e#xywh=0,0,1000,751",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Chamberland filters</h1>\n\n<p>Chamberland filters are made from porous glass. They were made in different sizes, and the finest pores could prevent bacteria from passing through. They were held in the neck of a sterile flask with a rubber stopper, and the liquid to be filtered was poured through. Source: Delft School of Microbiology, Beijerinck Collection.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a5429baf-5ef7-abe4-1550-4c20ac15a3e3/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a5429baf-5ef7-abe4-1550-4c20ac15a3e3"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -1394,6 +1348,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/21b428e2-f2f1-c0ac-34b0-23d0b4e3daba",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec#xywh=0,0,780,472",
+                            "summary": {
+                                "en": [
+                                    "The pages from Beijerinck’s laboratory journal that describe the tobacco mosaic virus (TMV) experiment. Source: Delft School of Microbiology, Beijerinck Collection"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Beijerinck’s laboratory journal"
@@ -1408,30 +1367,6 @@
             "behavior": [
                 "w-8",
                 "h-4"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec/annotations/11",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec#xywh=0,0,780,472",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Beijerinck’s laboratory journal</h1>\n\n<p>The pages from Beijerinck’s laboratory journal that describe the tobacco mosaic virus (TMV) experiment. Source: Delft School of Microbiology, Beijerinck Collection</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/21b428e2-f2f1-c0ac-34b0-23d0b4e3daba/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/21b428e2-f2f1-c0ac-34b0-23d0b4e3daba"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1566,6 +1501,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/f1f0668d-7865-00e0-ef48-bded1aade509",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47#xywh=0,0,1000,1000",
+                            "summary": {
+                                "en": [
+                                    "Source: T. Moravec, Wikimedia Commons"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "An electron micrograph of TMV"
@@ -1580,30 +1520,6 @@
             "behavior": [
                 "w-4",
                 "h-4"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47/annotations/12",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47#xywh=0,0,1000,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>An electron micrograph of TMV</h1>\n\n<p>Source: T. Moravec, Wikimedia Commons</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/f1f0668d-7865-00e0-ef48-bded1aade509/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/f1f0668d-7865-00e0-ef48-bded1aade509"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1751,6 +1667,11 @@
                                 "en": [
                                     "Beijerinck in the Professor’s private laboratory in his Laboratory of Microbiology at the Polytechnic."
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Source: Delft School of Microbiology, Beijerinck Collection"
+                                ]
                             }
                         },
                         {
@@ -1877,6 +1798,11 @@
                                 "en": [
                                     "Beijerinck in his laboratory at the Netherlands Yeast and Spirits Factory"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Source: Delft School of Microbiology, Beijerinck Collection"
+                                ]
                             }
                         }
                     ],
@@ -1902,33 +1828,19 @@
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8c69ddbc-8fe7-9c3b-5f40-f5973165c3f0/annotations/13",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8c69ddbc-8fe7-9c3b-5f40-f5973165c3f0#xywh=37,421,708,510",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Beijerinck in the Professor’s private laboratory in his Laboratory of Microbiology at the Polytechnic.</h1>\n\n<p>Source: Delft School of Microbiology, Beijerinck Collection</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/abebcbee-b5c4-989a-4e58-4362d8f93a9f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/abebcbee-b5c4-989a-4e58-4362d8f93a9f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/abebcbee-b5c4-989a-4e58-4362d8f93a9f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8c69ddbc-8fe7-9c3b-5f40-f5973165c3f0/annotations/14",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/8c69ddbc-8fe7-9c3b-5f40-f5973165c3f0#xywh=572,27,411,566",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Beijerinck in his laboratory at the Netherlands Yeast and Spirits Factory</h1>\n\n<p>Source: Delft School of Microbiology, Beijerinck Collection</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/76e0ed59-0797-c7a7-c1b2-06e65401aa44/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/76e0ed59-0797-c7a7-c1b2-06e65401aa44"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/76e0ed59-0797-c7a7-c1b2-06e65401aa44",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -2101,6 +2013,11 @@
                                 "en": [
                                     "Beijerinck's Office"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Reconstruction of Beijerinck's office at Science Centre Delft"
+                                ]
                             }
                         }
                     ],
@@ -2123,30 +2040,6 @@
                     ]
                 }
             },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b/annotations/15",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b#xywh=0,0,1000,562",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Beijerinck's Office</h1>\n\n<p>Reconstruction of Beijerinck's office at Science Centre Delft</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/134aacc1-6660-eff1-9e2c-025a813aabb3/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/134aacc1-6660-eff1-9e2c-025a813aabb3"
-                        }
-                    ]
-                }
-            ],
             "rendering": [
                 {
                     "id": "https://tourmake.nl/en/tour/6649a35fe52e12aca13c5b08b3f1fe1a",

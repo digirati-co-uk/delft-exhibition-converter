@@ -142,6 +142,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4125bcf4-02c8-99c9-44e0-4fcaf3c17f5a",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0#xywh=0,0,1000,550",
+                            "summary": {
+                                "en": [
+                                    "Credit: Odette Scharenborg"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Female voices in speech recognition technology"
@@ -156,30 +161,6 @@
             "behavior": [
                 "w-8",
                 "h-4"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0/annotations/148",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0#xywh=0,0,1000,550",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Female voices in speech recognition technology</h1>\n\n<p>Credit: Odette Scharenborg</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4125bcf4-02c8-99c9-44e0-4fcaf3c17f5a/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4125bcf4-02c8-99c9-44e0-4fcaf3c17f5a"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -256,9 +237,12 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
+                                "type": "Video",
                                 "service": {
-                                    "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
-                                    "profile": "https://www.youtube.com"
+                                    "profile": "http://digirati.com/objectifier",
+                                    "params": {
+                                        "data": "https://www.youtube.com/embed/iRZx4Dz3vkE"
+                                    }
                                 }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11#xywh=0,0,800,400",
@@ -278,30 +262,6 @@
             "behavior": [
                 "w-8",
                 "h-4"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11/annotations/149",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11#xywh=0,0,800,400",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>International Day of Women and Girls in Science</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e515b739-a294-d4cd-29bb-c5d684d911bb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e515b739-a294-d4cd-29bb-c5d684d911bb"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -438,6 +398,11 @@
                                 "en": [
                                     "Odette Scharenborg"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "improves and diversifies automatic speech processing technologies. Credit: Frank Auperlé"
+                                ]
                             }
                         },
                         {
@@ -566,6 +531,11 @@
                             "label": {
                                 "en": [
                                     "Feijia Yin"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "evaluates the climate impact of future aircraft propulsion technologies."
                                 ]
                             }
                         },
@@ -696,6 +666,11 @@
                                 "en": [
                                     "Amy Thomas "
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "investigates historical connections between gender, well-being and workplace design."
+                                ]
                             }
                         },
                         {
@@ -823,6 +798,11 @@
                             "label": {
                                 "en": [
                                     "Wen-Jun Cao "
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "develops the fundamental understanding of circularity in the design, construction, operation, maintenance and repair cycle of civil infrastructure."
                                 ]
                             }
                         },
@@ -953,6 +933,11 @@
                                 "en": [
                                     "Laura Marchal-Crespo"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "studies how robots and virtual reality can be employed to improve neurorehabilitation patients after brain injuries.Credit: Adrian Moser"
+                                ]
                             }
                         }
                     ],
@@ -995,81 +980,46 @@
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b/annotations/150",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=97,83,363,271",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Odette Scharenborg</h1>\n\n<p>improves and diversifies automatic speech processing technologies. Credit: Frank Auperlé</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/43c898d2-eff7-3fb2-0402-99996cee4e23/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/43c898d2-eff7-3fb2-0402-99996cee4e23"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/43c898d2-eff7-3fb2-0402-99996cee4e23",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b/annotations/151",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=652,74,285,420",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Feijia Yin</h1>\n\n<p>evaluates the climate impact of future aircraft propulsion technologies.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/47ef32d6-b68e-eee0-dbce-d276635de769/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/47ef32d6-b68e-eee0-dbce-d276635de769"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/47ef32d6-b68e-eee0-dbce-d276635de769",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b/annotations/152",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=213,394,389,259",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Amy Thomas </h1>\n\n<p>investigates historical connections between gender, well-being and workplace design.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/105c740c-8281-ec5e-97ab-60400eb38b6a/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/105c740c-8281-ec5e-97ab-60400eb38b6a"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/105c740c-8281-ec5e-97ab-60400eb38b6a",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b/annotations/153",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=123,703,246,366",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Wen-Jun Cao </h1>\n\n<p>develops the fundamental understanding of circularity in the design, construction, operation, maintenance and repair cycle of civil infrastructure.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/5d4c37d3-c8da-8d40-f62e-67aec83776d2/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/5d4c37d3-c8da-8d40-f62e-67aec83776d2"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/5d4c37d3-c8da-8d40-f62e-67aec83776d2",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b/annotations/154",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/0894bd20-84b5-818e-b5a9-ff113cdb385b#xywh=460,840,440,291",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Laura Marchal-Crespo</h1>\n\n<p>studies how robots and virtual reality can be employed to improve neurorehabilitation patients after brain injuries.Credit: Adrian Moser</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/aa2cacb3-92bf-87c5-1505-be058438d6e4/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/aa2cacb3-92bf-87c5-1505-be058438d6e4"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/aa2cacb3-92bf-87c5-1505-be058438d6e4",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1436,6 +1386,11 @@
                                 "en": [
                                     "\"Overexpressed\" targets to detect tumors"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Credit: Kristina Djanashvili "
+                                ]
                             }
                         }
                     ],
@@ -1451,31 +1406,7 @@
                 "en": [
                     "\"Overexpressed\" targets to detect tumors"
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/35515209-d174-dcdf-a58d-b6b95ab16816/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/35515209-d174-dcdf-a58d-b6b95ab16816/annotations/155",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/35515209-d174-dcdf-a58d-b6b95ab16816#xywh=0,0,1000,454",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>\"Overexpressed\" targets to detect tumors</h1>\n\n<p>Credit: Kristina Djanashvili </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/78f0c8a3-0d2c-a44e-5bd8-8a53658ddfbe/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/78f0c8a3-0d2c-a44e-5bd8-8a53658ddfbe"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -1843,6 +1774,11 @@
                                 "en": [
                                     "Klaske Havik "
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "advocates a literary approach to architecture to address societal issues."
+                                ]
                             }
                         },
                         {
@@ -1971,6 +1907,11 @@
                                 "en": [
                                     "Kristina Djanashvili"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "designs synergic systems for better detection, visualization and treatment of cancer. "
+                                ]
                             }
                         },
                         {
@@ -2097,80 +2038,94 @@
                                 "en": [
                                     "Alina Rwei"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "develops novel biomedical technologies for next-generation medicine."
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/478,368,636,784/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1233,
-                                "width": 1377,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 1377,
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1233,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 917
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 358
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 179
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 90
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 1377,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1377,
+                                        "height": 1233,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 917
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 358
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 179
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 90
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "478,368,636,784"
                                 }
                             },
                             "thumbnail": [
@@ -2225,7 +2180,11 @@
                                     "Sepideh Ghodrat"
                                 ]
                             },
-                            "body.id": "https://dlc.services/iiif-img/7/24/a17d435a-d89f-7cf5-40e3-bc33c42c81f5/478,368,636,784/full/0/default.jpg"
+                            "summary": {
+                                "en": [
+                                    "investigates the properties of materials (alloys, polymers and composites) and applies them as active elements in designing shape morphing objects like deployable structures, self-sizable adaptable shoes, self-sizable grips, self-regulating jackets and soft mobile devices."
+                                ]
+                            }
                         },
                         {
                             "motivation": "painting",
@@ -2351,6 +2310,11 @@
                             "label": {
                                 "en": [
                                     "Neelke Doorn "
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "focuses on ethical issues in water governance and climate change. Credit: Marcel Krijger"
                                 ]
                             }
                         },
@@ -2479,6 +2443,11 @@
                                 "en": [
                                     "Catholijn Jonker "
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "is dedicated to creating teamwork between humans agents and robots in a way that brings about a co-evolution between humans and technology."
+                                ]
                             }
                         }
                     ],
@@ -2504,97 +2473,55 @@
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/156",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=121,54,288,382",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Klaske Havik </h1>\n\n<p>advocates a literary approach to architecture to address societal issues.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/9ad4bcb6-bf59-072d-37d6-2f1cf7a079be/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/9ad4bcb6-bf59-072d-37d6-2f1cf7a079be"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/9ad4bcb6-bf59-072d-37d6-2f1cf7a079be",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/157",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=576,46,368,244",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kristina Djanashvili</h1>\n\n<p>designs synergic systems for better detection, visualization and treatment of cancer. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2526487b-060a-ba61-a17a-614bc4ffadbf/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2526487b-060a-ba61-a17a-614bc4ffadbf"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2526487b-060a-ba61-a17a-614bc4ffadbf",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/158",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=52,505,313,313",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Alina Rwei</h1>\n\n<p>develops novel biomedical technologies for next-generation medicine.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/02d6a8ac-593d-00e4-4323-48ac938baa14/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/02d6a8ac-593d-00e4-4323-48ac938baa14"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/02d6a8ac-593d-00e4-4323-48ac938baa14",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/159",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=477,341,295,364",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sepideh Ghodrat</h1>\n\n<p>investigates the properties of materials (alloys, polymers and composites) and applies them as active elements in designing shape morphing objects like deployable structures, self-sizable adaptable shoes, self-sizable grips, self-regulating jackets and soft mobile devices.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a34aa693-0716-b98b-f272-d0082ff7fc2d",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/160",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=122,885,420,280",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Neelke Doorn </h1>\n\n<p>focuses on ethical issues in water governance and climate change. Credit: Marcel Krijger</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/03082db6-0d31-1697-1220-adc907134feb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/03082db6-0d31-1697-1220-adc907134feb"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/03082db6-0d31-1697-1220-adc907134feb",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430/annotations/161",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/b386c970-7ea7-f62d-f102-eba219aba430#xywh=633,759,279,369",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Catholijn Jonker </h1>\n\n<p>is dedicated to creating teamwork between humans agents and robots in a way that brings about a co-evolution between humans and technology.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a06805c0-c292-906c-fb47-c14ff68796f9/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a06805c0-c292-906c-fb47-c14ff68796f9"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/a06805c0-c292-906c-fb47-c14ff68796f9",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3029,6 +2956,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403#xywh=8,0,2840,1066",
+                            "summary": {
+                                "en": [
+                                    "Credit: Dutch Soft Robotics and Aimée Sakes"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Emerging applications in Soft Robotics for healthcare"
@@ -3043,30 +2975,6 @@
             "behavior": [
                 "w-9",
                 "h-3"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403/annotations/162",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403#xywh=8,0,2840,1066",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Emerging applications in Soft Robotics for healthcare</h1>\n\n<p>Credit: Dutch Soft Robotics and Aimée Sakes</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3265,79 +3173,93 @@
                                 "en": [
                                     "Merle de Kreuk"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "develops and improves wastewater treatment technologies."
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/0,0,600,800/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 800,
-                                "width": 600,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 600,
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 800,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 600,
-                                            "height": 800
-                                        },
-                                        {
-                                            "width": 300,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 150,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 75,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 600,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 600,
+                                        "height": 800,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 600,
+                                                "height": 800
+                                            },
+                                            {
+                                                "width": 300,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 150,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 75,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "0,0,600,800"
                                 }
                             },
                             "thumbnail": [
@@ -3387,87 +3309,100 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=339,39,246,328",
+                            "summary": {
+                                "en": [
+                                    "focusses on the development of innovative medical instruments and robots inspired by nature. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Aimée Sakes"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/24/0cd7b56a-bd40-7522-129b-21aa184b5a00/0,0,600,800/full/0/default.jpg"
+                            }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/713,0,5031,3829/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 3829,
-                                "width": 5744,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 5744,
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b933dc12-e1d3-5696-72d4-fb818bc7397d/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 3829,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16,
-                                                32
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 683
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 267
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 133
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 67
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 5744,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 5744,
+                                        "height": 3829,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 683
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 267
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 133
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 67
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "713,0,5031,3829"
                                 }
                             },
                             "thumbnail": [
@@ -3522,7 +3457,11 @@
                                     "Cynthia Liem "
                                 ]
                             },
-                            "body.id": "https://dlc.services/iiif-img/7/24/74fdced2-5691-13f8-9687-cb1f99c04149/713,0,5031,3829/full/0/default.jpg"
+                            "summary": {
+                                "en": [
+                                    "makes data-driven information filtering more meaningful and trustworthy through better measurement and validation processes. Credit: Marco Borggreve "
+                                ]
+                            }
                         },
                         {
                             "motivation": "painting",
@@ -3650,80 +3589,94 @@
                                 "en": [
                                     "Annemiek van Boeijen"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "contributes to diversity in all its facets by researching the role of culture in design processes and supporting designers with a culture  sensitive approach to design. "
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/0,241,718,899/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 1280,
-                                "width": 853,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 853,
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 1280,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 682,
-                                            "height": 1024
-                                        },
-                                        {
-                                            "width": 267,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 133,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 67,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 853,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 853,
+                                        "height": 1280,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 682,
+                                                "height": 1024
+                                            },
+                                            {
+                                                "width": 267,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 133,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 67,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "0,241,718,899"
                                 }
                             },
                             "thumbnail": [
@@ -3773,12 +3726,16 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=405,784,299,374",
+                            "summary": {
+                                "en": [
+                                    "examines sounds used in healthcare and demonstrates how designers can turn sound problems into opportunities with human-sensitive and evidence-based technological solutions that cater for better recovery and better clinical flow. Credit: Marcel Krijger"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Elif Ozcan"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/24/cbd1ee68-df11-9e5f-c545-e1337588a7ec/0,241,718,899/full/0/default.jpg"
+                            }
                         },
                         {
                             "motivation": "painting",
@@ -3905,6 +3862,11 @@
                                 "en": [
                                     "Aleksandra Lekic"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "researches topics related to the circuit theory, control, and stability analysis of the power converters and hybrid power systems."
+                                ]
                             }
                         }
                     ],
@@ -3930,97 +3892,55 @@
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/163",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=44,188,252,378",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Merle de Kreuk</h1>\n\n<p>develops and improves wastewater treatment technologies.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/75cb833b-8ab2-6c2c-55a1-8a9c16641374/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/75cb833b-8ab2-6c2c-55a1-8a9c16641374"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/75cb833b-8ab2-6c2c-55a1-8a9c16641374",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/164",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=339,39,246,328",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Aimée Sakes</h1>\n\n<p>focusses on the development of innovative medical instruments and robots inspired by nature. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e235a573-2bf6-083e-a1b2-fbf57e03c078",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/165",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=619,280,354,267",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Cynthia Liem </h1>\n\n<p>makes data-driven information filtering more meaningful and trustworthy through better measurement and validation processes. Credit: Marco Borggreve </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b933dc12-e1d3-5696-72d4-fb818bc7397d/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b933dc12-e1d3-5696-72d4-fb818bc7397d"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/b933dc12-e1d3-5696-72d4-fb818bc7397d",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/166",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=75,614,304,304",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Annemiek van Boeijen</h1>\n\n<p>contributes to diversity in all its facets by researching the role of culture in design processes and supporting designers with a culture  sensitive approach to design. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/8a64d420-12b8-90db-a540-b187e4b49506/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/8a64d420-12b8-90db-a540-b187e4b49506"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/8a64d420-12b8-90db-a540-b187e4b49506",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/167",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=405,784,299,374",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Elif Ozcan</h1>\n\n<p>examines sounds used in healthcare and demonstrates how designers can turn sound problems into opportunities with human-sensitive and evidence-based technological solutions that cater for better recovery and better clinical flow. Credit: Marcel Krijger</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e250d023-9591-ed8c-9bc2-b269c4d4e639",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4/annotations/168",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/c6692f03-40cc-6ef9-c2d8-90f5680e5df4#xywh=749,611,224,291",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Aleksandra Lekic</h1>\n\n<p>researches topics related to the circuit theory, control, and stability analysis of the power converters and hybrid power systems.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2b96245e-69e9-dda3-139a-deeb0a7853b7/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2b96245e-69e9-dda3-139a-deeb0a7853b7"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/2b96245e-69e9-dda3-139a-deeb0a7853b7",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -4328,6 +4248,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/319eaa2a-f337-6a32-863b-e28b0b9a56f6",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=0,0,125,175",
+                            "summary": {
+                                "en": [
+                                    "\"Google's speech-recognition software, for example, is significantly more likely to accurately transcribe male speech, compared to female speech (Tatman, 2020). A similar pattern has been found in voice recognition software used to automatically score clinical trials, to select job applicants and for the voice command system in cars (The Guardian, 2019; Tatman, 2017). \""
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Voice pitch adjuster "
@@ -4354,31 +4279,7 @@
                 "en": [
                     "Student campaign exposing gender bias in design"
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259/annotations/169",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=0,0,125,175",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Voice pitch adjuster </h1>\n\n<p>\"Google's speech-recognition software, for example, is significantly more likely to accurately transcribe male speech, compared to female speech (Tatman, 2020). A similar pattern has been found in voice recognition software used to automatically score clinical trials, to select job applicants and for the voice command system in cars (The Guardian, 2019; Tatman, 2017). \"</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/319eaa2a-f337-6a32-863b-e28b0b9a56f6/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/319eaa2a-f337-6a32-863b-e28b0b9a56f6"
-                        }
-                    ]
-                }
-            ]
+            }
         }
     ],
     "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/manifest",

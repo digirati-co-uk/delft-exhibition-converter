@@ -24,9 +24,12 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                                "type": "Video",
                                 "service": {
-                                    "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                                    "profile": "https://www.youtube.com"
+                                    "profile": "http://digirati.com/objectifier",
+                                    "params": {
+                                        "data": "https://www.youtube.com/embed/kv6YvKPXQzk"
+                                    }
                                 }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,1600,1600",
@@ -35,6 +38,11 @@
                             "label": {
                                 "en": [
                                     "Solar Do-Nothing Machine, a film by Charles and Ray Eames (1957)"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "In 1957 the Aluminum Company of America, or Alcoa, whose business consisted of a mix of military contracts and consumer products, hired the famed design firm of Charles and Ray Eames to create a fanciful, brightly colored “Do-Nothing Machine.” Resembling a piece of modern art, the project promoted Alcoa’s new photovoltaic cells not by showing their application to any­thing useful, but by challenging would-be clients to come up with their own uses while lending the corporation a whimsical, artsy vibe. Eames Office, LLC. All rights reserved"
                                 ]
                             },
                             "thumbnail": [
@@ -52,30 +60,6 @@
                 "left",
                 "w-8",
                 "h-8"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d/annotations/16",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,1600,1600",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Solar Do-Nothing Machine, a film by Charles and Ray Eames (1957)</h1>\n\n<p>In 1957 the Aluminum Company of America, or Alcoa, whose business consisted of a mix of military contracts and consumer products, hired the famed design firm of Charles and Ray Eames to create a fanciful, brightly colored “Do-Nothing Machine.” Resembling a piece of modern art, the project promoted Alcoa’s new photovoltaic cells not by showing their application to any­thing useful, but by challenging would-be clients to come up with their own uses while lending the corporation a whimsical, artsy vibe. Eames Office, LLC. All rights reserved</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -275,6 +259,11 @@
                                 "en": [
                                     "Chicago Commuters, 1953"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "As the United States competed with the Soviet Union in a race of military technology, its economy depended on a constant stream of consumer goods. Many saw totalitarianism abroad and consumerism at home as twin threats to individualism. (Photo by Dan Weiner. Copyright John Broderick)"
+                                ]
                             }
                         },
                         {
@@ -403,6 +392,11 @@
                             "label": {
                                 "en": [
                                     "Mushroom cloud of the Test Baker atomic bomb, Bikini Atoll, July 25, 1946"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some critics worried about the effect of mass society and “conformity” on humane values. Corporate America, for its part, feared its own bureaucratic culture might slow the innovation on which profits depended."
                                 ]
                             }
                         },
@@ -535,6 +529,11 @@
                                     ]
                                 }
                             },
+                            "summary": {
+                                "en": [
+                                    "Rockets and cars – military and consumer goods – were the twin engines of the post-WWII American economy. Sometimes they even imitated one another, as in the aeronautical styling and advertising art for this 1950s Oldsmobile Rocket 88. (Image Courtesy of The Advertising Archives.)"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Oldsmobile advertisement, USA, 1955"
@@ -559,49 +558,28 @@
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/17",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=28,33,297,381",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Chicago Commuters, 1953</h1>\n\n<p>As the United States competed with the Soviet Union in a race of military technology, its economy depended on a constant stream of consumer goods. Many saw totalitarianism abroad and consumerism at home as twin threats to individualism. (Photo by Dan Weiner. Copyright John Broderick)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/155fcabf-8e51-0782-5ce5-c128dbd005c1",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/18",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=50,457,314,255",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Mushroom cloud of the Test Baker atomic bomb, Bikini Atoll, July 25, 1946</h1>\n\n<p>With the recent experience of the Holocaust and the looming threat of nuclear Armageddon in mind, some critics worried about the effect of mass society and “conformity” on humane values. Corporate America, for its part, feared its own bureaucratic culture might slow the innovation on which profits depended.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/64141e57-0d02-96b9-dd73-8e0c1710cb16",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561/annotations/19",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/775cc804-ec8b-1087-09de-b7eed2101561#xywh=405,32,339,437",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Oldsmobile advertisement, USA, 1955</h1>\n\n<p>Rockets and cars – military and consumer goods – were the twin engines of the post-WWII American economy. Sometimes they even imitated one another, as in the aeronautical styling and advertising art for this 1950s Oldsmobile Rocket 88. (Image Courtesy of The Advertising Archives.)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/28fd3aa8-6917-b28d-ded3-500bc640a915",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -804,6 +782,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/63a4a98b-ea2a-9a35-7005-7b2424850197",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826#xywh=0,0,5417,2344",
+                            "summary": {
+                                "en": [
+                                    "Brainstorming meeting at the advertising firm BBDO, where the technique was born. Late 1950s. The woman at bottom right is using a stenograph machine to record the barrage of ideas, while the poster on the wall lists the “Brainstorm Ground Rules.” (Photo by Philippe Halsman)"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "BBDO"
@@ -818,30 +801,6 @@
             "behavior": [
                 "w-12",
                 "h-5"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826/annotations/20",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a4f17d27-6a80-ed4a-098b-390ae648e826#xywh=0,0,5417,2344",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>BBDO</h1>\n\n<p>Brainstorming meeting at the advertising firm BBDO, where the technique was born. Late 1950s. The woman at bottom right is using a stenograph machine to record the barrage of ideas, while the poster on the wall lists the “Brainstorm Ground Rules.” (Photo by Philippe Halsman)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/63a4a98b-ea2a-9a35-7005-7b2424850197/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/63a4a98b-ea2a-9a35-7005-7b2424850197"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -992,6 +951,11 @@
                             "label": {
                                 "en": [
                                     "The “bible” of the creative thinking movement, originally published in 1953, which made brainstorming a household name."
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Alex F. Osborn, Applied Imagination, Charles Scribner’s Sons, Third Revised Edition, 1963"
                                 ]
                             }
                         },
@@ -1250,6 +1214,11 @@
                                 "en": [
                                     "Nation’s Business, February 1959"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Courtesy of Hagley Museum and Library"
+                                ]
                             }
                         },
                         {
@@ -1377,6 +1346,11 @@
                             "label": {
                                 "en": [
                                     "Book describing Osborn’s rules of brainstorming and a snippet  of a brainstorming session in action."
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Creative Thinking, Charles S. Whiting, Reinhold Publishing Corporation, 1958"
                                 ]
                             }
                         },
@@ -1507,6 +1481,11 @@
                                 "en": [
                                     "U.S. Navy officers are trained in brainstorming by creativity expert Charles Clarke “Visual Spur to Wild Ideas” "
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Life, June 1956"
+                                ]
                             }
                         }
                     ],
@@ -1535,81 +1514,46 @@
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/21",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=46,75,203,296",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The “bible” of the creative thinking movement, originally published in 1953, which made brainstorming a household name.</h1>\n\n<p>Alex F. Osborn, Applied Imagination, Charles Scribner’s Sons, Third Revised Edition, 1963</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/088f52a1-830a-8bae-a182-f4edebf87e7b/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/088f52a1-830a-8bae-a182-f4edebf87e7b"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/088f52a1-830a-8bae-a182-f4edebf87e7b",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/22",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=314,58,420,261",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>New York Herald Tribune, December 1956</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/6b47f632-f355-3fe4-1a7b-2657e62a3a6e/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/6b47f632-f355-3fe4-1a7b-2657e62a3a6e"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/6b47f632-f355-3fe4-1a7b-2657e62a3a6e",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/23",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=41,454,271,389",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Nation’s Business, February 1959</h1>\n\n<p>Courtesy of Hagley Museum and Library</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3119e8c8-9eaa-cf81-068b-c8d8d7d22aa8/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3119e8c8-9eaa-cf81-068b-c8d8d7d22aa8"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3119e8c8-9eaa-cf81-068b-c8d8d7d22aa8",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/24",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=361,383,375,258",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Book describing Osborn’s rules of brainstorming and a snippet  of a brainstorming session in action.</h1>\n\n<p>Creative Thinking, Charles S. Whiting, Reinhold Publishing Corporation, 1958</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/ece517b5-3e7a-cc8b-4e7b-196ab10186af/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/ece517b5-3e7a-cc8b-4e7b-196ab10186af"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/ece517b5-3e7a-cc8b-4e7b-196ab10186af",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2/annotations/25",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/ff197cef-ae36-5a7a-2feb-fcb2b6bd3ab2#xywh=357,713,420,236",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>U.S. Navy officers are trained in brainstorming by creativity expert Charles Clarke “Visual Spur to Wild Ideas” </h1>\n\n<p>Life, June 1956</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2899bd51-9b44-e5aa-dfef-2b2809973833/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2899bd51-9b44-e5aa-dfef-2b2809973833"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2899bd51-9b44-e5aa-dfef-2b2809973833",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1754,6 +1698,11 @@
                                 "en": [
                                     "New York Herald Tribune, January 1958"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Brainstorming was a new craze in the 1950s. Its inventor, advertising executive Alex Osborn, proselytized his method for generating ideas: judgement was strictly prohibited, and shouting out ideas encouraged. A secretary would write down ideas as they came flying forth – the more the better – and later pass them to upper management for vetting. When a 1958 Yale study claimed brain­storming was ineffective, it became a national controversy, a lightning rod for the larger question facing mass society: are more heads better than one, or should the individual reign supreme?"
+                                ]
                             }
                         }
                     ],
@@ -1770,30 +1719,6 @@
                 "bottom",
                 "w-6",
                 "h-10"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a/annotations/26",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5144f647-9ae9-51fb-e285-88c5f1cec72a#xywh=0,0,1000,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>New York Herald Tribune, January 1958</h1>\n\n<p>Brainstorming was a new craze in the 1950s. Its inventor, advertising executive Alex Osborn, proselytized his method for generating ideas: judgement was strictly prohibited, and shouting out ideas encouraged. A secretary would write down ideas as they came flying forth – the more the better – and later pass them to upper management for vetting. When a 1958 Yale study claimed brain­storming was ineffective, it became a national controversy, a lightning rod for the larger question facing mass society: are more heads better than one, or should the individual reign supreme?</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e799fa1f-dc65-c61f-22b5-d3e74374ac6a/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e799fa1f-dc65-c61f-22b5-d3e74374ac6a"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -1992,6 +1917,11 @@
                                 "en": [
                                     "Synectics session, showing recording equipment in use, c.1974"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Courtesy of Synecticsworld®, Inc. (synecticsworld.com)"
+                                ]
                             }
                         }
                     ],
@@ -2002,30 +1932,6 @@
             "behavior": [
                 "w-6",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9/annotations/27",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/a7dc6147-894c-dd1d-0edb-fbb0d4aa01b9#xywh=0,0,360,266",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Synectics session, showing recording equipment in use, c.1974</h1>\n\n<p>Courtesy of Synecticsworld®, Inc. (synecticsworld.com)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/43da7b7e-fb7e-6f7a-d031-3d66e461ca7f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/43da7b7e-fb7e-6f7a-d031-3d66e461ca7f"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2160,6 +2066,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1febb90d-5e2a-0838-766e-22dd4aeb85eb",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639#xywh=0,0,999,999",
+                            "summary": {
+                                "en": [
+                                    "Kaiser Aluminum News, 1968"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Rorschach inkblot"
@@ -2174,30 +2085,6 @@
             "behavior": [
                 "w-12",
                 "h-5"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639/annotations/28",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/c6d6462b-8d86-446a-9314-153647c3e639#xywh=0,0,999,999",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Rorschach inkblot</h1>\n\n<p>Kaiser Aluminum News, 1968</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1febb90d-5e2a-0838-766e-22dd4aeb85eb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1febb90d-5e2a-0838-766e-22dd4aeb85eb"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2337,6 +2224,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=70,60,366,240",
+                            "summary": {
+                                "en": [
+                                    "In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Torrance test completed by Dr. Samuel Franklin in 2014"
@@ -2347,76 +2239,85 @@
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a/718,789,4982,6483/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 8008,
-                                "width": 6506,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 6506,
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 8008,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16,
-                                                32
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 832,
-                                            "height": 1024
-                                        },
-                                        {
-                                            "width": 325,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 162,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 81,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 6506,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 6506,
+                                        "height": 8008,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16,
+                                                    32
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 832,
+                                                "height": 1024
+                                            },
+                                            {
+                                                "width": 325,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 162,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 81,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "718,789,4982,6483"
                                 }
                             },
                             "thumbnail": [
@@ -2466,7 +2367,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=19,351,372,486",
-                            "body.id": "https://dlc.services/iiif-img/7/21/cd5ff140-c806-4399-81a2-1c0cadfbad1a/718,789,4982,6483/full/0/default.jpg",
+                            "summary": {
+                                "en": [
+                                    "In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Torrance test completed by Dr. Samuel Franklin in 2014"
@@ -2596,6 +2501,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=480,41,270,372",
+                            "summary": {
+                                "en": [
+                                    "The field of creativity studies was in some respect built on the foundation of a single brick. One of the most widely used tests was to have people list as many uses for a common brick as they could in a set amount of time. Though later studies showed little correspondence between such “divergent thinking” tests and extraordinary creative accomplishment later in life, they became a staple of creativity testing. "
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Kaiser Aluminum News, 1968"
@@ -2724,6 +2634,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=426,452,356,259",
+                            "summary": {
+                                "en": [
+                                    "One of the goals of early creativity researchers was to show that creative ability was distinct from general intelligence, at least as measured by standard IQ tests. If true, this would prove the practical importance for a new science of creativity. Here the authors compare test results of high-IQ students and ones that scored well on purported tests of creativity such as the one on the left."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Jacob W. Getzels and Philip W. Jackson, Creativity and Intelligence, John Wiley & Sons, Inc., 1962"
@@ -2854,6 +2769,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=429,744,333,222",
+                            "summary": {
+                                "en": [
+                                    "Postwar psychologists used a wide variety of methods to study creativity, from psychoanalysis and biographical studies to tests of “divergent thinking” that were partly inspired by brainstorming. The ultimate aim of many researchers was to devise a new test able to identify inventive people early in life, a particular wish of the massive government and private R&D apparatus that proliferated after WWII. In service of this aim, researchers collected large data sets and employed the most sophisticated statistical methods, even though many of the assessments could be extremely hard to quantify."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Frank Barron, Creativity and Psychological Health, D. van Nostrand Company, Inc., 1963"
@@ -2886,81 +2806,46 @@
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/29",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=70,60,366,240",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Torrance test completed by Dr. Samuel Franklin in 2014</h1>\n\n<p>In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/5284b26f-c526-71c3-90c7-4b35f3d6e5ed",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/30",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=19,351,372,486",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Torrance test completed by Dr. Samuel Franklin in 2014</h1>\n\n<p>In 1966, the educational psychologist Ellis Paul Torrance released the Torrance Tests of Creative Thinking, the first pencil-and-paper creativity test. Though some doubted its predictive validity – including, eventually, Torrance himself – the ease of distributing and scoring the test at a mass scale ensured it would be widely used in both research and education. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e79b7757-d82d-aa69-b0cd-a88b581a63a2",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/31",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=480,41,270,372",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, 1968</h1>\n\n<p>The field of creativity studies was in some respect built on the foundation of a single brick. One of the most widely used tests was to have people list as many uses for a common brick as they could in a set amount of time. Though later studies showed little correspondence between such “divergent thinking” tests and extraordinary creative accomplishment later in life, they became a staple of creativity testing. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/2a88ffd9-b62c-73cf-a062-ac288eea0c2e",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/32",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=426,452,356,259",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Jacob W. Getzels and Philip W. Jackson, Creativity and Intelligence, John Wiley & Sons, Inc., 1962</h1>\n\n<p>One of the goals of early creativity researchers was to show that creative ability was distinct from general intelligence, at least as measured by standard IQ tests. If true, this would prove the practical importance for a new science of creativity. Here the authors compare test results of high-IQ students and ones that scored well on purported tests of creativity such as the one on the left.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9cc3e632-8abf-f970-62fd-9ec3974d6ed4",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c/annotations/33",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/f5694c4c-e71c-b700-ab31-6f8e1e15232c#xywh=429,744,333,222",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Frank Barron, Creativity and Psychological Health, D. van Nostrand Company, Inc., 1963</h1>\n\n<p>Postwar psychologists used a wide variety of methods to study creativity, from psychoanalysis and biographical studies to tests of “divergent thinking” that were partly inspired by brainstorming. The ultimate aim of many researchers was to devise a new test able to identify inventive people early in life, a particular wish of the massive government and private R&D apparatus that proliferated after WWII. In service of this aim, researchers collected large data sets and employed the most sophisticated statistical methods, even though many of the assessments could be extremely hard to quantify.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/b38edd9d-c00f-bd1e-4b6a-45538e91c1e3",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3097,6 +2982,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/0ae6f467-bfde-6d8e-c26a-b24f7c453b6f",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983#xywh=0,0,960,960",
+                            "summary": {
+                                "en": [
+                                    "Many diagrams elaborated on the 4-stage model proposed by British socialist and scholar Graham Wallas in 1927: Preparation, Incubation, Illumination, and Verification. Since then, theorists have added, renamed, reshuffled, and looped these steps, as well as devised myriad other schemes, all to bring order to what some insist can never be truly orderly."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Diagramming the Creative Process"
@@ -3122,30 +3012,6 @@
                 "bottom",
                 "w-6",
                 "h-9"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983/annotations/34",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/7f51e481-4d9c-acf3-7173-45c6ad9d9983#xywh=0,0,960,960",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Diagramming the Creative Process</h1>\n\n<p>Many diagrams elaborated on the 4-stage model proposed by British socialist and scholar Graham Wallas in 1927: Preparation, Incubation, Illumination, and Verification. Since then, theorists have added, renamed, reshuffled, and looped these steps, as well as devised myriad other schemes, all to bring order to what some insist can never be truly orderly.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/0ae6f467-bfde-6d8e-c26a-b24f7c453b6f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/0ae6f467-bfde-6d8e-c26a-b24f7c453b6f"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3350,6 +3216,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=124,624,205,298",
+                            "summary": {
+                                "en": [
+                                    "Researchers found that people they deemed creative preferred messy and asymmetrical figures, while randomly selected university students tended to prefer simple, linear, and sym­metrical figures. The psychologists concluded creative people had a higher “tolerance for ambiguity,” though the result might also have been because the creative group, which included successful architects and writers, was more likely to have a learned taste for modern art."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
@@ -3493,6 +3364,11 @@
                                 "en": [
                                     "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Traditionally, psychologists used ink blot tests to peer into peoples’ subconscious. Creativity researchers were interested not in the underlying meaning of what their subjects saw in the random shapes but rather their originality, which researchers quantified to calculate a measure of creative ability."
+                                ]
                             }
                         },
                         {
@@ -3632,6 +3508,11 @@
                                 "en": [
                                     "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Drawing completion tests were commonly used in creativity studies. Although creativity and art were closely associated, these tests were scored not on the test-taker’s artistic ability, but rather on the originality and elaborateness of their responses."
+                                ]
                             }
                         },
                         {
@@ -3758,6 +3639,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=77,21,787,577",
+                            "summary": {
+                                "en": [
+                                    "Researchers at Berkeley’s IPAR asked subjects to create mosaics with colored tiles. The examples on the left were produced by the “non-creative” control group of randomly selected students, while those on the right were produced by prominent figures rated highly creative by their peers. The researchers concluded that creative people naturally prefer asymmetrical figures."
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962"
@@ -3782,65 +3668,37 @@
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/35",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=124,624,205,298",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962</h1>\n\n<p>Researchers found that people they deemed creative preferred messy and asymmetrical figures, while randomly selected university students tended to prefer simple, linear, and sym­metrical figures. The psychologists concluded creative people had a higher “tolerance for ambiguity,” though the result might also have been because the creative group, which included successful architects and writers, was more likely to have a learned taste for modern art.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/92fab8fb-2fff-9abe-f901-f07122318a1c",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/36",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=365,622,205,296",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962</h1>\n\n<p>Traditionally, psychologists used ink blot tests to peer into peoples’ subconscious. Creativity researchers were interested not in the underlying meaning of what their subjects saw in the random shapes but rather their originality, which researchers quantified to calculate a measure of creative ability.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/27efc122-6e41-0792-dcfe-aa001147d254",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/37",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=603,622,203,293",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962</h1>\n\n<p>Drawing completion tests were commonly used in creativity studies. Although creativity and art were closely associated, these tests were scored not on the test-taker’s artistic ability, but rather on the originality and elaborateness of their responses.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3c6f823d-4999-2cd7-d7a8-3ff9209f6dee",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59/annotations/38",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/66dc7c31-e263-79bc-08a7-43a5f6e6ad59#xywh=77,21,787,577",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Sidney J. Parnes and Harold F. Harding eds., The Sourcebook for Creative Thinking, 1962</h1>\n\n<p>Researchers at Berkeley’s IPAR asked subjects to create mosaics with colored tiles. The examples on the left were produced by the “non-creative” control group of randomly selected students, while those on the right were produced by prominent figures rated highly creative by their peers. The researchers concluded that creative people naturally prefer asymmetrical figures.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/742f09f4-1005-6fb1-0a56-7b2967a9c627",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3991,6 +3849,11 @@
                                 "en": [
                                     "Peter Max for Tin Lizzie Restaurant New York"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Reprinted in Kaiser Aluminum News, 1968"
+                                ]
                             }
                         }
                     ],
@@ -4001,30 +3864,6 @@
             "behavior": [
                 "w-12",
                 "h-5"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e/annotations/39",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/b8f3a066-c17b-e125-b3b8-5294155cb48e#xywh=-9418,-9418,10417,10417",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Peter Max for Tin Lizzie Restaurant New York</h1>\n\n<p>Reprinted in Kaiser Aluminum News, 1968</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/948d003d-2eac-6916-95c5-b54bdfb17909/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/948d003d-2eac-6916-95c5-b54bdfb17909"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -6645,321 +6484,181 @@
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/40",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=18,42,229,146",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/31466717-e1ea-ecab-ddc8-ed55f334340a/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/31466717-e1ea-ecab-ddc8-ed55f334340a"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/31466717-e1ea-ecab-ddc8-ed55f334340a",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/41",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,48,230,147",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e2afad69-442c-82b6-259e-5b9c1efb38ab/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e2afad69-442c-82b6-259e-5b9c1efb38ab"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e2afad69-442c-82b6-259e-5b9c1efb38ab",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/42",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=508,39,230,147",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c24489ae-b4ed-0e1d-2cf0-b14649345be0/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c24489ae-b4ed-0e1d-2cf0-b14649345be0"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c24489ae-b4ed-0e1d-2cf0-b14649345be0",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/43",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=750,33,233,149",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/13301733-9e5a-a1b7-c5aa-46e8c8da8454/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/13301733-9e5a-a1b7-c5aa-46e8c8da8454"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/13301733-9e5a-a1b7-c5aa-46e8c8da8454",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/44",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=20,226,232,148",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36229569-3f9e-c11d-2f05-0016d089326f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36229569-3f9e-c11d-2f05-0016d089326f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/36229569-3f9e-c11d-2f05-0016d089326f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/45",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=266,228,222,141",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/09640709-1b54-a90c-114c-394424c29238/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/09640709-1b54-a90c-114c-394424c29238"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/09640709-1b54-a90c-114c-394424c29238",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/46",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,221,232,148",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/163af9c8-84b6-9d1b-99ef-9d77cb190345/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/163af9c8-84b6-9d1b-99ef-9d77cb190345"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/163af9c8-84b6-9d1b-99ef-9d77cb190345",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/47",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=764,234,223,144",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9a30bd2e-b202-adf9-0a44-2e5f650e3feb/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9a30bd2e-b202-adf9-0a44-2e5f650e3feb"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/9a30bd2e-b202-adf9-0a44-2e5f650e3feb",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/48",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=15,396,235,151",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3bb8624e-c1dc-b07d-e301-a9cf7ef4e0c3/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3bb8624e-c1dc-b07d-e301-a9cf7ef4e0c3"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/3bb8624e-c1dc-b07d-e301-a9cf7ef4e0c3",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/49",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=276,394,224,145",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/8ad0d15b-2c27-e73e-47bb-f4199056c8cf/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/8ad0d15b-2c27-e73e-47bb-f4199056c8cf"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/8ad0d15b-2c27-e73e-47bb-f4199056c8cf",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/50",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=518,404,218,141",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/513eb124-da3c-55ea-fb54-bc01a1dbbaff/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/513eb124-da3c-55ea-fb54-bc01a1dbbaff"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/513eb124-da3c-55ea-fb54-bc01a1dbbaff",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/51",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=755,411,232,148",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/50fe8189-90f6-1e78-e8a6-16d9688dce7c/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/50fe8189-90f6-1e78-e8a6-16d9688dce7c"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/50fe8189-90f6-1e78-e8a6-16d9688dce7c",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/52",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=12,601,229,148",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c0913eac-9272-0b7e-f73d-79436a9e49f1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c0913eac-9272-0b7e-f73d-79436a9e49f1"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c0913eac-9272-0b7e-f73d-79436a9e49f1",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/53",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=257,584,237,153",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e6081f7c-7ba9-4f7b-990a-0e74cdabe78f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e6081f7c-7ba9-4f7b-990a-0e74cdabe78f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/e6081f7c-7ba9-4f7b-990a-0e74cdabe78f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/54",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=510,603,231,149",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/08997bad-bc2f-65d6-b918-480547ceecca/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/08997bad-bc2f-65d6-b918-480547ceecca"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/08997bad-bc2f-65d6-b918-480547ceecca",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/55",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=761,586,225,144",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/accc95b6-1120-fe01-e3b8-97cbc686506c/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/accc95b6-1120-fe01-e3b8-97cbc686506c"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/accc95b6-1120-fe01-e3b8-97cbc686506c",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/56",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=10,779,238,152",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c32d124a-718d-8e23-a519-938b6f1f8e18/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c32d124a-718d-8e23-a519-938b6f1f8e18"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/c32d124a-718d-8e23-a519-938b6f1f8e18",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/57",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=263,789,237,152",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/836eef4d-1f08-4240-4577-10504228a3ad/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/836eef4d-1f08-4240-4577-10504228a3ad"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/836eef4d-1f08-4240-4577-10504228a3ad",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/58",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=514,809,232,148",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cfebe2ab-731f-400c-e336-e437f9a2ac3f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cfebe2ab-731f-400c-e336-e437f9a2ac3f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cfebe2ab-731f-400c-e336-e437f9a2ac3f",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92/annotations/59",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/d46faeda-cc65-9e66-5380-545bb93e4e92#xywh=754,797,235,150",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Kaiser Aluminum News, “You and Creativity,” 1968</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1918f1bd-46f3-bac6-8ffa-53ffa2efbbe1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1918f1bd-46f3-bac6-8ffa-53ffa2efbbe1"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/1918f1bd-46f3-bac6-8ffa-53ffa2efbbe1",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -7106,6 +6805,11 @@
                                 "en": [
                                     "Scientific American, September 1958"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "In 1958 Alcoa ran an ad in Scientific American with an array of missiles styled in a modern, cubist painting, suggesting missiles, like paintings, were just another product of imagination."
+                                ]
                             }
                         }
                     ],
@@ -7122,31 +6826,7 @@
                 "en": [
                     "In 1958 Alcoa ran an ad in Scientific American with an array of missiles styled in a modern, cubist painting, suggesting missiles, like paintings, were just another product of imagination."
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258/annotations/60",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/820c7365-b5a4-3e07-da24-006bf156d258#xywh=0,0,696,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Scientific American, September 1958</h1>\n\n<p>In 1958 Alcoa ran an ad in Scientific American with an array of missiles styled in a modern, cubist painting, suggesting missiles, like paintings, were just another product of imagination.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cab264ad-d299-4774-ea0c-601181791fc9/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/cab264ad-d299-4774-ea0c-601181791fc9"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -7341,6 +7021,11 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b",
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=21,23,462,297",
+                            "summary": {
+                                "en": [
+                                    "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. (Courtesy of Hagley Museum and Library)"
+                                ]
+                            },
                             "label": {
                                 "en": [
                                     "The artist in the business suit"
@@ -7474,6 +7159,11 @@
                                 "en": [
                                     "The artist in the business suit"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. (Courtesy of Hagley Museum and Library)"
+                                ]
                             }
                         }
                     ],
@@ -7494,33 +7184,19 @@
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/61",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=21,23,462,297",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The artist in the business suit</h1>\n\n<p>In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. (Courtesy of Hagley Museum and Library)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/45e9c6b5-1a69-6477-8bf0-5294a19b804b",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25/annotations/62",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/fc793715-1612-ba3c-2c39-eb201b814e25#xywh=193,330,463,286",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The artist in the business suit</h1>\n\n<p>In the brochure for his tape cassette course on creativity, famed consumer research guru turned creativity consultant Ernest Dichter assured potential clients that developing creativity via “Dr. Dichter’s 12 Steps to Creativity” would not lead to a life of self-absorbed poverty, but rather professional success. (Courtesy of Hagley Museum and Library)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7abe4c4d-509e-5b62-4521-07e2758cb92f",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -7665,6 +7341,11 @@
                                 "en": [
                                     "Action Office promotional photograph from the Herman Miller company, 1964"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today. (Courtesy Vitra Design Museum)"
+                                ]
                             }
                         }
                     ],
@@ -7683,31 +7364,7 @@
                     "Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today.",
                     "The idea that creativity could be heightened through open and flexible workplaces persisted, reflected in our own era of corporate design that looks anything but corporate, from the refurbished factories and artist studio-inspired lofts of urban tech startups to the playground-like campuses of Silicon Valley giants. All of these changes have been accompanied by parallel changes in the way we dress, the way we are managed, and the way we are encouraged to think about our work – not as work, but as passion and play, where the boundaries between work and leisure break down and, we are told, the future runs not on toil but on pure ideas."
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c/annotations/63",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5178cf84-8590-d231-e7e3-d09995b3ae1c#xywh=0,0,792,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Action Office promotional photograph from the Herman Miller company, 1964</h1>\n\n<p>Believing the traditional office was “restrictive and inflexible,” they studied people “noted for creativity” (some­times using the psychologist J. P. Guilford’s battery of creativity tests) and determined the workspace of the future should be flexible, active, and individualized. Unfortunately the desires of management intervened and the subsequent versions devolved into the endless rectangular cubicle farms we know today. (Courtesy Vitra Design Museum)</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/39ee5c41-cd5f-2352-a90c-15af871be681/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/39ee5c41-cd5f-2352-a90c-15af871be681"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "height": 1000,
@@ -7845,6 +7502,11 @@
                                 "en": [
                                     "Creative work"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Creativity cliches - artistically interpreted by Xaviera Altena"
+                                ]
                             }
                         },
                         {
@@ -7974,6 +7636,11 @@
                             "label": {
                                 "en": [
                                     "Creative person"
+                                ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Creativity cliches - artistically interpreted by Xaviera Altena"
                                 ]
                             }
                         },
@@ -8105,6 +7772,11 @@
                                 "en": [
                                     "Creative workplace"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Creativity cliches - artistically interpreted by Xaviera Altena"
+                                ]
                             }
                         },
                         {
@@ -8235,6 +7907,11 @@
                                 "en": [
                                     "Creative session"
                                 ]
+                            },
+                            "summary": {
+                                "en": [
+                                    "Creativity cliches - artistically interpreted by Xaviera Altena"
+                                ]
                             }
                         }
                     ],
@@ -8274,65 +7951,37 @@
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/64",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,0,500,500",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Creative work</h1>\n\n<p>Creativity cliches - artistically interpreted by Xaviera Altena</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/6a579d95-9667-08b7-f19e-dc1749a21a74/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/6a579d95-9667-08b7-f19e-dc1749a21a74"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/6a579d95-9667-08b7-f19e-dc1749a21a74",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/65",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=0,500,500,500",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Creative person</h1>\n\n<p>Creativity cliches - artistically interpreted by Xaviera Altena</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/c6e43b29-35e6-d10e-455e-6a07e2cd3a99",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/66",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=500,0,500,500",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Creative workplace</h1>\n\n<p>Creativity cliches - artistically interpreted by Xaviera Altena</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/f32da43f-0c40-36f1-49ab-355138d79cf2/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/f32da43f-0c40-36f1-49ab-355138d79cf2"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/f32da43f-0c40-36f1-49ab-355138d79cf2",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7/annotations/67",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/canvas/18c95c24-60c6-96d5-01b3-7ff60c0926b7#xywh=500,500,500,500",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Creative session</h1>\n\n<p>Creativity cliches - artistically interpreted by Xaviera Altena</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/7775972e-5694-bc2c-5b48-9311bebd5f0f/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/7775972e-5694-bc2c-5b48-9311bebd5f0f"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/67beaa88-13cc-52cd-6d9a-f7a7549448f8/annotation/7775972e-5694-bc2c-5b48-9311bebd5f0f",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
