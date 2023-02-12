@@ -164,6 +164,14 @@
                                 "en": [
                                     "The only woman in the lecture hal (Orientation Week 1965)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "TU Delft Library, Bijzondere Collecties"
+                                ],
+                                "en": [
+                                    "TU Delft Library, Special Collections"
+                                ]
                             }
                         }
                     ],
@@ -184,24 +192,10 @@
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d/annotations/97",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d#xywh=0,0,2666,2749",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>De enige vrouw in de collegezaal (Introductieweek 1965)</h1>\n\n<p>TU Delft Library, Bijzondere Collecties</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The only woman in the lecture hal (Orientation Week 1965)</h1>\n\n<p>TU Delft Library, Special Collections</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/1a5e682f-f7fc-f089-a448-91cd572b7a77",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2e68af88-2b63-6c45-f4e3-6e2d3fdfa35d/annotations/98",
@@ -446,6 +440,14 @@
                                 "en": [
                                     "First-year students at the Delft Institute of Technology and TU Delft in the period 1905-2018"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Bronnen: Jaarboeken en -verslagen TH Delft, Statistisch jaarboeken TU Delft en OSIRIS"
+                                ],
+                                "en": [
+                                    "Sources: Delft Institute of Technology Yearbooks and reports, TU Delft Statistical Yearbooks and OSIRIS"
+                                ]
                             }
                         }
                     ],
@@ -489,24 +491,10 @@
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982/annotations/99",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982#xywh=0,0,992,991",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Eerstejaarsstudenten van de TH en TU Delft in de periode 1905-2018</h1>\n\n<p>Bronnen: Jaarboeken en -verslagen TH Delft, Statistisch jaarboeken TU Delft en OSIRIS</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/e74ff4bb-9529-2b0a-b384-9b0b6880139c/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>First-year students at the Delft Institute of Technology and TU Delft in the period 1905-2018</h1>\n\n<p>Sources: Delft Institute of Technology Yearbooks and reports, TU Delft Statistical Yearbooks and OSIRIS</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/e74ff4bb-9529-2b0a-b384-9b0b6880139c/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/e74ff4bb-9529-2b0a-b384-9b0b6880139c"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/e74ff4bb-9529-2b0a-b384-9b0b6880139c",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/193095ba-8eeb-9716-8f29-881b3d1ac982/annotations/100",
@@ -679,6 +667,14 @@
                                 "en": [
                                     "Speech to the new members in 1930"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "1/2"
+                                ],
+                                "en": [
+                                    "1/2"
+                                ]
                             }
                         },
                         {
@@ -810,81 +806,98 @@
                                 "en": [
                                     "Speech to the new members in 1930"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "2/2"
+                                ],
+                                "en": [
+                                    "2/2"
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003/376,407,1042,758/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2312,
-                                "width": 1643,
-                                "label": {
-                                    "nl": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 1643,
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/d61be51e-edb9-fc8e-fcb7-dc1c54eb3361/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2312,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 728,
-                                            "height": 1024
-                                        },
-                                        {
-                                            "width": 284,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 142,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 71,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 1643,
+                                    "label": {
+                                        "nl": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1643,
+                                        "height": 2312,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 728,
+                                                "height": 1024
+                                            },
+                                            {
+                                                "width": 284,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 142,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 71,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "376,407,1042,758"
                                 }
                             },
                             "thumbnail": [
@@ -941,8 +954,7 @@
                                 "en": [
                                     "Board of D.V.S.V. 1928-1929"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003/376,407,1042,758/full/0/default.jpg"
+                            }
                         },
                         {
                             "motivation": "painting",
@@ -1072,6 +1084,14 @@
                                 ],
                                 "en": [
                                     "Speech to the new members in 1931"
+                                ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "1/3"
+                                ],
+                                "en": [
+                                    "1/3"
                                 ]
                             }
                         },
@@ -1204,6 +1224,14 @@
                                 "en": [
                                     "Speech to the new members in 1931"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "2/3"
+                                ],
+                                "en": [
+                                    "2/3"
+                                ]
                             }
                         },
                         {
@@ -1335,81 +1363,98 @@
                                 "en": [
                                     "Speech to the new members in 1931"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "3/3"
+                                ],
+                                "en": [
+                                    "3/3"
+                                ]
                             }
                         },
                         {
                             "motivation": "painting",
                             "type": "Annotation",
                             "body": {
-                                "id": "https://dlc.services/iiif-img/7/6/c9f44cc6-2d5f-484f-98f1-491b030d755d/377,522,1040,591/full/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2362,
-                                "width": 1684,
-                                "label": {
-                                    "nl": [
-                                        "-"
-                                    ]
-                                },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/6/c9f44cc6-2d5f-484f-98f1-491b030d755d",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 1684,
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/37a0537b-5074-55a2-a5df-a5f8a013a602/specificResource",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/6/c9f44cc6-2d5f-484f-98f1-491b030d755d/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
                                     "height": 2362,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 730,
-                                            "height": 1024
-                                        },
-                                        {
-                                            "width": 285,
-                                            "height": 400
-                                        },
-                                        {
-                                            "width": 143,
-                                            "height": 200
-                                        },
-                                        {
-                                            "width": 71,
-                                            "height": 100
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
+                                    "width": 1684,
+                                    "label": {
+                                        "nl": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/6/c9f44cc6-2d5f-484f-98f1-491b030d755d",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 1684,
+                                        "height": 2362,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 730,
+                                                "height": 1024
+                                            },
+                                            {
+                                                "width": 285,
+                                                "height": 400
+                                            },
+                                            {
+                                                "width": 143,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 71,
+                                                "height": 100
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "region": "377,522,1040,591"
                                 }
                             },
                             "thumbnail": [
@@ -1466,8 +1511,7 @@
                                 "en": [
                                     "Board of D.V.S.V. 1929-1930"
                                 ]
-                            },
-                            "body.id": "https://dlc.services/iiif-img/7/6/c9f44cc6-2d5f-484f-98f1-491b030d755d/377,522,1040,591/full/0/default.jpg"
+                            }
                         }
                     ],
                     "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/list/957f3cb9-c955-0561-e37e-aa31d182c402"
@@ -1513,162 +1557,64 @@
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/101",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=67,80,220,307",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Toespraak tot de nieuwe leden in 1930</h1>\n\n<p>1/2</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/0a21149f-4dc2-c711-2072-5de2f0cd68e4/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Speech to the new members in 1930</h1>\n\n<p>1/2</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/0a21149f-4dc2-c711-2072-5de2f0cd68e4/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/0a21149f-4dc2-c711-2072-5de2f0cd68e4"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/0a21149f-4dc2-c711-2072-5de2f0cd68e4",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/102",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=259,58,217,299",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Toespraak tot de nieuwe leden 1930</h1>\n\n<p>2/2</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/cbd6e9a7-f9e1-d4bd-a301-25101d08431b/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Speech to the new members in 1930</h1>\n\n<p>2/2</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/cbd6e9a7-f9e1-d4bd-a301-25101d08431b/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/cbd6e9a7-f9e1-d4bd-a301-25101d08431b"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/cbd6e9a7-f9e1-d4bd-a301-25101d08431b",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/103",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=466,93,342,245",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bestuur der D.V.S.V. 1928-1929</h1>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/d61be51e-edb9-fc8e-fcb7-dc1c54eb3361/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Board of D.V.S.V. 1928-1929</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/d61be51e-edb9-fc8e-fcb7-dc1c54eb3361/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/d61be51e-edb9-fc8e-fcb7-dc1c54eb3361"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/d61be51e-edb9-fc8e-fcb7-dc1c54eb3361",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/104",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=332,386,211,294",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Toespraak tot de nieuwe leden in 1931</h1>\n\n<p>1/3</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/63ba0257-0b2a-2bc7-154d-b1fc1a926cde/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Speech to the new members in 1931</h1>\n\n<p>1/3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/63ba0257-0b2a-2bc7-154d-b1fc1a926cde/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/63ba0257-0b2a-2bc7-154d-b1fc1a926cde"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/63ba0257-0b2a-2bc7-154d-b1fc1a926cde",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/105",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=524,416,214,303",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Toespraak tot de nieuwe leden in 1931</h1>\n\n<p>2/3</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/32b1ce1c-1454-fd44-88a4-8faa1a1d5842/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Speech to the new members in 1931</h1>\n\n<p>2/3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/32b1ce1c-1454-fd44-88a4-8faa1a1d5842/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/32b1ce1c-1454-fd44-88a4-8faa1a1d5842"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/32b1ce1c-1454-fd44-88a4-8faa1a1d5842",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/106",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=719,396,211,294",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Toespraak tot de nieuwe leden in 1931</h1>\n\n<p>3/3</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/24e929ee-9902-e397-88f2-400352c29689/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Speech to the new members in 1931</h1>\n\n<p>3/3</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/24e929ee-9902-e397-88f2-400352c29689/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/24e929ee-9902-e397-88f2-400352c29689"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/24e929ee-9902-e397-88f2-400352c29689",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426/annotations/107",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/0a168bd3-4104-9dfa-2c47-ac7d53506426#xywh=48,481,299,165",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Bestuur der D.V.S.V. 1929-1930</h1>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/37a0537b-5074-55a2-a5df-a5f8a013a602/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Board of D.V.S.V. 1929-1930</h1>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/37a0537b-5074-55a2-a5df-a5f8a013a602/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/37a0537b-5074-55a2-a5df-a5f8a013a602"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/37a0537b-5074-55a2-a5df-a5f8a013a602",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -1819,6 +1765,14 @@
                                 "en": [
                                     "Tube with the PhD award certificate of Antonia Korvezee"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "TU Delft Library, Bijzondere Collecties, 2016.0290.LIB"
+                                ],
+                                "en": [
+                                    "TU Delft Library, Special Collections, 2016.0290.LIB"
+                                ]
                             }
                         }
                     ],
@@ -1829,37 +1783,6 @@
             "behavior": [
                 "w-8",
                 "h-6"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f087a33b-cf1f-923f-407d-87e99fe269a1/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f087a33b-cf1f-923f-407d-87e99fe269a1/annotations/108",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f087a33b-cf1f-923f-407d-87e99fe269a1#xywh=0,0,1000,906",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Koker met promotiebul van Antonia Korvezee</h1>\n\n<p>TU Delft Library, Bijzondere Collecties, 2016.0290.LIB</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/f47fbd93-77ad-37fc-c6ac-a1a1dbe2bdaa/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Tube with the PhD award certificate of Antonia Korvezee</h1>\n\n<p>TU Delft Library, Special Collections, 2016.0290.LIB</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/f47fbd93-77ad-37fc-c6ac-a1a1dbe2bdaa/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/f47fbd93-77ad-37fc-c6ac-a1a1dbe2bdaa"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2143,6 +2066,14 @@
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bd1cee2a-2711-286e-85c0-e59fba3b4487",
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac#xywh=0,0,1000,656",
+                            "summary": {
+                                "nl": [
+                                    "Eerstejaars Bouwkunde-studenten brengen het hout voor de open haard naar de opslag in de kelder. De Club bevond zich op de Oude Delft 26; links op de foto de beheerder van het pand."
+                                ],
+                                "en": [
+                                    "First-year Architecture students carrying wood for the fireplace to the storage area in the cellar. The Club is on Oude Delft 26; the manager of the building is on the left of the photo."
+                                ]
+                            },
                             "label": {
                                 "nl": [
                                     "De Club van de DVSV (Rond 1956)"
@@ -2161,37 +2092,6 @@
                 "left",
                 "w-8",
                 "h-5"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac/annotations/109",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6118e9ac-0aff-f5cb-47dd-5b9a2f8715ac#xywh=0,0,1000,656",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>De Club van de DVSV (Rond 1956)</h1>\n\n<p>Eerstejaars Bouwkunde-studenten brengen het hout voor de open haard naar de opslag in de kelder. De Club bevond zich op de Oude Delft 26; links op de foto de beheerder van het pand.</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bd1cee2a-2711-286e-85c0-e59fba3b4487/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The DVSV Club (circa 1956)</h1>\n\n<p>First-year Architecture students carrying wood for the fireplace to the storage area in the cellar. The Club is on Oude Delft 26; the manager of the building is on the left of the photo.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bd1cee2a-2711-286e-85c0-e59fba3b4487/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bd1cee2a-2711-286e-85c0-e59fba3b4487"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2214,9 +2114,12 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
+                                "type": "Video",
                                 "service": {
-                                    "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
-                                    "profile": "https://www.youtube.com"
+                                    "profile": "http://digirati.com/objectifier",
+                                    "params": {
+                                        "data": "https://www.youtube.com/embed/popa6e9Sv5E"
+                                    }
                                 }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c#xywh=0,0,1903,1440",
@@ -2234,6 +2137,14 @@
                                 "en": [
                                     "Mejuffrouw, Mijne Heren (Miss and Gentlemen, 1964)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Fictieve documentaire van Mart van den Busken over het Delftse studentenleven in de jaren zestig. Verhaald door een van de weinige vrouwelijke studenten."
+                                ],
+                                "en": [
+                                    "Mart van den Busken’s film about student life in Delft in the 1960s. Narrated by one of the few female students."
+                                ]
                             }
                         }
                     ],
@@ -2244,37 +2155,6 @@
             "behavior": [
                 "w-12",
                 "h-9"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c/annotations/110",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c#xywh=0,0,1903,1440",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Mejuffrouw, Mijne Heren (1964)</h1>\n\n<p>Fictieve documentaire van Mart van den Busken over het Delftse studentenleven in de jaren zestig. Verhaald door een van de weinige vrouwelijke studenten.</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Mejuffrouw, Mijne Heren (Miss and Gentlemen, 1964)</h1>\n\n<p>Mart van den Busken’s film about student life in Delft in the 1960s. Narrated by one of the few female students.</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2493,6 +2373,14 @@
                                 "en": [
                                     "Boterbrug 5 Girls House"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Afkomstig uit de almanak van de DVSV voor het jaar 1970 (Persoonlijk archief Marjan van den Bos)"
+                                ],
+                                "en": [
+                                    "From the 1970 DVSV Yearbook (Personal archives of Marjan van den Bos)."
+                                ]
                             }
                         }
                     ],
@@ -2503,37 +2391,6 @@
             "behavior": [
                 "w-6",
                 "h-4"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/7f3fc73e-4abd-5cac-3817-435788b762a0/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/7f3fc73e-4abd-5cac-3817-435788b762a0/annotations/111",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/7f3fc73e-4abd-5cac-3817-435788b762a0#xywh=0,0,1000,679",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Meisjeshuis Boterbrug 5</h1>\n\n<p>Afkomstig uit de almanak van de DVSV voor het jaar 1970 (Persoonlijk archief Marjan van den Bos)</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/98fe5ec2-587f-74aa-2177-608e700c7e26/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Boterbrug 5 Girls House</h1>\n\n<p>From the 1970 DVSV Yearbook (Personal archives of Marjan van den Bos).</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/98fe5ec2-587f-74aa-2177-608e700c7e26/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/98fe5ec2-587f-74aa-2177-608e700c7e26"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -2556,9 +2413,12 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
+                                "type": "Video",
                                 "service": {
-                                    "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
-                                    "profile": "https://www.youtube.com"
+                                    "profile": "http://digirati.com/objectifier",
+                                    "params": {
+                                        "data": "https://www.youtube.com/embed/9fKQ1eXX-QI"
+                                    }
                                 }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6ac3a85d-0ee8-0c03-ca04-d62796417372#xywh=0,0,2560,1440",
@@ -2575,6 +2435,14 @@
                                 ],
                                 "en": [
                                     "Noortje Weenink interviews Anna Vos who founded Women’s Studies in 1979"
+                                ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Geproduceerd in samenwerking met het NewMedia Centre"
+                                ],
+                                "en": [
+                                    "Produced in collaboration with the NewMedia Centre"
                                 ]
                             }
                         }
@@ -2607,38 +2475,7 @@
                         "Here, you can watch Noortje Weenink, a recent graduate of this faculty, interviewing Anna Vos. Together, they examine the archives."
                     ]
                 }
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6ac3a85d-0ee8-0c03-ca04-d62796417372/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6ac3a85d-0ee8-0c03-ca04-d62796417372/annotations/112",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6ac3a85d-0ee8-0c03-ca04-d62796417372#xywh=0,0,2560,1440",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Noortje Weenink in gesprek met Anna Vos, initiatiefnemer van het vak Vrouwenstudies in 1979</h1>\n\n<p>Geproduceerd in samenwerking met het NewMedia Centre</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/69e1c967-a73c-8e76-9b89-fce50e2d5996/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Noortje Weenink interviews Anna Vos who founded Women’s Studies in 1979</h1>\n\n<p>Produced in collaboration with the NewMedia Centre</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/69e1c967-a73c-8e76-9b89-fce50e2d5996/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/69e1c967-a73c-8e76-9b89-fce50e2d5996"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "label": {
@@ -2785,6 +2622,14 @@
                                 "en": [
                                     "Description of Womens’s Studies (1979)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Archief Vrouwenstudies"
+                                ],
+                                "en": [
+                                    "Women’s Studies Archives"
+                                ]
                             }
                         },
                         {
@@ -2916,6 +2761,14 @@
                                 "en": [
                                     "Description of Womens’s Studies (1979)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Archief Vrouwenstudies"
+                                ],
+                                "en": [
+                                    "Women’s Studies Archives"
+                                ]
                             }
                         }
                     ],
@@ -2936,47 +2789,19 @@
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac/annotations/113",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=46,77,384,540",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vakomschrijving van Vrouwenstudies (1979)</h1>\n\n<p>Archief Vrouwenstudies</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/753a302f-6d50-d88e-9cd6-a92c33fa1cf9/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Description of Womens’s Studies (1979)</h1>\n\n<p>Women’s Studies Archives</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/753a302f-6d50-d88e-9cd6-a92c33fa1cf9/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/753a302f-6d50-d88e-9cd6-a92c33fa1cf9"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/753a302f-6d50-d88e-9cd6-a92c33fa1cf9",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac/annotations/114",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/554a23c9-aa7e-158e-184c-44d0cc8cb2ac#xywh=384,412,336,474",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vakomschrijving van Vrouwenstudies (1979)</h1>\n\n<p>Archief Vrouwenstudies</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bee8a9bd-3f4f-9800-c79f-350ef8297c92/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Description of Womens’s Studies (1979)</h1>\n\n<p>Women’s Studies Archives</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bee8a9bd-3f4f-9800-c79f-350ef8297c92/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bee8a9bd-3f4f-9800-c79f-350ef8297c92"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/bee8a9bd-3f4f-9800-c79f-350ef8297c92",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -3002,9 +2827,12 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
+                                "type": "Video",
                                 "service": {
-                                    "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
-                                    "profile": "https://www.youtube.com"
+                                    "profile": "http://digirati.com/objectifier",
+                                    "params": {
+                                        "data": "https://www.youtube.com/embed/muPRP5lOWOg"
+                                    }
                                 }
                             },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb#xywh=0,0,3735,2778",
@@ -3015,6 +2843,14 @@
                                     "id": "https://dlc.services/thumbs/7/21/c6284fdb-d7f5-0616-471e-5217f8f1033d/full/full/0/default.jpg"
                                 }
                             ],
+                            "summary": {
+                                "nl": [
+                                    "Verslag van het NOS Journaal van de meisjesinformatiedagen in 1984."
+                                ],
+                                "en": [
+                                    "News report by the Dutch public broadcasting service NOS on the orientation days for female students in 1984. "
+                                ]
+                            },
                             "label": {
                                 "nl": [
                                     "'Je kunt zelfs hoogleraar worden'"
@@ -3041,37 +2877,6 @@
                 "bottom",
                 "w-7",
                 "h-7"
-            ],
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb/annotations/115",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb#xywh=0,0,3735,2778",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>'Je kunt zelfs hoogleraar worden'</h1>\n\n<p>Verslag van het NOS Journaal van de meisjesinformatiedagen in 1984.</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/36fba69e-160b-18d1-e24e-97c2b52f2a68/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>'You can even become a professor'</h1>\n\n<p>News report by the Dutch public broadcasting service NOS on the orientation days for female students in 1984. </p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/36fba69e-160b-18d1-e24e-97c2b52f2a68/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/36fba69e-160b-18d1-e24e-97c2b52f2a68"
-                        }
-                    ]
-                }
             ]
         },
         {
@@ -3211,6 +3016,14 @@
                                 "en": [
                                     "The University of Technology: A Man’s World (1989)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis "
+                                ],
+                                "en": [
+                                    "Atria, institute on gender equality and women's history"
+                                ]
                             }
                         }
                     ],
@@ -3251,38 +3064,7 @@
                     "Despite the rising percentage of female students and the impact of second-wave feminism, the Institute of Technology (renamed TU Delft in 1986) remains a men’s stronghold. In the 1989 project ‘De technische universiteit, een mannenwereld' (The University of Technology: A Man’s World) Studium Generale approaches the problem from the other side: the men’s side. ‘(...) if no cracks appear in the bulwarks and the men also remain resistant to change, there will be no change’ the foreword reads.",
                     "But what is a community of men? What are the gender role stereotypes that must be broken? And what obstacles do they present to women’s equality in the workplace and beyond? In the publication, answers are sought to these questions – questions that remain relevant today."
                 ]
-            },
-            "annotations": [
-                {
-                    "type": "AnnotationPage",
-                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ae31c498-5cb8-247c-5cb3-d58bce409e52/annotations",
-                    "items": [
-                        {
-                            "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ae31c498-5cb8-247c-5cb3-d58bce409e52/annotations/116",
-                            "type": "Annotation",
-                            "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/ae31c498-5cb8-247c-5cb3-d58bce409e52#xywh=0,0,690,1000",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>De TU Delft, een mannenwereld (1989)</h1>\n\n<p>Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis </p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6ee30385-10b4-7c8d-1065-24d43e845f69/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>The University of Technology: A Man’s World (1989)</h1>\n\n<p>Atria, institute on gender equality and women's history</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6ee30385-10b4-7c8d-1065-24d43e845f69/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6ee30385-10b4-7c8d-1065-24d43e845f69"
-                        }
-                    ]
-                }
-            ]
+            }
         },
         {
             "label": {
@@ -3430,6 +3212,14 @@
                                 "en": [
                                     "Almanak van de Delftsche Vrouwelijke Studenten Vereeniging (1994)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "TU Delft Library"
+                                ],
+                                "en": [
+                                    "TU Delft Library"
+                                ]
                             }
                         },
                         {
@@ -3560,6 +3350,14 @@
                                 ],
                                 "en": [
                                     "Vrouwen in techniek: 90 jaar Delftse vrouwelijke ingenieurs (1995)"
+                                ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "TU Delft Library"
+                                ],
+                                "en": [
+                                    "TU Delft Library"
                                 ]
                             }
                         },
@@ -3693,6 +3491,14 @@
                                 "en": [
                                     "Vrouwen die techniek studeren... hoe apart (1984)"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis"
+                                ],
+                                "en": [
+                                    "Atria, institute on gender equality and women's history"
+                                ]
                             }
                         },
                         {
@@ -3824,6 +3630,14 @@
                                 "en": [
                                     "THD-vrouwendag 1985 : lezingen - vraagstelling - forum"
                                 ]
+                            },
+                            "summary": {
+                                "nl": [
+                                    "Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis"
+                                ],
+                                "en": [
+                                    "Atria, institute on gender equality and women's history"
+                                ]
                             }
                         }
                     ],
@@ -3844,93 +3658,37 @@
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736/annotations/117",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=21,21,338,473",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Almanak van de Delftsche Vrouwelijke Studenten Vereeniging (1994)</h1>\n\n<p>TU Delft Library</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/8523fe29-cb1a-7a51-be0b-22415ba86745/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Almanak van de Delftsche Vrouwelijke Studenten Vereeniging (1994)</h1>\n\n<p>TU Delft Library</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/8523fe29-cb1a-7a51-be0b-22415ba86745/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/8523fe29-cb1a-7a51-be0b-22415ba86745"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/8523fe29-cb1a-7a51-be0b-22415ba86745",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736/annotations/118",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=266,238,348,413",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vrouwen in techniek: 90 jaar Delftse vrouwelijke ingenieurs (1995)</h1>\n\n<p>TU Delft Library</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/06031e13-e770-9dc7-7649-40f3c7b2ad7e/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vrouwen in techniek: 90 jaar Delftse vrouwelijke ingenieurs (1995)</h1>\n\n<p>TU Delft Library</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/06031e13-e770-9dc7-7649-40f3c7b2ad7e/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/06031e13-e770-9dc7-7649-40f3c7b2ad7e"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/06031e13-e770-9dc7-7649-40f3c7b2ad7e",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736/annotations/119",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=504,21,284,413",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vrouwen die techniek studeren... hoe apart (1984)</h1>\n\n<p>Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/306ca6cd-a840-a917-3bbd-29232ed0e5e6/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>Vrouwen die techniek studeren... hoe apart (1984)</h1>\n\n<p>Atria, institute on gender equality and women's history</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/306ca6cd-a840-a917-3bbd-29232ed0e5e6/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/306ca6cd-a840-a917-3bbd-29232ed0e5e6"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/306ca6cd-a840-a917-3bbd-29232ed0e5e6",
+                                "type": "Annotation"
+                            }
                         },
                         {
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736/annotations/120",
                             "type": "Annotation",
                             "motivation": "describing",
-                            "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/f4519824-8482-4d56-18cb-03ff6aad2736#xywh=696,250,277,387",
-                            "body": [
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>THD-vrouwendag 1985 : lezingen - vraagstelling - forum</h1>\n\n<p>Atria, kennisinstituut voor emancipatie en vrouwengeschiedenis</p>",
-                                    "format": "text/html",
-                                    "language": "nl",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/7a84546b-2cf9-6293-9fc4-e50220bf0101/desc/nl"
-                                },
-                                {
-                                    "type": "TextualBody",
-                                    "value": "<h1>THD-vrouwendag 1985 : lezingen - vraagstelling - forum</h1>\n\n<p>Atria, institute on gender equality and women's history</p>",
-                                    "format": "text/html",
-                                    "language": "en",
-                                    "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/7a84546b-2cf9-6293-9fc4-e50220bf0101/desc/en"
-                                }
-                            ],
-                            "scope": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/7a84546b-2cf9-6293-9fc4-e50220bf0101"
+                            "target": {
+                                "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/7a84546b-2cf9-6293-9fc4-e50220bf0101",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
