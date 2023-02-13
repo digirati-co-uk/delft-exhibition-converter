@@ -432,7 +432,9 @@ def remodel_av_and_3d_painting_annos(canvas):
             if img_service is not None and img_service.get("type", None) is not None:
                 # some weird IIIF for the sketchfab
                 anno["body"]["service"] = [img_service]
-            canvas["behavior"] = ["placeholder"]
+            behaviors = canvas.get("behavior", [])
+            behaviors.append("placeholder")
+            canvas["behavior"] = behaviors
             canvas["rendering"] = [{
                 "id": body_id,  # this is the sketchfab embed ID rather than the actual model but...
                 "type": "Model",

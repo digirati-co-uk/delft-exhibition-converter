@@ -2026,6 +2026,9 @@
             ],
             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b",
             "behavior": [
+                "bottom",
+                "w-12",
+                "h-9",
                 "placeholder"
             ],
             "summary": {

@@ -46,13 +46,23 @@
 
         for(const canvas of exhibitionManifest.items)
         {
+            // We need this here to determine whether it's actually a split,
+            // even if it claims to be with `left` or `right` behaviors
+            const summary = getStrings(canvas.summary) || [];
+            const behavior = canvas.behavior || [];
+            const hasSplitBehavior =
+                behavior.includes("left") || behavior.includes("right") ||
+                behavior.includes("top") || behavior.includes("bottom");
+
             const panel = addPanel();
             addPara(panel, "behavior: " + canvas.behavior?.join(", "), true);
             if(canvas.behavior?.includes("info")){
                 panel.setAttribute("class", "panel info");
                 makeInfoPanel(canvas, panel);
-            } else if(canvas.behavior?.includes("left") || canvas.behavior?.includes("right")) {
+            } else if(summary.length > 0 && (hasSplitBehavior)){
                 addPara(panel, "(the canvas is a split info/media panel)", true);
+                // The Novieten panel "The DVSV Club (circa 1956)" has `left` but DOES NOT behave like a split.
+                // It needs to have A CANVAS SUMMARY to be a split. So far...
                 panel.setAttribute("class", "panel split");
                 const content = document.createElement("div");
                 content.setAttribute("class", "content");
@@ -67,6 +77,9 @@
                 }
                 makeSplitPanel(canvas, panel, info, content);
             } else {
+                if(behavior.includes("left") || behavior.includes("right")){
+                    addPara(panel, "WARNING - this has a 'split' behavior (left/right) but no canvas.summary, so is shown as a regular panel", true);
+                }
                 panel.setAttribute("class", "panel");
                 makeContentPanel(canvas, panel);
             }
@@ -119,19 +132,32 @@
     }
 
     function processContentAnnotations(canvas, content, initialLabelAndSummarySource) {
-        const paintingCount = canvas.items[0].items.length;
-        addPara(content, "There " + (paintingCount == 1 ? "is only one painting annotation" : "are " + paintingCount + " painting annotations."), true);
+        const paintings = canvas.items[0].items;
+        const annotations = canvas.annotations?.[0].items || [];
+        addPara(content, "There " + (paintings.length == 1 ? "is only one painting annotation" : "are " + paintings.length + " painting annotations."), true);
+        addPara(content, "There " + (annotations.length == 1 ? "is only one tour annotation" : "are " + annotations.length + " tour annotations."), true);
 
         addPara(content, "Clicking on the canvas opens the deep zoom viewer:", true);
         if(initialLabelAndSummarySource == null){
-            initialLabelAndSummarySource = canvas.items[0].items[0]; // use the first painting anno
+            initialLabelAndSummarySource = paintings[0]; // use the first painting anno
             // TODO: check this logic
         }
         addHeading(content, getSingleValue(initialLabelAndSummarySource.label), 4);
         addPara(content, getFirstValue(initialLabelAndSummarySource.summary));
 
-        const annotations = canvas.annotations?.[0].items || [];
-        addPara(content, "There " + (annotations.length == 1 ? "is only one tour annotation" : "are " + annotations.length + " tour annotations."), true);
+        // We are assuming an exhibition only has one media type per canvas, not images AND video for example
+        // TODO - these will need to change if/when we change our video modelling
+        if(paintings[0].body.service?.profile.includes("objectifier")){
+            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service.params.data}`, true);
+        }
+        if(paintings[0].body.service?.profile.includes("youtube")){
+            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service.id}`, true);
+        }
+
+        if(canvas.behavior.includes("placeholder")){
+            addPara(content, "The image in the canvas is a placeholder, and we will render something else on interaction.", true);
+            addPara(content, `Rendering ${canvas.rendering.id}`, true);
+        }
 
         if (annotations.length > 0) {
             let counter = 1;
@@ -214,6 +240,7 @@
     function makeSplitPanel(canvas, panel, info, content){
         const label = getFirstValue(canvas.label);
         addHeading(info, label, 3);
+
         const summary = getStrings(canvas.summary);
         for(const para of summary){
             addPara(info, para);
@@ -227,7 +254,10 @@
                 info.appendChild(rs);
             }
         }
-        processContentAnnotations(canvas, content, canvas);
+
+        const annotations = canvas.annotations?.[0].items || [];
+        const initialLabelAndSummarySource = annotations.length == 0 ? null : canvas;
+        processContentAnnotations(canvas, content, initialLabelAndSummarySource);
     }
 
 

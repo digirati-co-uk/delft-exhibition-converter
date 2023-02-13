@@ -3743,6 +3743,9 @@
             ],
             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519",
             "behavior": [
+                "bottom",
+                "w-12",
+                "h-6",
                 "placeholder"
             ],
             "rendering": [
