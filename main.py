@@ -121,6 +121,8 @@ def convert_canvas(canvas):
 
     remodel_av_and_3d_painting_annos(canvas)
 
+    ensure_body_services_are_arrays(canvas)
+
 
 def convert_tour_steps_to_descriptive_annos(canvas):
     """
@@ -397,25 +399,25 @@ def remodel_av_and_3d_painting_annos(canvas):
                 anno["body"] = {
                     "id": body_id,
                     "type": "Video",  # tbc
-                    "service": {
+                    "service": [{
                         "profile": "http://digirati.com/objectifier",
                         "params": {
                             "data": f"https://www.youtube.com/embed/{youtube_id}"
                         }  # leave width and height to the client?
-                    }
+                    }]
                 }
                 if start_time > 0:
-                    anno["body"]["service"]["params"]["data"] = f'{anno["body"]["service"]["params"]["data"]}?start={start_time}'
+                    anno["body"]["service"][0]["params"]["data"] = f'{anno["body"]["service"][0]["params"]["data"]}?start={start_time}'
             else:
                 anno["body"] = {
                     "id": body_id,
-                    "service": {
+                    "service": [{
                         "id": body_id,
                         "profile": youtube
-                    }
+                    }]
                 }
                 if start_time > 0:
-                    anno["body"]["service"]["start"] = start_time
+                    anno["body"]["service"][0]["start"] = start_time
 
             return
 
@@ -441,6 +443,16 @@ def remodel_av_and_3d_painting_annos(canvas):
                 "format": "text/html",  # maybe this tells
                 "behavior": ["original"]
             }]
+
+
+def ensure_body_services_are_arrays(canvas):
+    for painting_anno in canvas["items"][0]["items"]:
+        service = painting_anno["body"].get("service", None)
+        if service is not None and type(service) is not list:
+            painting_anno["body"]["service"] = [service]
+    thumb = canvas.get("thumbnail", None)
+    if thumb is not None and type(thumb) is not list:
+        canvas["thumbnail"] = [thumb]
 
 
 def get_html_from_label_and_summary(resource, lang, convert_label=True):

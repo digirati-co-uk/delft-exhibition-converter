@@ -77,8 +77,8 @@
                 }
                 makeSplitPanel(canvas, panel, info, content);
             } else {
-                if(behavior.includes("left") || behavior.includes("right")){
-                    addPara(panel, "WARNING - this has a 'split' behavior (left/right) but no canvas.summary, so is shown as a regular panel", true);
+                if(hasSplitBehavior){
+                    addPara(panel, "WARNING - this has a 'split' behavior (left/right/top/bottom) but no canvas.summary, so is shown as a regular panel", true);
                 }
                 panel.setAttribute("class", "panel");
                 makeContentPanel(canvas, panel);
@@ -147,16 +147,16 @@
 
         // We are assuming an exhibition only has one media type per canvas, not images AND video for example
         // TODO - these will need to change if/when we change our video modelling
-        if(paintings[0].body.service?.profile.includes("objectifier")){
-            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service.params.data}`, true);
+        if(paintings[0].body.service?.[0]?.profile?.includes("objectifier")){
+            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service[0].params.data}`, true);
         }
-        if(paintings[0].body.service?.profile.includes("youtube")){
-            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service.id}`, true);
+        if(paintings[0].body.service?.[0]?.profile?.includes("youtube")){
+            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service[0].id}`, true);
         }
 
         if(canvas.behavior.includes("placeholder")){
             addPara(content, "The image in the canvas is a placeholder, and we will render something else on interaction.", true);
-            addPara(content, `Rendering ${canvas.rendering.id}`, true);
+            addPara(content, `Rendering ${canvas.rendering[0].id}`, true);
         }
 
         if (annotations.length > 0) {

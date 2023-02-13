@@ -91,66 +91,68 @@
                                         "-"
                                     ]
                                 },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 3929,
-                                    "height": 2780,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 725
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 283
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 142
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 71
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
-                                }
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/13b2d02b-2b2c-a9d7-9231-0d4bfbed4e0c",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3929,
+                                        "height": 2780,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 725
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 283
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 142
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 71
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             "thumbnail": [
                                 {
@@ -255,66 +257,68 @@
                                         "-"
                                     ]
                                 },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 4032,
-                                    "height": 3024,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 768
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 300
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 150
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 75
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
-                                }
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/d1d2e352-aa6f-a8e8-775d-91c7a16c71ab",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 4032,
+                                        "height": 3024,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 300
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 150
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 75
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             "thumbnail": [
                                 {
@@ -418,66 +422,68 @@
                                         "-"
                                     ]
                                 },
-                                "service": {
-                                    "type": "ImageService2",
-                                    "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
-                                    "protocol": "http://iiif.io/api/image",
-                                    "width": 3850,
-                                    "height": 2467,
-                                    "tiles": [
-                                        {
-                                            "width": 256,
-                                            "height": 256,
-                                            "scaleFactors": [
-                                                1,
-                                                2,
-                                                4,
-                                                8,
-                                                16
-                                            ]
-                                        }
-                                    ],
-                                    "sizes": [
-                                        {
-                                            "width": 1024,
-                                            "height": 656
-                                        },
-                                        {
-                                            "width": 400,
-                                            "height": 256
-                                        },
-                                        {
-                                            "width": 200,
-                                            "height": 128
-                                        },
-                                        {
-                                            "width": 100,
-                                            "height": 64
-                                        }
-                                    ],
-                                    "profile": [
-                                        "http://iiif.io/api/image/2/level1.json",
-                                        {
-                                            "formats": [
-                                                "jpg"
-                                            ],
-                                            "qualities": [
-                                                "native",
-                                                "color",
-                                                "gray"
-                                            ],
-                                            "supports": [
-                                                "regionByPct",
-                                                "sizeByForcedWh",
-                                                "sizeByWh",
-                                                "sizeAboveFull",
-                                                "rotationBy90s",
-                                                "mirroring",
-                                                "gray"
-                                            ]
-                                        }
-                                    ]
-                                }
+                                "service": [
+                                    {
+                                        "type": "ImageService2",
+                                        "id": "https://dlc.services/iiif-img/7/21/768023ea-1507-5af2-ed9c-ea0ee90ca5c3",
+                                        "protocol": "http://iiif.io/api/image",
+                                        "width": 3850,
+                                        "height": 2467,
+                                        "tiles": [
+                                            {
+                                                "width": 256,
+                                                "height": 256,
+                                                "scaleFactors": [
+                                                    1,
+                                                    2,
+                                                    4,
+                                                    8,
+                                                    16
+                                                ]
+                                            }
+                                        ],
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 656
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 256
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 128
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 64
+                                            }
+                                        ],
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level1.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "native",
+                                                    "color",
+                                                    "gray"
+                                                ],
+                                                "supports": [
+                                                    "regionByPct",
+                                                    "sizeByForcedWh",
+                                                    "sizeByWh",
+                                                    "sizeAboveFull",
+                                                    "rotationBy90s",
+                                                    "mirroring",
+                                                    "gray"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             "thumbnail": [
                                 {
