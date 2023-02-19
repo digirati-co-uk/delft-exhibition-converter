@@ -107,6 +107,10 @@ def set_homepage(manifest, slug):
 
 
 def convert_canvas(canvas):
+
+    if canvas["id"] == "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635":
+        print("here")
+
     normalise_behavior(canvas)
 
     if "info" in canvas["behavior"]:
@@ -143,9 +147,6 @@ def convert_tour_steps_to_descriptive_annos(canvas):
     expected_body_types = ["Image", "Video", "TextualBody"]
     for anno in anno_page["items"]:
 
-        if anno["body"]["id"] == "https://dlc.services/iiif-img/7/6/acd52dad-b8b1-4afa-9ddf-77ee85397003/376,407,1042,758/full/0/default.jpg":
-            print("here")
-
         if anno["body"]["type"] not in expected_body_types:
             raise ValueError(f"Unexpected anno body type: {anno['body']['type']}")
 
@@ -161,7 +162,8 @@ def convert_tour_steps_to_descriptive_annos(canvas):
             # raise ValueError(f"anno without label or summary: {anno}")
             pass
 
-        if (label is not None or summary is not None) and len(anno_page["items"]) > 1:
+        # if (label is not None or summary is not None) and len(anno_page["items"]) > 1:
+        if len(anno_page["items"]) > 1:
             # For our initial migration, it's both a painting anno and a tour step
             # But later we can have tour steps that are not painting annos
             annotations = canvas.get("annotations", None)
@@ -459,7 +461,7 @@ def get_html_from_label_and_summary(resource, lang, convert_label=True):
     html = ""
     if convert_label:
         label = get_value(resource.get('label', None), lang)
-        if label is not None:
+        if label is not None and len(label) > 0 and label[0] is not None and label[0] != "":
             html = f"<h1>{label[0]}</h1>\n\n"
     summary = get_value(resource.get("summary", None), lang)
     if summary is not None:

@@ -689,6 +689,15 @@
                                 "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0c8513be-6934-bfa1-a701-19b1cf3532ae",
                                 "type": "Annotation"
                             }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/f5868dbe-e170-33d5-1623-9aa2dfbb6635/annotations/133",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/6591f473-1cd3-7bcb-1f2b-67c309824839",
+                                "type": "Annotation"
+                            }
                         }
                     ]
                 }
@@ -2254,7 +2263,69 @@
                         "Het Nieuwe Instituut / TU Delft Library, Special Collections "
                     ]
                 }
-            }
+            },
+            "annotations": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations",
+                    "items": [
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/138",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/a2583569-9454-e82e-c36e-62605fdf91b8",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/139",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/2a1723ea-c938-afad-ceed-2b67c92b506e",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/140",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/82e90592-7ca3-30f7-50c2-e9127b42613a",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/141",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/d1affc63-b691-066f-ec07-c37ce0b3af12",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/142",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/20bd77ec-eabc-676e-3929-e2f3fac93906",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/69552625-7b69-8acb-0e2b-2e91ef79470e/annotations/143",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0b8255b0-9624-29fe-4e3c-9683b4f8f63b",
+                                "type": "Annotation"
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         {
             "label": {
@@ -2683,6 +2754,24 @@
                             "motivation": "describing",
                             "target": {
                                 "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/dc4c50a1-35fd-85af-81a7-fce8c0c1bb94",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations/145",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/0cc0fdb2-8c41-07fa-64f8-ee81cd7bf62c",
+                                "type": "Annotation"
+                            }
+                        },
+                        {
+                            "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/36207fe5-4104-0916-3a1f-478ec9f3bc87/annotations/146",
+                            "type": "Annotation",
+                            "motivation": "describing",
+                            "target": {
+                                "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683703e0-5eed-d4aa-55ae-4fc30b24c4e8",
                                 "type": "Annotation"
                             }
                         }

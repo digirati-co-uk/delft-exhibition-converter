@@ -531,3 +531,22 @@ https://heritage.tudelft.nl/en/exhibitions/novieten
 
 Having a describing anno is enough to make it a tour?
 So that goes back to being a label/desc on the painting anno.
+
+
+
+# Types
+
+Single object
+
+Catalogue link to object derived from GUID of image service. This information is not present in the source manifest and must be looked up by the static site generator.
+
+1. Can we make it explicit in the manifest? As a seeAlso from the painting annotation OR from the tour step that points to the painting annotation or from... wherever?
+
+Tour
+
+Presence of describing annos makes it a tour
+
+* describing anno might target a painting anno and not provide a TextualBody (typical converted tour step)
+* describing anno might target a painting anno and provide a different label and description that overrides the painting annotation (in which case the painting anno label and desc, if it has one, would not be seen in the exhibition)
+* describing anno might target a region of the canvas, in which case it should provide a textualBody (e.g., The only woman in the lecture hall)
+* describing anno might target a region of the canvas, in which case it should provide a textualBody, AND have the `scope` of one or more painting annotations.
