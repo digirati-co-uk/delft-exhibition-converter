@@ -536,17 +536,33 @@ So that goes back to being a label/desc on the painting anno.
 
 # Types
 
-Single object
+## Links to objects in the collection
 
-Catalogue link to object derived from GUID of image service. This information is not present in the source manifest and must be looked up by the static site generator.
+The ideal way to do this is formally, in the Manifest, with a `homePage` link (not `seeAlso` which would go to a machine-readable catalogue record).
 
-1. Can we make it explicit in the manifest? As a seeAlso from the painting annotation OR from the tour step that points to the painting annotation or from... wherever?
+This `homePage` link could live on the painting annotations, and/or on describing annotations (e.g., so you could describe three pages from the same book in a single describing annotation and only have one link to the object).
 
-Tour
+At the moment the static site generator (I assume) parses the image GUID from the painting annotation and looks up the object in (...) to determine what the web page URL is - it infers what that `homePage` id would be.
+
+* Can we make it explicit in the manifest? As a seeAlso from the painting annotation OR from the tour step that points to the painting annotation or from... wherever?
+
+Or is that a pain, it would be better for the static site generator to infer it?
+
+If we make annotations more flexible the static site generator's rules about what gets an object link become more complicated.
+
+## Tour steps
 
 Presence of describing annos makes it a tour
 
-* describing anno might target a painting anno and not provide a TextualBody (typical converted tour step)
-* describing anno might target a painting anno and provide a different label and description that overrides the painting annotation (in which case the painting anno label and desc, if it has one, would not be seen in the exhibition)
-* describing anno might target a region of the canvas, in which case it should provide a textualBody (e.g., The only woman in the lecture hall)
-* describing anno might target a region of the canvas, in which case it should provide a textualBody, AND have the `scope` of one or more painting annotations.
+Can be seen in converted manifests now:
+
+* describing anno might target a painting anno and not provide a TextualBody (typical converted tour step).
+* describing anno might target a region of the canvas, in which case it should provide a textualBody (e.g., The only woman in the lecture hall).
+
+Natural extensions/variations on the model
+
+* describing anno might target a painting anno and provide a different label and description that overrides the painting annotation (in which case the painting anno label and desc, if it has one, would not be seen in the exhibition).
+* describing anno might target a region of the canvas (in which case it should provide a textualBody), AND ALSO have the `scope` of one or more painting annotations. So while the describing annotation targets the canvas and doesn't link directly to any painting annotation, the content creator makes the connection explicit.
+
+The static site generator can then see that a particular tour step that's just a region of the canvas nevertheless is "about" one or more objects, and it could go and find the information needed to make the _View Object_ links by inspecting the linked painting annotations.
+
