@@ -22,8 +22,9 @@ ANNOS_WITH_NO_DESC = []
 # See https://github.com/IIIF/iiif-av/issues/27
 # and see https://gist.github.com/stephenwf/a1339aa170a2e80fa120f86027b89f46
 # via https://digirati.slack.com/archives/D0E15T142/p1663263077484059
-YOUTUBE_CONVERT = "Objectifier"  # Tells the client what <object> tag to render
+# YOUTUBE_CONVERT = "Objectifier"  # Tells the client what <object> tag to render
 # YOUTUBE_CONVERT = "Service"  # lets the client decide but client must recognise form
+YOUTUBE_CONVERT = "Both"
 
 
 def convert_folder(old_folder):
@@ -397,8 +398,10 @@ def remodel_av_and_3d_painting_annos(canvas):
             start_time = 0
             if selector is not None:
                 start_time = int(selector["value"].split("=")[1].split(",")[0])
-            if YOUTUBE_CONVERT == "Objectifier":
-                anno["body"] = {
+            object_body = None
+            service_body = None
+            if YOUTUBE_CONVERT == "Objectifier" or YOUTUBE_CONVERT == "Both":
+                object_body = {
                     "id": body_id,
                     "type": "Video",  # tbc
                     "service": [{
@@ -409,9 +412,10 @@ def remodel_av_and_3d_painting_annos(canvas):
                     }]
                 }
                 if start_time > 0:
-                    anno["body"]["service"][0]["params"]["data"] = f'{anno["body"]["service"][0]["params"]["data"]}?start={start_time}'
-            else:
-                anno["body"] = {
+                    object_body["service"][0]["params"]["data"] = f'{object_body["service"][0]["params"]["data"]}?start={start_time}'
+
+            if YOUTUBE_CONVERT == "Service" or YOUTUBE_CONVERT == "Both":
+                service_body = {
                     "id": body_id,
                     "service": [{
                         "id": body_id,
@@ -419,7 +423,12 @@ def remodel_av_and_3d_painting_annos(canvas):
                     }]
                 }
                 if start_time > 0:
-                    anno["body"]["service"][0]["start"] = start_time
+                    service_body["service"][0]["start"] = start_time
+
+            if YOUTUBE_CONVERT == "Both":
+                anno["body"] = [object_body, service_body]
+            else:
+                anno["body"] = object_body or service_body
 
             return
 
@@ -449,9 +458,10 @@ def remodel_av_and_3d_painting_annos(canvas):
 
 def ensure_body_services_are_arrays(canvas):
     for painting_anno in canvas["items"][0]["items"]:
-        service = painting_anno["body"].get("service", None)
-        if service is not None and type(service) is not list:
-            painting_anno["body"]["service"] = [service]
+        if not isinstance(painting_anno["body"], list):
+            service = painting_anno["body"].get("service", None)
+            if service is not None and type(service) is not list:
+                painting_anno["body"]["service"] = [service]
     thumb = canvas.get("thumbnail", None)
     if thumb is not None and type(thumb) is not list:
         canvas["thumbnail"] = [thumb]

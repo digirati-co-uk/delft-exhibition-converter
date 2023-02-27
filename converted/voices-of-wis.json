@@ -237,18 +237,29 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": {
-                                "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
-                                "type": "Video",
-                                "service": [
-                                    {
-                                        "profile": "http://digirati.com/objectifier",
-                                        "params": {
-                                            "data": "https://www.youtube.com/embed/iRZx4Dz3vkE"
+                            "body": [
+                                {
+                                    "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
+                                    "type": "Video",
+                                    "service": [
+                                        {
+                                            "profile": "http://digirati.com/objectifier",
+                                            "params": {
+                                                "data": "https://www.youtube.com/embed/iRZx4Dz3vkE"
+                                            }
                                         }
-                                    }
-                                ]
-                            },
+                                    ]
+                                },
+                                {
+                                    "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
+                                    "service": [
+                                        {
+                                            "id": "https://www.youtube.com/watch?v=iRZx4Dz3vkE",
+                                            "profile": "https://www.youtube.com"
+                                        }
+                                    ]
+                                }
+                            ],
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/37c36b7b-fd7c-f2aa-8933-3241ac8cac11#xywh=0,0,800,400",
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/e515b739-a294-d4cd-29bb-c5d684d911bb",
                             "motivation": "painting",
