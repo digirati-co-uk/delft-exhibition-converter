@@ -147,11 +147,17 @@
 
         // We are assuming an exhibition only has one media type per canvas, not images AND video for example
         // TODO - these will need to change if/when we change our video modelling
-        if(paintings[0].body.service?.[0]?.profile?.includes("objectifier")){
-            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service[0].params.data}`, true);
+        let bodyAsList = paintings[0].body;
+        if(!Array.isArray(bodyAsList)){
+            bodyAsList = [bodyAsList];
         }
-        if(paintings[0].body.service?.[0]?.profile?.includes("youtube")){
-            addPara(content, `Rendering a VIDEO from ${paintings[0].body.service[0].id}`, true);
+        for(const b of bodyAsList){
+            if(b.service?.[0]?.profile?.includes("objectifier")){
+                addPara(content, `Rendering a VIDEO from ${b.service[0].params.data}`, true);
+            }
+            if(b.service?.[0]?.profile?.includes("youtube")){
+                addPara(content, `Rendering a VIDEO from ${b.service[0].id}`, true);
+            }
         }
 
         if(canvas.behavior.includes("placeholder")){
