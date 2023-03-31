@@ -82,17 +82,19 @@
                             "type": "Annotation",
                             "body": {
                                 "id": "https://dlc.services/iiif-img/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8/full/full/90/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2250,
-                                "width": 4000,
-                                "label": {
-                                    "en": [
-                                        "-"
-                                    ]
-                                },
-                                "service": [
-                                    {
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://dlc.services/iiif-img/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
+                                    "height": 2250,
+                                    "width": 4000,
+                                    "label": {
+                                        "en": [
+                                            "-"
+                                        ]
+                                    },
+                                    "service": {
                                         "type": "ImageService2",
                                         "id": "https://dlc.services/iiif-img/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8",
                                         "protocol": "http://iiif.io/api/image",
@@ -152,7 +154,12 @@
                                             }
                                         ]
                                     }
-                                ]
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "rotation": 90
+                                }
                             },
                             "thumbnail": [
                                 {

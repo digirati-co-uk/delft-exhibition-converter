@@ -124,6 +124,8 @@ def convert_canvas(canvas):
 
     remodel_cropped_painting_annos(canvas)
 
+    handle_rotations(canvas)
+
     remodel_av_and_3d_painting_annos(canvas)
 
     ensure_body_services_are_arrays(canvas)
@@ -371,6 +373,32 @@ def remodel_cropped_painting_annos(canvas):
         }
         anno["body"] = specific_resource
         del anno["body.id"]
+
+
+def handle_rotations(canvas):
+    anno_page = required_single_item(canvas)
+    for anno in anno_page["items"]:
+
+        if not anno["body"]["id"].endswith("full/full/90/default.jpg"):
+            continue
+
+        # This only applies to corona chronicles, f5b3688b-d758-4e03-7458-47135e1e9dc8
+        # the body id is parameterised to rotate 90 deg, but the given w,h are for the /0/ rotation.
+        # This is just a static image here!
+        old_body = anno["body"]
+        rotated_img = old_body["id"]
+        old_body["id"] = old_body["id"].replace("full/full/90/", "full/full/0/")
+        specific_resource = {
+            "id": rotated_img,
+            "type": "SpecificResource",
+            "source": old_body,
+            "selector": {
+                "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                "type": "iiif:ImageApiSelector",
+                "rotation": 90
+            }
+        }
+        anno["body"] = specific_resource
 
 
 def remodel_av_and_3d_painting_annos(canvas):
