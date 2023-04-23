@@ -340,6 +340,26 @@ def convert_info_canvas(canvas):
         del textual_anno["summary"]
 
 
+def assign_type_to_thumbnail(thumbnail_list):
+    for thumbnail in thumbnail_list:
+        thumb_id = thumbnail.get("id", None)
+        thumb_type = thumbnail.get("type", None)
+        if thumb_type is None and thumb_id is not None:
+            thumbnail["type"] = "Image"
+        if thumb_id is not None and thumb_id.endswith("/full/full/0/default.jpg"):
+            thumbnail["format"] = "image/jpg"
+            service_list = thumbnail.get("service", [])
+            if type(service_list) is not list:
+                service_list = [service_list]
+            for service in service_list:
+                if len(service.keys()) == 1:
+                    # it's just an id!
+                    service["@id"] = thumb_id.replace("/full/full/0/default.jpg", "")
+                    service["@type"] = "ImageService2"
+            thumbnail["service"] = service_list
+    return thumbnail_list
+
+
 def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
     anno_page = required_single_item(canvas)
     for anno in anno_page["items"]:
@@ -352,6 +372,7 @@ def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
             return
         if type(thumbnail) is not list:
             thumbnail = [thumbnail]
+        thumbnail = assign_type_to_thumbnail(thumbnail)
         if MOVE_SINGLE_PAINTING_ANNO_THUMB_TO_CANVAS and len(anno_page["items"]) == 1:
             canvas["thumbnail"] = thumbnail
             del anno["thumbnail"]
@@ -483,10 +504,14 @@ def remodel_av_and_3d_painting_annos(canvas):
                 "type": "Image",
                 "format": "image/jpg"
             }
-            img_service = thumbnail[0].get("service", None)
-            if img_service is not None and img_service.get("type", None) is not None:
-                # some weird IIIF for the sketchfab
-                anno["body"]["service"] = [img_service]
+            img_service = thumbnail[0].get("service", [])
+            if type(img_service) is not list:
+                img_service = [img_service]
+            if len(img_service) == 1:
+                img_svc_type = img_service[0].get("type", None) or img_service[0].get("@type", None)
+                if img_svc_type is not None:
+                    # some weird IIIF for the sketchfab
+                    anno["body"]["service"] = [img_service]
             behaviors = canvas.get("behavior", [])
             behaviors.append("placeholder")
             canvas["behavior"] = behaviors

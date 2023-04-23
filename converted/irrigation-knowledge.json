@@ -102,45 +102,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/17da5645-e7b1-8870-1de4-ac34fa58420a/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/17da5645-e7b1-8870-1de4-ac34fa58420a",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 794,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 78
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 155
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 310
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 794
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/17da5645-e7b1-8870-1de4-ac34fa58420a",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 794,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 78
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 155
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 310
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 794
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/82f216fc-6091-eb74-f37c-54e0649286a6",
@@ -238,45 +241,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/da557f24-cded-7360-62f5-b9eae0c2656f/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/da557f24-cded-7360-62f5-b9eae0c2656f",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 731,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 71
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 143
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 285
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 731
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/da557f24-cded-7360-62f5-b9eae0c2656f",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 731,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 71
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 143
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 285
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 731
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/7505e1bc-87e3-9d82-196d-fbb6b1485665",
@@ -476,45 +482,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 512,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 50
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 512
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/5ec473af-ef1e-3328-f0ef-5fe2ee7204c3",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 512,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 50
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 512
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/610ea14e-fec1-de76-7fe9-17f027cb842e",
@@ -611,45 +620,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/ddb2aa60-995a-385e-1bee-bcd1468140d4/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/ddb2aa60-995a-385e-1bee-bcd1468140d4",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 711,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 69
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 139
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 278
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 711
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/ddb2aa60-995a-385e-1bee-bcd1468140d4",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 711,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 69
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 139
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 278
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 711
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/65db4bc5-693d-d0df-5320-ea3390c68d83",
@@ -746,45 +758,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/8bd7f136-2e2d-3d17-f456-0327a0555523/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/8bd7f136-2e2d-3d17-f456-0327a0555523",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 728,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 71
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 142
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 284
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 728
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/8bd7f136-2e2d-3d17-f456-0327a0555523",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 728,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 71
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 142
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 284
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 728
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2912e72-4e53-622b-a23c-0b27b4b63ad8",
@@ -881,45 +896,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/981ecdaa-29a6-bda3-37b8-9a7cec4e7d11/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/981ecdaa-29a6-bda3-37b8-9a7cec4e7d11",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 713,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 70
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 139
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 278
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 713
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/981ecdaa-29a6-bda3-37b8-9a7cec4e7d11",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 713,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 70
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 139
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 278
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 713
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b5442fa8-846e-e591-52a6-f4a2054ea2e8",
@@ -1083,45 +1101,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/82f96124-56a1-8efc-ac13-700b321da9fc/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/82f96124-56a1-8efc-ac13-700b321da9fc",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 717,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 70
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 140
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 280
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 717
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/82f96124-56a1-8efc-ac13-700b321da9fc",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 717,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 70
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 140
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 280
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 717
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/855d100f-b6bb-a074-a485-666f0c24b350",
@@ -1218,45 +1239,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/f2985de8-fe55-b694-1ce3-48cd74cb1f06/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/f2985de8-fe55-b694-1ce3-48cd74cb1f06",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 607,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 59,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 119,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 237,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 607,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/f2985de8-fe55-b694-1ce3-48cd74cb1f06",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 607,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 59,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 119,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 237,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 607,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/98bd6575-0d8e-532a-ce8b-48d3ad1c449a",
@@ -1354,45 +1378,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/0f03c59c-2416-4f93-e30f-f4a9758843be/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/0f03c59c-2416-4f93-e30f-f4a9758843be",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 833,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 81
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 163
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 326
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 833
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/0f03c59c-2416-4f93-e30f-f4a9758843be",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 833,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 81
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 163
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 326
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 833
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2b13b58-6df8-fc6d-e30a-5aa1ca812818",
@@ -1590,45 +1617,48 @@
                 {
                     "id": "https://dlc.services/thumbs/7/21/cc685204-e969-1696-499b-ae662b01b827/full/full/0/default.jpg",
                     "type": "Image",
-                    "service": {
-                        "type": "ImageService2",
-                        "id": "https://dlc.services/thumbs/7/21/cc685204-e969-1696-499b-ae662b01b827",
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": [
-                            "http://iiif.io/api/image/2/level0.json",
-                            {
-                                "formats": [
-                                    "jpg"
-                                ],
-                                "qualities": [
-                                    "color"
-                                ],
-                                "supports": [
-                                    "sizeByWhListed"
-                                ]
-                            }
-                        ],
-                        "width": 1024,
-                        "height": 675,
-                        "sizes": [
-                            {
-                                "width": 100,
-                                "height": 66
-                            },
-                            {
-                                "width": 200,
-                                "height": 132
-                            },
-                            {
-                                "width": 400,
-                                "height": 264
-                            },
-                            {
-                                "width": 1024,
-                                "height": 675
-                            }
-                        ]
-                    }
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/cc685204-e969-1696-499b-ae662b01b827",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 675,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 66
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 132
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 264
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 675
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
                 }
             ]
         },
@@ -1721,45 +1751,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/535bed17-e276-bd33-e89d-480c7880ecce/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/535bed17-e276-bd33-e89d-480c7880ecce",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 683,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 67
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 133
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 267
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 683
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/535bed17-e276-bd33-e89d-480c7880ecce",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 683,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 67
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 133
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 267
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 683
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/1e3a8b3e-ee72-f602-4ebc-e64ecce4abec",
@@ -1857,45 +1890,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/13/04bbb66f-a603-462e-b05e-dc0a4a3984a2/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/13/04bbb66f-a603-462e-b05e-dc0a4a3984a2",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 683,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 67
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 133
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 267
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 683
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/13/04bbb66f-a603-462e-b05e-dc0a4a3984a2",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 683,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 67
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 133
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 267
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 683
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/d2462fca-a912-c7d3-f76a-e7159902a225",
@@ -1993,45 +2029,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/13/0deb3521-bc03-4d74-a3c7-716ac0579fc3/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/13/0deb3521-bc03-4d74-a3c7-716ac0579fc3",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 683,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 67
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 133
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 267
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 683
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/13/0deb3521-bc03-4d74-a3c7-716ac0579fc3",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 683,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 67
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 133
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 267
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 683
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/b052fbae-5fbf-7377-abfe-3c55fe915b7e",
@@ -2128,45 +2167,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/2667ee95-2c0e-11fa-50a4-c1b3d7d35db9/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/2667ee95-2c0e-11fa-50a4-c1b3d7d35db9",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 737,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 72,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 144,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 288,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 737,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/2667ee95-2c0e-11fa-50a4-c1b3d7d35db9",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 737,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 72,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 144,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 288,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 737,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ea36def3-c39c-5e76-e2de-69da5f856951",
@@ -2376,45 +2418,48 @@
                 {
                     "id": "https://dlc.services/thumbs/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8/full/full/0/default.jpg",
                     "type": "Image",
-                    "service": {
-                        "type": "ImageService2",
-                        "id": "https://dlc.services/thumbs/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8",
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": [
-                            "http://iiif.io/api/image/2/level0.json",
-                            {
-                                "formats": [
-                                    "jpg"
-                                ],
-                                "qualities": [
-                                    "color"
-                                ],
-                                "supports": [
-                                    "sizeByWhListed"
-                                ]
-                            }
-                        ],
-                        "width": 1024,
-                        "height": 762,
-                        "sizes": [
-                            {
-                                "width": 100,
-                                "height": 74
-                            },
-                            {
-                                "width": 200,
-                                "height": 149
-                            },
-                            {
-                                "width": 400,
-                                "height": 298
-                            },
-                            {
-                                "width": 1024,
-                                "height": 762
-                            }
-                        ]
-                    }
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/d4a608a7-3a17-7068-acb9-ab6abf0350d8",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 762,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 74
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 149
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 298
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 762
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
                 }
             ]
         },
@@ -2514,45 +2559,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/6/8b5b9ba8-2a6f-4a19-a4ce-1d3b7988e79e/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/6/8b5b9ba8-2a6f-4a19-a4ce-1d3b7988e79e",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 901,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 88
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 176
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 352
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 901
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/6/8b5b9ba8-2a6f-4a19-a4ce-1d3b7988e79e",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 901,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 88
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 176
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 352
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 901
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/62121c0d-4c5c-6965-ca5e-59d70dced12f",
@@ -2652,45 +2700,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/6/e8e0f83f-b47b-4ae8-a928-e605866d1b09/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/6/e8e0f83f-b47b-4ae8-a928-e605866d1b09",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 421,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 41,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 82,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 164,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 421,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/6/e8e0f83f-b47b-4ae8-a928-e605866d1b09",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 421,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 41,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 82,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 164,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 421,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/06345467-316a-9559-2040-b885c6532063",
@@ -2790,45 +2841,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/6/82f083fb-24a4-4bec-b1d5-d12c7de52923/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/6/82f083fb-24a4-4bec-b1d5-d12c7de52923",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 727,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 71
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 142
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 284
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 727
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/6/82f083fb-24a4-4bec-b1d5-d12c7de52923",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 727,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 71
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 142
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 284
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 727
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/21dd8e33-5d8e-888c-bf26-73f0634e05e2",
@@ -3029,45 +3083,48 @@
                 {
                     "id": "https://dlc.services/thumbs/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48/full/full/0/default.jpg",
                     "type": "Image",
-                    "service": {
-                        "type": "ImageService2",
-                        "id": "https://dlc.services/thumbs/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48",
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": [
-                            "http://iiif.io/api/image/2/level0.json",
-                            {
-                                "formats": [
-                                    "jpg"
-                                ],
-                                "qualities": [
-                                    "color"
-                                ],
-                                "supports": [
-                                    "sizeByWhListed"
-                                ]
-                            }
-                        ],
-                        "width": 1024,
-                        "height": 758,
-                        "sizes": [
-                            {
-                                "width": 100,
-                                "height": 74
-                            },
-                            {
-                                "width": 200,
-                                "height": 148
-                            },
-                            {
-                                "width": 400,
-                                "height": 296
-                            },
-                            {
-                                "width": 1024,
-                                "height": 758
-                            }
-                        ]
-                    }
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/21/bc9e4cbb-ad5d-12ac-9c00-000cc14f7f48",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 758,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 74
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 148
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 296
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 758
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
                 }
             ]
         },
@@ -3173,45 +3230,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 583,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 57,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 114,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 228,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 583,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/7712657c-63c2-2609-4e6b-5bf8c5fdcc90",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 583,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 57,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 114,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 228,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 583,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/c2d39173-7946-3071-71b0-274b678b1bcb",
@@ -3309,45 +3369,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/8369370a-fc1d-df44-c670-8b74ebe7ead9/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/8369370a-fc1d-df44-c670-8b74ebe7ead9",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 821,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 80
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 160
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 321
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 821
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/8369370a-fc1d-df44-c670-8b74ebe7ead9",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 821,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 80
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 160
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 321
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 821
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/35c7a7bf-7f01-c099-f7cb-cdc6904adfae",
@@ -3451,45 +3514,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 709,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 69
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 139
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 277
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 709
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/787f58e3-11c6-b7ec-ad92-68777ea3bfd0",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 709,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 69
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 139
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 277
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 709
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/96abbebd-eb2f-9a4d-7279-b401c59b9990",
@@ -3592,45 +3658,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 674,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 66
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 132
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 263
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 674
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/83a2725d-d10c-9d29-b3ef-ccb6adc013dd",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 674,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 66
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 132
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 263
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 674
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/f7b0cca8-13eb-4c45-11c4-272c354267b6",
@@ -3747,7 +3816,16 @@
                             "body": {
                                 "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
                                 "type": "Image",
-                                "format": "image/jpg"
+                                "format": "image/jpg",
+                                "service": [
+                                    [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
+                                            "@id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764",
+                                            "@type": "ImageService2"
+                                        }
+                                    ]
+                                ]
                             },
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519#xywh=0,0,1920,1080",
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/6a3ccec4-78bb-20c4-6213-3e1a06bc0044",
@@ -3776,10 +3854,16 @@
             ],
             "thumbnail": [
                 {
-                    "service": {
-                        "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg"
-                    },
-                    "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg"
+                    "service": [
+                        {
+                            "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
+                            "@id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764",
+                            "@type": "ImageService2"
+                        }
+                    ],
+                    "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpg"
                 }
             ],
             "rendering": [
@@ -3894,45 +3978,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 803,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 78
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 157
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 314
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 803
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/e3047db6-bbfc-e530-9b51-e42beb2c5eda",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 803,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 78
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 157
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 314
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 803
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/904b4fda-b119-640c-ee25-a48ccb28d02b",
@@ -4036,45 +4123,48 @@
                                 {
                                     "id": "https://dlc.services/thumbs/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce/full/full/0/default.jpg",
                                     "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 629,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 61
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 123
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 246
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 629
-                                            }
-                                        ]
-                                    }
+                                    "service": [
+                                        {
+                                            "type": "ImageService2",
+                                            "id": "https://dlc.services/thumbs/7/21/de62c586-3ddb-32d3-8109-847498f1e1ce",
+                                            "protocol": "http://iiif.io/api/image",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 629,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 61
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 123
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 246
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 629
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "format": "image/jpg"
                                 }
                             ],
                             "id": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/annotation/ae791604-ba5c-b0af-5e13-5c4c3b850e34",
@@ -4309,45 +4399,48 @@
                 {
                     "id": "https://dlc.services/thumbs/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea/full/full/0/default.jpg",
                     "type": "Image",
-                    "service": {
-                        "type": "ImageService2",
-                        "id": "https://dlc.services/thumbs/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea",
-                        "protocol": "http://iiif.io/api/image",
-                        "profile": [
-                            "http://iiif.io/api/image/2/level0.json",
-                            {
-                                "formats": [
-                                    "jpg"
-                                ],
-                                "qualities": [
-                                    "color"
-                                ],
-                                "supports": [
-                                    "sizeByWhListed"
-                                ]
-                            }
-                        ],
-                        "width": 1024,
-                        "height": 683,
-                        "sizes": [
-                            {
-                                "width": 100,
-                                "height": 67
-                            },
-                            {
-                                "width": 200,
-                                "height": 133
-                            },
-                            {
-                                "width": 400,
-                                "height": 267
-                            },
-                            {
-                                "width": 1024,
-                                "height": 683
-                            }
-                        ]
-                    }
+                    "service": [
+                        {
+                            "type": "ImageService2",
+                            "id": "https://dlc.services/thumbs/7/13/d0773d3d-0bea-4760-8bfa-fa987be09eea",
+                            "protocol": "http://iiif.io/api/image",
+                            "profile": [
+                                "http://iiif.io/api/image/2/level0.json",
+                                {
+                                    "formats": [
+                                        "jpg"
+                                    ],
+                                    "qualities": [
+                                        "color"
+                                    ],
+                                    "supports": [
+                                        "sizeByWhListed"
+                                    ]
+                                }
+                            ],
+                            "width": 1024,
+                            "height": 683,
+                            "sizes": [
+                                {
+                                    "width": 100,
+                                    "height": 67
+                                },
+                                {
+                                    "width": 200,
+                                    "height": 133
+                                },
+                                {
+                                    "width": 400,
+                                    "height": 267
+                                },
+                                {
+                                    "width": 1024,
+                                    "height": 683
+                                }
+                            ]
+                        }
+                    ],
+                    "format": "image/jpg"
                 }
             ]
         }

@@ -78,47 +78,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/21/20afde89-6154-4843-974c-388f972b76f4",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 826,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 81,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 161,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 323,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 826,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/21/20afde89-6154-4843-974c-388f972b76f4",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 826,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 81,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 161,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 323,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 826,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/21/20afde89-6154-4843-974c-388f972b76f4/full/full/0/default.jpg",
                                     "width": 826,
-                                    "height": 1024
+                                    "height": 1024,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/33db270e-7778-2ee1-6fbc-0a9fddcad3cc#xywh=223,595,3028,3756",
@@ -200,45 +204,49 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 737,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 72
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 144
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 288
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 737
-                                            }
-                                        ]
-                                    },
-                                    "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154/full/full/0/default.jpg"
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 737,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 72
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 144
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 288
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 737
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "id": "https://dlc.services/thumbs/7/22/024f550d-965c-4c1d-b144-e70785601154/full/full/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/33db270e-7778-2ee1-6fbc-0a9fddcad3cc#xywh=3726,484,2991,2553",
@@ -320,47 +328,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/21/4f0a4c3f-bbcc-406f-b195-e52b914a9a06",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 746,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 73
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 146
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 292
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 746
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/21/4f0a4c3f-bbcc-406f-b195-e52b914a9a06",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 746,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 73
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 146
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 292
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 746
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/21/4f0a4c3f-bbcc-406f-b195-e52b914a9a06/full/full/0/default.jpg",
                                     "width": 1024,
-                                    "height": 746
+                                    "height": 746,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/33db270e-7778-2ee1-6fbc-0a9fddcad3cc#xywh=3495,3364,3284,2307",
@@ -550,47 +562,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/18/55735582-4512-43fc-8c09-2c66cc15fffb",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 708,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 69,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 138,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 276,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 708,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/18/55735582-4512-43fc-8c09-2c66cc15fffb",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 708,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 69,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 138,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 276,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 708,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/18/55735582-4512-43fc-8c09-2c66cc15fffb/full/full/0/default.jpg",
                                     "width": 708,
-                                    "height": 1024
+                                    "height": 1024,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/af1841b0-b2c2-1410-bef9-b9e01c422f93#xywh=42,79,364,528",
@@ -660,47 +676,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 791,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 77,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 154,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 309,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 791,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 791,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 77,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 154,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 309,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 791,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/18/85a2e601-fd3c-41a2-ace4-94038d05f9fe/full/full/0/default.jpg",
                                     "width": 791,
-                                    "height": 1024
+                                    "height": 1024,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/af1841b0-b2c2-1410-bef9-b9e01c422f93#xywh=445,244,355,461",
@@ -770,47 +790,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/18/c4516b56-25a2-4dc9-86b6-6d583eb573da",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 251,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 24
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 49
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 98
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 251
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/18/c4516b56-25a2-4dc9-86b6-6d583eb573da",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 251,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 24
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 49
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 98
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 251
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/18/c4516b56-25a2-4dc9-86b6-6d583eb573da/full/full/0/default.jpg",
                                     "width": 1024,
-                                    "height": 251
+                                    "height": 251,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/af1841b0-b2c2-1410-bef9-b9e01c422f93#xywh=167,730,636,157",
@@ -887,47 +911,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/18/c2133925-8ee6-42b3-99fd-13c39d3a929c",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 683,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 67,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 133,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 267,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 683,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/18/c2133925-8ee6-42b3-99fd-13c39d3a929c",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 683,
+                                            "height": 1024,
+                                            "sizes": [
+                                                {
+                                                    "width": 67,
+                                                    "height": 100
+                                                },
+                                                {
+                                                    "width": 133,
+                                                    "height": 200
+                                                },
+                                                {
+                                                    "width": 267,
+                                                    "height": 400
+                                                },
+                                                {
+                                                    "width": 683,
+                                                    "height": 1024
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/18/c2133925-8ee6-42b3-99fd-13c39d3a929c/full/full/0/default.jpg",
                                     "width": 683,
-                                    "height": 1024
+                                    "height": 1024,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/af1841b0-b2c2-1410-bef9-b9e01c422f93#xywh=849,49,401,796",
@@ -1065,47 +1093,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/21/4838915c-2096-446a-9701-12368ca0191b",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 686,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 67
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 134
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 268
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 686
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/21/4838915c-2096-446a-9701-12368ca0191b",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 686,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 67
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 134
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 268
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 686
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/21/4838915c-2096-446a-9701-12368ca0191b/full/full/0/default.jpg",
                                     "width": 1024,
-                                    "height": 686
+                                    "height": 686,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f7cba4b-255b-5275-8deb-81fbf18e5c83#xywh=81,43,624,418",
@@ -1180,47 +1212,51 @@
                             },
                             "thumbnail": [
                                 {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 683,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 67
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 133
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 267
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 683
-                                            }
-                                        ]
-                                    },
+                                    "service": [
+                                        {
+                                            "id": "https://dlc.services/thumbs/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3",
+                                            "type": "ImageService2",
+                                            "profile": [
+                                                "http://iiif.io/api/image/2/level0.json",
+                                                {
+                                                    "formats": [
+                                                        "jpg"
+                                                    ],
+                                                    "qualities": [
+                                                        "color"
+                                                    ],
+                                                    "supports": [
+                                                        "sizeByWhListed"
+                                                    ]
+                                                }
+                                            ],
+                                            "width": 1024,
+                                            "height": 683,
+                                            "sizes": [
+                                                {
+                                                    "width": 100,
+                                                    "height": 67
+                                                },
+                                                {
+                                                    "width": 200,
+                                                    "height": 133
+                                                },
+                                                {
+                                                    "width": 400,
+                                                    "height": 267
+                                                },
+                                                {
+                                                    "width": 1024,
+                                                    "height": 683
+                                                }
+                                            ]
+                                        }
+                                    ],
                                     "id": "https://dlc.services/thumbs/7/21/ce140122-c45d-4ed0-8356-f9fdeeae35e3/full/full/0/default.jpg",
                                     "width": 1024,
-                                    "height": 683
+                                    "height": 683,
+                                    "type": "Image",
+                                    "format": "image/jpg"
                                 }
                             ],
                             "target": "https://heritage.tudelft.nl/iiif/174c72be-ee23-4d3a-14aa-df3f49d1ccd5/canvas/2f7cba4b-255b-5275-8deb-81fbf18e5c83#xywh=486,485,665,444",
