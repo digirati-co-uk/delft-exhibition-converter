@@ -98,50 +98,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 1006,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 1006
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 393
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 197
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 98
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/600bcbf0-2616-b7bd-01ef-30c2284973d3",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e84c6875-80f4-463c-33af-ddcb668faad1#xywh=0,0,6960,6840",
                             "summary": {
@@ -171,7 +127,51 @@
                         "Faculty of Architecture and the Built Environment / OTB Photo Archive / Photo: Axel Smits"
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/17/b9a7d3c2-35a3-447c-9191-bef328ee312d",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 1006,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 1006
+                            },
+                            {
+                                "width": 400,
+                                "height": 393
+                            },
+                            {
+                                "width": 200,
+                                "height": 197
+                            },
+                            {
+                                "width": 100,
+                                "height": 98
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "height": 1000,
@@ -794,50 +794,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 775,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 775,
-                                                "height": 1024
-                                            },
-                                            {
-                                                "width": 303,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 151,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 76,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/f1778e82-eb1b-b09c-01ea-de17878ddc76",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/db788158-447f-6bf0-ca6d-ca21a7034a8f#",
                             "summary": {
@@ -872,7 +828,51 @@
                         "Stadsarchief Delft"
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/9/0e47c645-285d-411e-a662-96438bcf60e0",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 775,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 775,
+                                "height": 1024
+                            },
+                            {
+                                "width": 303,
+                                "height": 400
+                            },
+                            {
+                                "width": 151,
+                                "height": 200
+                            },
+                            {
+                                "width": 76,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "height": 1000,
@@ -1024,50 +1024,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 714,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 714
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 279
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 139
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 70
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/113bb242-0964-6be0-8cd8-f617618b2c3f",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e283e0f1-77d7-a372-b13f-a00075ee94a2#xywh=0,0,22071,15389",
                             "summary": {
@@ -1096,7 +1052,51 @@
                         "Photo AVIODROME, Lelystad "
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/12/41e4e377-245a-40e6-a83a-148dc98cdb94",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 714,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 714
+                            },
+                            {
+                                "width": 400,
+                                "height": 279
+                            },
+                            {
+                                "width": 200,
+                                "height": 139
+                            },
+                            {
+                                "width": 100,
+                                "height": 70
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "label": {
@@ -1188,50 +1188,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 758,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 758,
-                                                "height": 1024
-                                            },
-                                            {
-                                                "width": 296,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 148,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 74,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/9ff753e7-3dd7-d305-4c00-fcd6a3e75827",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/efdecd66-86fb-6476-be9c-990176cdadbe#xywh=0,0,2002,2704",
                             "summary": {
@@ -1260,7 +1216,51 @@
                         "TU Delft Library, Special Collections"
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/6/861ce3b7-9b65-48fa-840f-8ff5534939c6",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 758,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 758,
+                                "height": 1024
+                            },
+                            {
+                                "width": 296,
+                                "height": 400
+                            },
+                            {
+                                "width": 148,
+                                "height": 200
+                            },
+                            {
+                                "width": 74,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "label": {
@@ -1352,50 +1352,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 673,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 673,
-                                                "height": 1024
-                                            },
-                                            {
-                                                "width": 263,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 132,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 66,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/01e856b3-5d09-b37a-a6d3-69e447426055",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/3254d860-8bbc-48e1-e9f4-8a82857ecb64#xywh=0,0,2291,3484",
                             "summary": {
@@ -1424,7 +1380,51 @@
                         "TU Delft Library, Special Collections"
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/15/53998bf6-5612-4f44-9e24-28342ff72ddb",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 673,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 673,
+                                "height": 1024
+                            },
+                            {
+                                "width": 263,
+                                "height": 400
+                            },
+                            {
+                                "width": 132,
+                                "height": 200
+                            },
+                            {
+                                "width": 66,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "height": 1000,
@@ -2870,50 +2870,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 683,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 683,
-                                                "height": 1024
-                                            },
-                                            {
-                                                "width": 267,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 133,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 67,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/annotation/683db162-5d1b-0d92-eb6d-82e49506c52e",
                             "target": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/canvas/e49ccb41-046f-1aa6-fa27-cf9b2ea995cc#xywh=0,0,3008,4512",
                             "summary": {
@@ -2948,7 +2904,51 @@
                         "Nationaal Archief"
                     ]
                 }
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/10/297c44c4-a6c6-464c-b609-b90b4fcb6fbf",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 683,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 683,
+                                "height": 1024
+                            },
+                            {
+                                "width": 267,
+                                "height": 400
+                            },
+                            {
+                                "width": 133,
+                                "height": 200
+                            },
+                            {
+                                "width": 67,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "id": "https://delft-static-site-generator.netlify.com/iiif/1f05178d-9382-53b9-cd33-86ffd19f0476/manifest",

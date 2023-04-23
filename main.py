@@ -8,8 +8,11 @@ from shutil import copy
 CONVERT_INFO_CANVAS_BODIES = True
 CONVERT_INFO_CANVAS_POPUP = True
 PRESERVE_ANNO_LABELS = True
-PAINTING_ANNO_THUMBS = "Annotation"
-# PAINTING_ANNO_THUMBS = "Image"
+
+PAINTING_ANNO_THUMBS = "Annotation"  # Leave thumbnails on `painting` annos
+# PAINTING_ANNO_THUMBS = "Image"  # Or move them to the anno body
+
+MOVE_SINGLE_PAINTING_ANNO_THUMB_TO_CANVAS = True  # e.g., for videos
 
 ITEMS_ANNOS_COUNT = 0
 ITEMS_ANNOS_WITH_LABELS_COUNT = 0
@@ -18,6 +21,7 @@ ANNOS_WITHOUT_LABELS = []
 ANNOS_WITHOUT_SUMMARIES = []
 REMOVED_ANNOS = []
 ANNOS_WITH_NO_DESC = []
+CANVAS_GAINED_THUMBNAIL_FROM_BODY = []
 
 # See https://github.com/IIIF/iiif-av/issues/27
 # and see https://gist.github.com/stephenwf/a1339aa170a2e80fa120f86027b89f46
@@ -57,12 +61,14 @@ def convert_folder(old_folder):
     print(f"ITEMS_ANNOS_COUNT: {ITEMS_ANNOS_COUNT}")
     print(f"ITEMS_ANNOS_WITH_LABELS_COUNT: {ITEMS_ANNOS_WITH_LABELS_COUNT}")
     print(f"ITEMS_ANNOS_WITH_SUMMARIES_COUNT: {ITEMS_ANNOS_WITH_SUMMARIES_COUNT}")
-    print("ANNOS_WITHOUT_LABELS")
+    print(f"ANNOS_WITHOUT_LABELS: {len(ANNOS_WITHOUT_LABELS)}")
     print(ANNOS_WITHOUT_LABELS)
-    print("ANNOS_WITHOUT_SUMMARIES")
+    print(f"ANNOS_WITHOUT_SUMMARIES: {len(ANNOS_WITHOUT_SUMMARIES)}")
     print(ANNOS_WITHOUT_SUMMARIES)
-    print("ANNOS_WITH_NO_DESC")
+    print(f"ANNOS_WITH_NO_DESC: {len(ANNOS_WITH_NO_DESC)}")
     print(ANNOS_WITH_NO_DESC)
+    print(f"CANVAS_GAINED_THUMBNAIL_FROM_BODY: {len(CANVAS_GAINED_THUMBNAIL_FROM_BODY)}")
+    print(CANVAS_GAINED_THUMBNAIL_FROM_BODY)
 
 
 def convert_manifest(manifest, filename):
@@ -342,13 +348,18 @@ def move_thumbnails_from_painting_annos_to_their_bodies(canvas):
         if anno["body"]["type"] != "Image" and anno["body"]["type"] != "Video":
             raise ValueError(f"Unexpected body type '{anno['body']['type']}' in canvas.items")
         thumbnail = anno.get("thumbnail", None)
-        if thumbnail is None or PAINTING_ANNO_THUMBS == "Annotation":
+        if thumbnail is None:
             return
-
-        anno["body"]["thumbnail"] = thumbnail
-        del anno["thumbnail"]
-
-        # TODO: We should tidy up these thumbnails, the Video ones are... odd.
+        if type(thumbnail) is not list:
+            thumbnail = [thumbnail]
+        if MOVE_SINGLE_PAINTING_ANNO_THUMB_TO_CANVAS and len(anno_page["items"]) == 1:
+            canvas["thumbnail"] = thumbnail
+            del anno["thumbnail"]
+            CANVAS_GAINED_THUMBNAIL_FROM_BODY.append(canvas["id"])
+            return
+        if PAINTING_ANNO_THUMBS == "Image":
+            anno["body"]["thumbnail"] = thumbnail
+            del anno["thumbnail"]
 
 
 def remodel_cropped_painting_annos(canvas):
@@ -464,12 +475,15 @@ def remodel_av_and_3d_painting_annos(canvas):
             # paint the thumbnail onto the canvas and supply the model as a rendering
             # We could also do this with the objectifier, but not as a painting on the canvas because it's
             # not an annotatable space
+
+            # Depending on settings the thumbnail may have been already moved to the canvas
+            thumbnail = anno.get("thumbnail", None) or canvas.get("thumbnail", None)
             anno["body"] = {
-                "id": anno["thumbnail"][0]["id"],
+                "id": thumbnail[0]["id"],
                 "type": "Image",
                 "format": "image/jpg"
             }
-            img_service = anno["thumbnail"][0].get("service", None)
+            img_service = thumbnail[0].get("service", None)
             if img_service is not None and img_service.get("type", None) is not None:
                 # some weird IIIF for the sketchfab
                 anno["body"]["service"] = [img_service]

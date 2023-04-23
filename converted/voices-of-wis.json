@@ -97,51 +97,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/24/14204410-74cc-5796-04f2-a59eeaa8ab44/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/24/14204410-74cc-5796-04f2-a59eeaa8ab44",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 563,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 55
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 110
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 220
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 563
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/4125bcf4-02c8-99c9-44e0-4fcaf3c17f5a",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/db040fce-3179-7c90-5c68-8193575c81b0#xywh=0,0,1000,550",
                             "summary": {
@@ -163,6 +118,51 @@
             "behavior": [
                 "w-8",
                 "h-4"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/24/14204410-74cc-5796-04f2-a59eeaa8ab44/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/24/14204410-74cc-5796-04f2-a59eeaa8ab44",
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 563,
+                        "sizes": [
+                            {
+                                "width": 100,
+                                "height": 55
+                            },
+                            {
+                                "width": 200,
+                                "height": 110
+                            },
+                            {
+                                "width": 400,
+                                "height": 220
+                            },
+                            {
+                                "width": 1024,
+                                "height": 563
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -1362,51 +1362,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/24/fe966a00-a90c-3956-9ad9-db4b65df3b98/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/24/fe966a00-a90c-3956-9ad9-db4b65df3b98",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 465,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 45
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 91
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 182
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 465
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/78f0c8a3-0d2c-a44e-5bd8-8a53658ddfbe",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/35515209-d174-dcdf-a58d-b6b95ab16816#xywh=0,0,1000,454",
                             "label": {
@@ -1433,7 +1388,52 @@
                 "en": [
                     "\"Overexpressed\" targets to detect tumors"
                 ]
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/24/fe966a00-a90c-3956-9ad9-db4b65df3b98/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/24/fe966a00-a90c-3956-9ad9-db4b65df3b98",
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 465,
+                        "sizes": [
+                            {
+                                "width": 100,
+                                "height": 45
+                            },
+                            {
+                                "width": 200,
+                                "height": 91
+                            },
+                            {
+                                "width": 400,
+                                "height": 182
+                            },
+                            {
+                                "width": 1024,
+                                "height": 465
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "height": 1000,
@@ -2946,51 +2946,6 @@
                                     "region": "0,207,2840,1066"
                                 }
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 559,
-                                        "sizes": [
-                                            {
-                                                "width": 100,
-                                                "height": 55
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 109
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 218
-                                            },
-                                            {
-                                                "width": 1024,
-                                                "height": 559
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/c7c409c9-b7be-71f3-4995-c539d1f16429",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/42397aad-60be-3d74-9ee7-08b87f77b403#xywh=8,0,2840,1066",
                             "summary": {
@@ -3012,6 +2967,51 @@
             "behavior": [
                 "w-9",
                 "h-3"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/24/78d5bf10-3bda-3c57-80d4-3471199f1d17",
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 559,
+                        "sizes": [
+                            {
+                                "width": 100,
+                                "height": 55
+                            },
+                            {
+                                "width": 200,
+                                "height": 109
+                            },
+                            {
+                                "width": 400,
+                                "height": 218
+                            },
+                            {
+                                "width": 1024,
+                                "height": 559
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -4246,51 +4246,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/24/1cbdce22-7c1b-c8ba-2d14-a2fe265ceadb/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/24/1cbdce22-7c1b-c8ba-2d14-a2fe265ceadb",
-                                        "protocol": "http://iiif.io/api/image",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 724,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 71,
-                                                "height": 100
-                                            },
-                                            {
-                                                "width": 141,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 283,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 724,
-                                                "height": 1024
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/annotation/319eaa2a-f337-6a32-863b-e28b0b9a56f6",
                             "target": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/canvas/6eea4e0a-850c-c063-0198-80fbdb992259#xywh=0,0,125,175",
                             "summary": {
@@ -4324,7 +4279,52 @@
                 "en": [
                     "Student campaign exposing gender bias in design"
                 ]
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/24/1cbdce22-7c1b-c8ba-2d14-a2fe265ceadb/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/24/1cbdce22-7c1b-c8ba-2d14-a2fe265ceadb",
+                        "protocol": "http://iiif.io/api/image",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 724,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 71,
+                                "height": 100
+                            },
+                            {
+                                "width": 141,
+                                "height": 200
+                            },
+                            {
+                                "width": 283,
+                                "height": 400
+                            },
+                            {
+                                "width": 724,
+                                "height": 1024
+                            }
+                        ]
+                    }
+                }
+            ]
         }
     ],
     "id": "https://heritage.tudelft.nl/iiif/fc6a773f-26db-2793-5c89-85a0bc24bb30/manifest",

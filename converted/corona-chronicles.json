@@ -161,50 +161,6 @@
                                     "rotation": 90
                                 }
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 576,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 576
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 225
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 112
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 56
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a9966202-4c8d-7d1b-bdc4-c58c4d15d735",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cdc3483-276c-b5bf-9bae-eeb9a48e75ac#xywh=0,0,562,1000",
                             "summary": {
@@ -227,6 +183,50 @@
                 "bottom",
                 "w-4",
                 "h-8"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/19/f5b3688b-d758-4e03-7458-47135e1e9dc8",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 576,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 576
+                            },
+                            {
+                                "width": 400,
+                                "height": 225
+                            },
+                            {
+                                "width": 200,
+                                "height": 112
+                            },
+                            {
+                                "width": 100,
+                                "height": 56
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -326,50 +326,6 @@
                                     "region": "0,1316,1554,1212"
                                 }
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/19/973b2734-79f0-1c99-ab9d-f11acb742784/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/19/973b2734-79f0-1c99-ab9d-f11acb742784",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 608,
-                                        "height": 1024,
-                                        "sizes": [
-                                            {
-                                                "width": 608,
-                                                "height": 1024
-                                            },
-                                            {
-                                                "width": 238,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 119,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 59,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/3bb8fa06-5f80-2969-596f-83db67ec8b0f",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/4cc73088-3107-083d-515d-b0982c8464d2#xywh=0,0,1554,1212",
                             "label": {
@@ -430,6 +386,50 @@
                             ]
                         }
                     ]
+                }
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/19/973b2734-79f0-1c99-ab9d-f11acb742784/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/19/973b2734-79f0-1c99-ab9d-f11acb742784",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 608,
+                        "height": 1024,
+                        "sizes": [
+                            {
+                                "width": 608,
+                                "height": 1024
+                            },
+                            {
+                                "width": 238,
+                                "height": 400
+                            },
+                            {
+                                "width": 119,
+                                "height": 200
+                            },
+                            {
+                                "width": 59,
+                                "height": 100
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -1044,50 +1044,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/19/2b68b1a8-33e2-4ca4-9128-de2eb2d5aa6f/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/19/2b68b1a8-33e2-4ca4-9128-de2eb2d5aa6f",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 770,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 770
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 301
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 150
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 75
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/a5429baf-5ef7-abe4-1550-4c20ac15a3e3",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e0318e6-14f2-e5cc-6761-9e21c0fe652e#xywh=0,0,1000,751",
                             "summary": {
@@ -1115,7 +1071,51 @@
                 "en": [
                     "Chamberland filters"
                 ]
-            }
+            },
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/19/2b68b1a8-33e2-4ca4-9128-de2eb2d5aa6f/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/19/2b68b1a8-33e2-4ca4-9128-de2eb2d5aa6f",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 770,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 770
+                            },
+                            {
+                                "width": 400,
+                                "height": 301
+                            },
+                            {
+                                "width": 200,
+                                "height": 150
+                            },
+                            {
+                                "width": 100,
+                                "height": 75
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "height": 1000,
@@ -1321,50 +1321,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/19/e7be27f6-1b17-0862-4287-9cd64f139103/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/19/e7be27f6-1b17-0862-4287-9cd64f139103",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 621,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 621
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 243
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 121
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 61
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/21b428e2-f2f1-c0ac-34b0-23d0b4e3daba",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/d3fb79c2-45b3-4cf2-533b-400c178583ec#xywh=0,0,780,472",
                             "summary": {
@@ -1386,6 +1342,50 @@
             "behavior": [
                 "w-8",
                 "h-4"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/19/e7be27f6-1b17-0862-4287-9cd64f139103/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/19/e7be27f6-1b17-0862-4287-9cd64f139103",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 621,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 621
+                            },
+                            {
+                                "width": 400,
+                                "height": 243
+                            },
+                            {
+                                "width": 200,
+                                "height": 121
+                            },
+                            {
+                                "width": 100,
+                                "height": 61
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -1476,50 +1476,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "id": "https://dlc.services/thumbs/7/19/8b19d77e-4fe0-090f-2b14-a6e35c9527d2/full/full/0/default.jpg",
-                                    "type": "Image",
-                                    "service": {
-                                        "type": "ImageService2",
-                                        "id": "https://dlc.services/thumbs/7/19/8b19d77e-4fe0-090f-2b14-a6e35c9527d2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 675,
-                                        "height": 675,
-                                        "sizes": [
-                                            {
-                                                "width": 675,
-                                                "height": 675
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 400
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 200
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 100
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/f1f0668d-7865-00e0-ef48-bded1aade509",
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/7a27da52-ca4c-dea6-faf5-5e81a1db1e47#xywh=0,0,1000,1000",
                             "summary": {
@@ -1541,6 +1497,50 @@
             "behavior": [
                 "w-4",
                 "h-4"
+            ],
+            "thumbnail": [
+                {
+                    "id": "https://dlc.services/thumbs/7/19/8b19d77e-4fe0-090f-2b14-a6e35c9527d2/full/full/0/default.jpg",
+                    "type": "Image",
+                    "service": {
+                        "type": "ImageService2",
+                        "id": "https://dlc.services/thumbs/7/19/8b19d77e-4fe0-090f-2b14-a6e35c9527d2",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 675,
+                        "height": 675,
+                        "sizes": [
+                            {
+                                "width": 675,
+                                "height": 675
+                            },
+                            {
+                                "width": 400,
+                                "height": 400
+                            },
+                            {
+                                "width": 200,
+                                "height": 200
+                            },
+                            {
+                                "width": 100,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -1986,49 +1986,6 @@
                                     }
                                 ]
                             },
-                            "thumbnail": [
-                                {
-                                    "service": {
-                                        "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff",
-                                        "type": "ImageService2",
-                                        "profile": [
-                                            "http://iiif.io/api/image/2/level0.json",
-                                            {
-                                                "formats": [
-                                                    "jpg"
-                                                ],
-                                                "qualities": [
-                                                    "color"
-                                                ],
-                                                "supports": [
-                                                    "sizeByWhListed"
-                                                ]
-                                            }
-                                        ],
-                                        "width": 1024,
-                                        "height": 576,
-                                        "sizes": [
-                                            {
-                                                "width": 1024,
-                                                "height": 576
-                                            },
-                                            {
-                                                "width": 400,
-                                                "height": 225
-                                            },
-                                            {
-                                                "width": 200,
-                                                "height": 112
-                                            },
-                                            {
-                                                "width": 100,
-                                                "height": 56
-                                            }
-                                        ]
-                                    },
-                                    "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff/full/full/0/default.jpg"
-                                }
-                            ],
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b#xywh=0,0,1000,562",
                             "id": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/annotation/134aacc1-6660-eff1-9e2c-025a813aabb3",
                             "motivation": "painting",
@@ -2066,6 +2023,49 @@
                     ]
                 }
             },
+            "thumbnail": [
+                {
+                    "service": {
+                        "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff",
+                        "type": "ImageService2",
+                        "profile": [
+                            "http://iiif.io/api/image/2/level0.json",
+                            {
+                                "formats": [
+                                    "jpg"
+                                ],
+                                "qualities": [
+                                    "color"
+                                ],
+                                "supports": [
+                                    "sizeByWhListed"
+                                ]
+                            }
+                        ],
+                        "width": 1024,
+                        "height": 576,
+                        "sizes": [
+                            {
+                                "width": 1024,
+                                "height": 576
+                            },
+                            {
+                                "width": 400,
+                                "height": 225
+                            },
+                            {
+                                "width": 200,
+                                "height": 112
+                            },
+                            {
+                                "width": 100,
+                                "height": 56
+                            }
+                        ]
+                    },
+                    "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff/full/full/0/default.jpg"
+                }
+            ],
             "rendering": [
                 {
                     "id": "https://tourmake.nl/en/tour/6649a35fe52e12aca13c5b08b3f1fe1a",
