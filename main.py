@@ -355,6 +355,7 @@ def assign_type_to_thumbnail(thumbnail_list):
                 if len(service.keys()) == 1:
                     # it's just an id!
                     service["@id"] = thumb_id.replace("/full/full/0/default.jpg", "")
+                    del service["id"]
                     service["@type"] = "ImageService2"
             thumbnail["service"] = service_list
     return thumbnail_list
@@ -511,7 +512,7 @@ def remodel_av_and_3d_painting_annos(canvas):
                 img_svc_type = img_service[0].get("type", None) or img_service[0].get("@type", None)
                 if img_svc_type is not None:
                     # some weird IIIF for the sketchfab
-                    anno["body"]["service"] = [img_service]
+                    anno["body"]["service"] = img_service
             behaviors = canvas.get("behavior", [])
             behaviors.append("placeholder")
             canvas["behavior"] = behaviors

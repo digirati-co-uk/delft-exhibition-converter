@@ -1976,46 +1976,44 @@
                                 "type": "Image",
                                 "format": "image/jpg",
                                 "service": [
-                                    [
-                                        {
-                                            "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff",
-                                            "type": "ImageService2",
-                                            "profile": [
-                                                "http://iiif.io/api/image/2/level0.json",
-                                                {
-                                                    "formats": [
-                                                        "jpg"
-                                                    ],
-                                                    "qualities": [
-                                                        "color"
-                                                    ],
-                                                    "supports": [
-                                                        "sizeByWhListed"
-                                                    ]
-                                                }
-                                            ],
-                                            "width": 1024,
-                                            "height": 576,
-                                            "sizes": [
-                                                {
-                                                    "width": 1024,
-                                                    "height": 576
-                                                },
-                                                {
-                                                    "width": 400,
-                                                    "height": 225
-                                                },
-                                                {
-                                                    "width": 200,
-                                                    "height": 112
-                                                },
-                                                {
-                                                    "width": 100,
-                                                    "height": 56
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    {
+                                        "id": "https://dlc.services/thumbs/7/19/bb71e575-27a0-d578-021d-012f8a0945ff",
+                                        "type": "ImageService2",
+                                        "profile": [
+                                            "http://iiif.io/api/image/2/level0.json",
+                                            {
+                                                "formats": [
+                                                    "jpg"
+                                                ],
+                                                "qualities": [
+                                                    "color"
+                                                ],
+                                                "supports": [
+                                                    "sizeByWhListed"
+                                                ]
+                                            }
+                                        ],
+                                        "width": 1024,
+                                        "height": 576,
+                                        "sizes": [
+                                            {
+                                                "width": 1024,
+                                                "height": 576
+                                            },
+                                            {
+                                                "width": 400,
+                                                "height": 225
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 112
+                                            },
+                                            {
+                                                "width": 100,
+                                                "height": 56
+                                            }
+                                        ]
+                                    }
                                 ]
                             },
                             "target": "https://heritage.tudelft.nl/iiif/e2f2489c-abe1-3470-9f6e-eae22c250904/canvas/5e24cc3a-0d96-0cf8-3596-36b53d3f902b#xywh=0,0,1000,562",

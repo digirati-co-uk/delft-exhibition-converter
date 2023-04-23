@@ -3818,13 +3818,10 @@
                                 "type": "Image",
                                 "format": "image/jpg",
                                 "service": [
-                                    [
-                                        {
-                                            "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
-                                            "@id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764",
-                                            "@type": "ImageService2"
-                                        }
-                                    ]
+                                    {
+                                        "@id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764",
+                                        "@type": "ImageService2"
+                                    }
                                 ]
                             },
                             "target": "https://heritage.tudelft.nl/iiif/irrigation-knowledge/canvas/95a29f3a-1cdc-fffa-f50d-a3f437ac9519#xywh=0,0,1920,1080",
@@ -3856,7 +3853,6 @@
                 {
                     "service": [
                         {
-                            "id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764/full/full/0/default.jpg",
                             "@id": "https://dlc.services/thumbs/7/21/f2a54087-2931-820b-c736-495372f29764",
                             "@type": "ImageService2"
                         }
