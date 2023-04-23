@@ -22,29 +22,22 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": [
-                                {
-                                    "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                                    "type": "Video",
-                                    "service": [
-                                        {
-                                            "profile": "http://digirati.com/objectifier",
-                                            "params": {
-                                                "data": "https://www.youtube.com/embed/kv6YvKPXQzk"
-                                            }
+                            "body": {
+                                "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                                "type": "Video",
+                                "service": [
+                                    {
+                                        "profile": "http://digirati.com/objectifier",
+                                        "params": {
+                                            "data": "https://www.youtube.com/embed/kv6YvKPXQzk"
                                         }
-                                    ]
-                                },
-                                {
-                                    "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                                    "service": [
-                                        {
-                                            "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
-                                            "profile": "https://www.youtube.com"
-                                        }
-                                    ]
-                                }
-                            ],
+                                    },
+                                    {
+                                        "id": "https://www.youtube.com/watch?v=kv6YvKPXQzk",
+                                        "profile": "https://www.youtube.com"
+                                    }
+                                ]
+                            },
                             "target": "https://heritage.tudelft.nl/iiif/inventing-creativity/canvas/5759f5d0-62c6-7ea6-2c30-ca3cf4ad7e6d#xywh=0,0,1600,1600",
                             "id": "https://heritage.tudelft.nl/iiif/inventing-creativity/annotation/7c654266-b000-bc2b-5b99-fb22e4437d12",
                             "motivation": "painting",

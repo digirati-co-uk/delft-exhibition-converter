@@ -487,7 +487,14 @@ def remodel_av_and_3d_painting_annos(canvas):
                     service_body["service"][0]["start"] = start_time
 
             if YOUTUBE_CONVERT == "Both":
-                anno["body"] = [object_body, service_body]
+                anno["body"] = {
+                    "id": object_body["id"],
+                    "type": "Video",
+                    "service": [
+                        object_body["service"][0],
+                        service_body["service"][0]
+                    ]
+                }
             else:
                 anno["body"] = object_body or service_body
 

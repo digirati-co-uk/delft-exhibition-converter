@@ -2161,30 +2161,23 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": [
-                                {
-                                    "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
-                                    "type": "Video",
-                                    "service": [
-                                        {
-                                            "profile": "http://digirati.com/objectifier",
-                                            "params": {
-                                                "data": "https://www.youtube.com/embed/popa6e9Sv5E?start=89"
-                                            }
+                            "body": {
+                                "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
+                                "type": "Video",
+                                "service": [
+                                    {
+                                        "profile": "http://digirati.com/objectifier",
+                                        "params": {
+                                            "data": "https://www.youtube.com/embed/popa6e9Sv5E?start=89"
                                         }
-                                    ]
-                                },
-                                {
-                                    "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
-                                    "service": [
-                                        {
-                                            "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
-                                            "profile": "https://www.youtube.com",
-                                            "start": 89
-                                        }
-                                    ]
-                                }
-                            ],
+                                    },
+                                    {
+                                        "id": "https://www.youtube.com/watch?v=popa6e9Sv5E",
+                                        "profile": "https://www.youtube.com",
+                                        "start": 89
+                                    }
+                                ]
+                            },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/2a2810e5-ad56-fac9-029a-d0c9fc038c1c#xywh=0,0,1903,1440",
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/6179e7da-69e0-00bb-f87d-14d8c9790be1",
                             "motivation": "painting",
@@ -2482,29 +2475,22 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": [
-                                {
-                                    "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
-                                    "type": "Video",
-                                    "service": [
-                                        {
-                                            "profile": "http://digirati.com/objectifier",
-                                            "params": {
-                                                "data": "https://www.youtube.com/embed/9fKQ1eXX-QI"
-                                            }
+                            "body": {
+                                "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
+                                "type": "Video",
+                                "service": [
+                                    {
+                                        "profile": "http://digirati.com/objectifier",
+                                        "params": {
+                                            "data": "https://www.youtube.com/embed/9fKQ1eXX-QI"
                                         }
-                                    ]
-                                },
-                                {
-                                    "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
-                                    "service": [
-                                        {
-                                            "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
-                                            "profile": "https://www.youtube.com"
-                                        }
-                                    ]
-                                }
-                            ],
+                                    },
+                                    {
+                                        "id": "https://www.youtube.com/watch?v=9fKQ1eXX-QI",
+                                        "profile": "https://www.youtube.com"
+                                    }
+                                ]
+                            },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/6ac3a85d-0ee8-0c03-ca04-d62796417372#xywh=0,0,2560,1440",
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/69e1c967-a73c-8e76-9b89-fce50e2d5996",
                             "motivation": "painting",
@@ -2922,29 +2908,22 @@
                     "items": [
                         {
                             "type": "Annotation",
-                            "body": [
-                                {
-                                    "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
-                                    "type": "Video",
-                                    "service": [
-                                        {
-                                            "profile": "http://digirati.com/objectifier",
-                                            "params": {
-                                                "data": "https://www.youtube.com/embed/muPRP5lOWOg"
-                                            }
+                            "body": {
+                                "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
+                                "type": "Video",
+                                "service": [
+                                    {
+                                        "profile": "http://digirati.com/objectifier",
+                                        "params": {
+                                            "data": "https://www.youtube.com/embed/muPRP5lOWOg"
                                         }
-                                    ]
-                                },
-                                {
-                                    "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
-                                    "service": [
-                                        {
-                                            "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
-                                            "profile": "https://www.youtube.com"
-                                        }
-                                    ]
-                                }
-                            ],
+                                    },
+                                    {
+                                        "id": "https://www.youtube.com/watch?v=muPRP5lOWOg",
+                                        "profile": "https://www.youtube.com"
+                                    }
+                                ]
+                            },
                             "target": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/canvas/92868b52-421e-69ab-70f5-ef5c60017ccb#xywh=0,0,3735,2778",
                             "id": "https://heritage.tudelft.nl/iiif/62d39710-83ec-5064-a890-2bb3845cb67d/annotation/36fba69e-160b-18d1-e24e-97c2b52f2a68",
                             "motivation": "painting",
