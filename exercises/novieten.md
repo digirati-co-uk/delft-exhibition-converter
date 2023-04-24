@@ -917,4 +917,4 @@ https://dlc.services/thumbs/7/21/5ee8ead6-8cdb-5062-b9b4-dd9f0c2dc956/full/full/
 
 The Manifest Editor will recognise that this is from an Image service, although the exhibition renderer might just use the image.
 
-> _We could turn that into a placeholderCanvas, later.
+> _We could turn that into a placeholderCanvas, later._
