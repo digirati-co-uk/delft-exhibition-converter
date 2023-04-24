@@ -276,7 +276,7 @@ Opvallend aan de grafiek is dat het percentage vrouwen vóór de Tweede Wereldoo
 In de loop der tijd is de definitie van eerstejaars studenten veranderd. Tot 1982 wordt er in de statistieken geen onderscheid gemaakt tussen verschillende soorten eerstejaars. Vanaf 1982 zijn de aantallen eerstejaars gebruikt inclusief 'interne omzwaaiers' (studenten die van studie wisselen), omdat deze het best overeenkwamen met de eerdere gegevens. Ook de invoering van de bachelor-masterstructuur in 2002 heeft impact gehad op de wijze van tellen, wat waarschijnlijk de 'dip' in de grafiek verklaart rond dat jaar.
 ```
 
-The info panel also has a footer, which is provided by the `requiredStatement` property of the Canvas. Again we're going to repeat something used elsewhere but later we can vary these to demonstrate how flexible the model is.
+The info panel also has a footer, which is provided by the `requiredStatement` property of the Canvas. Again we're going to repeat text used elsewhere, but later we can vary these to demonstrate how flexible the model is. You only need to supply the `value` of the requiredStatement - you can leave its `label` blank.
 
 English (en):
 
@@ -314,29 +314,607 @@ Dutch (nl):
 <p>Opvallend aan de grafiek is dat het percentage vrouwen vóór de Tweede Wereldoorlog hoger is dan in de periode erna. Pas in 1983 stijgt het percentage weer uit boven de 11%, het maximum uit de vooroorlogse jaren.</p>
 ```
  
-The last step is to add a `thumbnail` to the Canvas; again, we have an existing one:
+The last step is to add a `thumbnail` to the Canvas; again, we have an existing one - an image service, so create the thumbnail from this image service:
 
 ```
 https://dlc.services/thumbs/7/21/4d8776d3-31a9-bf36-22ad-536c39f6ba5d
 ```
 
+## Canvas 4: Don't be a prudish little miss
+
+This is another multimedia plus info panel, but this time the other way round with the text on the left. It has a much bigger set of tour steps, and the tour steps correspond to 6 individual images placed onto the canvas.
+
+> _Again, this is more complicated than it needs to be, as a legacy exhibition, but it demonstrates how to build tour steps from individual painting annotations._
+
+Create an empty Canvas (i.e., not from a starting piece of media) and give it the dimensions w: 999, h: 762. The canvas `behavior` property values are:
+
+```
+left
+w-12
+h-6
+```
+
+The Canvas `label` values are (note the single quotes):
+
+English (en):
+
+```
+'Don’t be a prudish little miss'
+```
+
+Dutch (nl):
+
+```
+'Weest geen preutsch juffertje'
+```
+
+As with the previous example the info text is provided by the Canvas `summary`:
+
+English (en):
+
+```
+The DVSV (Delft student society for women), established in 1904, was a social club for female students at the Institute of Technology. Up until 1970, virtually all female students were members. In the 1920s, its membership was around 100 students.
+
+Successive society presidents gave speeches to first-year students which included instructions. These speeches were printed in yearbooks. Up until 1940, the most important motto was: don’t stand out as a woman and be grateful for the opportunity to study in Delft. Any openly feminist attitude was rejected. This would only begin to change after WWII. You can read here the speeches given in 1930 and 1931.
+```
+
+Dutch (nl):
+
+```
+De Delftse Vrouwelijke Studentenvereniging (DVSV), opgericht in 1904, was een gezelligheidsvereniging voor vrouwelijke studenten aan de TH. Tot 1970 werden vrijwel alle vrouwelijke studenten lid. De vereniging telde in de jaren twintig ongeveer 100 leden.
+
+In redes voor eerstejaars, afgedrukt in de almanakken, gaven de achtereenvolgende presidentes instructies aan de nieuwe leden. Tot 1940 is het belangrijkste devies: val niet op als vrouw en wees dankbaar voor de kans om in Delft te studeren. Een openlijke feministische opstelling werd afgekeurd. Pas na de Tweede Wereldoorlog zou dit geleidelijk gaan veranderen.
+```
+
+And some footer text is provided by the `requiredStatement` property. You only need to supply the `value` of the requiredStatement - you can leave its `label` blank.
+
+English (en):
+
+```
+Click ‘Start tour' and then 'View object' to view the complete yearbooks.
+```
+
+Dutch (nl):
+
+```
+Lees hier de redes uit 1930 en 1931. Klik op 'Start tour' en vervolgens op 'Bekijk object' om de volledige almanakken te bekijken.
+```
+
+This Canvas does not have a thumbnail, but it does have multiple _painting annotations_ which are sourced from existing IIIF content. Rather than paste in raw Image Service URLs, we can browse for the content we want using the IIIF Browser.
+
+We want to end up with something like this:
+
+![canvas5.png](canvas5.png)
+
+These are seven images from existing IIIF Manifests, so we can use the IIIF Browser to pick them. 
+
+> TODO: describe how to add new painting annotations with the picker.
+
+The first two images are pp. 41 and 42 of this Manifest, which you can paste into the picker:
+
+```
+https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/lib-library/lib-tresor-dvsv/lib-tresor-tr-almanak-dvsv-1930.json
+```
+
+The third image (in the top right) is a **crop** from pp 20 of the same Manifest. You select this with the picker in the same way, but this time you select a particular region of the page rather than the whole page.
+
+The next images are the remaining three printed pages, this time from a different Manifest:
+
+```
+https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/collections/lib-library/lib-tresor-dvsv/lib-tresor-tr-almanak-dvsv-1931.json
+```
+
+(This is the 1931 yearbook rather than the 1930 one). You need pp 44, 45 and 46, again taking the whole image from the source Manifest.
+
+The very last tour step is the photograph on the bottom left. This is again a crop, this time from page 20 of the 1931 yearbook.
+
+Now we can assign some text to each of these 7 `painting` annotations. This text will form the text of the tour steps, when we turn them into tour steps in the last step later. But first, allocate the following text to the 7 images (painting annotations):
+
+> _We could also assign the thumbnails to each of these, but it begins to get tedious. However, is the static site using these thumbnails? I think so... As these images are picked as canvases from a Manifest, and those Canvases have thumbnails, could the Manifest Editor automatically assign those canvas thumbnails to the individual images on this canvas? Would we want that? At the moment the thumbnails are properties of the painting annotation, although we can change that in the converter if we want to._
+
+### Image 1 (p 41 from 1930):
+
+#### label
+
+English (en):
+
+```
+Speech to the new members in 1930
+```
+
+Dutch (nl):
+
+```
+Toespraak tot de nieuwe leden in 1930
+```
+
+#### summary
+
+English (en):
+
+```
+1/2
+```
+
+Dutch (nl):
+
+```
+1/2
+```
+
+
+### Image 2 (p 41 from 1930):
+
+#### label
+
+English (en):
+
+```
+Speech to the new members in 1930
+```
+
+Dutch (nl):
+
+```
+Toespraak tot de nieuwe leden in 1930
+```
+
+#### summary
+
+English (en):
+
+```
+2/2
+```
+
+Dutch (nl):
+
+```
+2/2
+```
+
+> _In the more sophisticated model we now support, these two could have been just one annotation targeting the canvas; you can see examples of this in the other exercise._
+
+### Image 3 (p 20 from 1930):
+
+#### label
+
+English (en):
+
+```
+Board of D.V.S.V. 1928-1929
+```
+
+Dutch (nl):
+
+```
+Bestuur der D.V.S.V. 1928-1929
+```
+
+#### summary
+
+(leave blank)
+
+
+### Image 4 (p 44 from 1931):
+
+#### label
+
+English (en):
+
+```
+Speech to the new members in 1931
+```
+
+Dutch (nl):
+
+```
+Toespraak tot de nieuwe leden in 1931
+```
+
+#### summary
+
+English (en):
+
+```
+1/3
+```
+
+Dutch (nl):
+
+```
+1/3
+```
+
+### Image 5 (p 45 from 1931):
+
+#### label
+
+English (en):
+
+```
+Speech to the new members in 1931
+```
+
+Dutch (nl):
+
+```
+Toespraak tot de nieuwe leden in 1931
+```
+
+#### summary
+
+English (en):
+
+```
+2/3
+```
+
+Dutch (nl):
+
+```
+2/3
+```
+
+### Image 6 (p 46 from 1931):
+
+#### label
+
+English (en):
+
+```
+Speech to the new members in 1931
+```
+
+Dutch (nl):
+
+```
+Toespraak tot de nieuwe leden in 1931
+```
+
+#### summary
+
+English (en):
+
+```
+3/3
+```
+
+Dutch (nl):
+
+```
+3/3
+```
+
+
+### Image 7 (crop from p 20 from 1931):
+
+#### label
+
+English (en):
+
+```
+Board of D.V.S.V. 1929-1930
+```
+
+Dutch (nl):
+
+```
+Bestuur der D.V.S.V. 1929-1930
+```
+
+(leave summary blank)
+
+After having given the painting annotations their labels and (in most cases) summaries, you have populated the scene, but you have not turned it into a Tour.
+
+To do this, you need to create a describing annotation for each of the painting annotations. You don't need to give the describing annotations any text or other properties of their own, just target them at the painting annotations you just created.
+
+This creates a tour of seven steps.
 
 
 
-Notes - 
+## Canvas 5: Tube with the PhD award certificate of Antonia Korvezee
 
-For the synthetic one we can build it up bit by bit
+The next panel is much simpler - just a single object.
 
-from image services
-from picking whole canvases (already with their thumbnails)
+Create a new Canvas from content, by selecting the single Canvas from this IIIF Manifest:
+
+```
+https://raw.githubusercontent.com/digirati-co-uk/delft-static-site-generator/master/content/objects/dc434947-cd67-4361-8780-93cae5aa5688.json
+```
+
+(you'll need to use the picker).
+
+Give the canvas the following `label`:
+
+English (en):
+
+```
+Tube with the PhD award certificate of Antonia Korvezee
+```
+
+Dutch (nl):
+
+```
+Koker met promotiebul van Antonia Korvezee
+```
+
+And then give the `painting` annotation itself (the media) the following:
+
+#### label
+
+English (en):
+
+```
+Tube with the PhD award certificate of Antonia Korvezee
+```
+
+Dutch (nl):
+
+```
+Koker met promotiebul van Antonia Korvezee
+```
+
+#### summary
+
+English (en):
+
+```
+TU Delft Library, Special Collections, 2016.0290.LIB
+```
+
+Dutch (nl):
+
+```
+TU Delft Library, Bijzondere Collecties, 2016.0290.LIB
+```
+
+The Canvas should have brought with it the thumbnail it had in its source Manifest, so you don't need to assign a thumbnail.
+
+The `behavior` property values of this Canvas are:
+
+```
+w-8
+h-6
+```
 
 
 
+## Canvas 6: Info Panel for previous canvas
+
+This next example shows the variation possible - this is a separate info canvas that, when combined with Canvas 5, looks like the layout of Canvases 3 and 4. Why do this? Because in this case the info panel is the specialist info panel that has accompanying text that pops out full screen, a feature not available in the combined version in Canvases 3 and 4.
+
+Create a new empty Canvas and set the width and height to 1000. Give it the `behavior` values: 
+
+```
+info
+w-4
+h-6
+```
+
+Now create a `painting` annotation with a textual body, using the values:
+
+English (en):
+
+```
+<h1>Prof. Antonia Korvezee</h1>
+
+<p>In 1954, Antonia Korvezee (1899-1978) became the first female professor at the Institute of Technology in Delft. Although born in Friesland she grew up in The Hague, where she attended the ´HBS for boys´ (former Dutch pre-university secondary school).</p>
+
+<p>Based on her aptitude for maths, she decided to study in Delft. In 1922, she graduated cum laude in Chemical Technology and worked for two years as an analytical chemistry assistant. She continued her studies in Delft by performing PhD research under Professor Scheffer. In 1930, she was awarded a PhD cum laude for her research into copper chloride as a catalyst.</p>
+
+<p>Of the 26 dissertations written in Professor Scheffer’s lab, 5 were by women – a high percentage at the time.</p>
+```
+
+Dutch (nl):
+
+```
+<h1>Prof. Dr. Ir. Antonia Korvezee</h1>
+
+<p>Antonia Korvezee (1899-1978) werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft. Ze werd geboren in Friesland maar groeide op in Den Haag, waar ze de ‘HBS voor jongens’ doorliep.</p>
+
+<p>Vanwege haar aanleg voor wiskunde besloot ze in Delft te gaan studeren. In 1922 studeerde ze cum laude af in de scheikundige technologie en werd ze voor twee jaar assistente bij analytische scheikunde. Ze vervolgde haar opleiding in Delft door bij professor Scheffer een promotieonderzoek te doen. In 1930 promoveerde ze met lof op een onderwerp over koperchloride als katalysator.</p>
+
+<p>Van de 26 dissertaties die binnen het lab van professor Scheffer werden geschreven waren er 5 van de hand van vrouwen - voor die tijd een hoog percentage.</p>
+```
+
+And now a `describing` annotation, targeting the whole Canvas, with the values:
+
+English (en):
+
+```
+<h1>Prof. Antonia Korvezee (1899-1978)</h1>
+
+<p>In 1954, Antonia (Toos) Korvezee (1899-1978) became the first female professor at the Institute of Technology in Delft. Although born in Friesland she grew up in The Hague, where she attended the ‘HBS (former Dutch pre-university secondary school) for boys’. Based on her aptitude for maths, she decided to study in Delft. In 1922, she graduated cum laude in chemical technology and worked for two years as an analytical chemistry assistant. She continued her studies at Delft by performing PhD research under Professor Scheffer. In 1930, she was awarded a PhD cum laude for her research into copper chloride as a catalyst. Of the 26 dissertations written in Professor Scheffer’s lab, 5 were by women – a high percentage at the time.</p><p>In the early 1930s, Korvezee received a grant from the Delft Institute of Technology Fund allowing her to work for several semesters in Paris with Irene Curie on the then new specialism of radioactivity. On her return to Delft, she became a <em>privaatdocente</em> (lecturer in a new discipline that has no professorial chair) in that discipline. Such positions had little status but often served as the first step towards the creation of a new professorial chair.</p><p>The outbreak of WWII meant that things turned out differently for Korvezee. She left Delft and went to work for a company in Venlo. She returned to Delft after the war and found a changed landscape: the laboratory approach had made way for the engineering approach of post-war reconstruction and industrialisation ambitions in line with the American model. The new focus areas included the petrochemical industry, process manufacturing and nuclear energy.</p><p>Korvezee was an expert in the latter field and was appointed a lecturer in 1948. However, she was passed over as the successor to her mentor Scheffer and she was left out of the preparations to establish a prestigious institute for nuclear energy studies. Korvezee’s duties shifted towards teaching. She supervised 5 PhD candidates, but did not establish her own school. In 1954, she became a professor by special appointment in the field of Theoretical Chemistry. She began to feel unwell in 1959 and complained about ‘an overwhelming tiredness’. Her illness forced her to submit her resignation. No ceremony marked Korvezee’s departure. She died in The Hague in 1978.</p><p>There were no successors to Korvezee. After the war, there were just a few women in the Engineering Physics and Fibre Technology departments. Despite a significant increase in the number of professorial chairs in the 1950s and ‘60s, it took 25 years for another woman to become a professor: Franziska Bollerey who, in 1979, was appointed professor of the History of Architecture and Urban Planning at the Architecture Faculty. In 1989, an annual emancipation award was introduced at TU Delft: the Antonia Korvezee Prize, but it was abandoned several years later.</p><p>Further reading: Frida de Jong, <em>Standhouden in Delft</em>, Gewina 20 (1997), pp. 227-243.</p>
+```
+
+Dutch (nl):
+
+```
+<h1>Prof. Dr. Ir. Antonia Korvezee (1899-1978)</h1>
+
+<p>Antonia (Toos) Korvezee werd in 1954 de eerste vrouwelijke hoogleraar aan de Technische Hogeschool in Delft. Ze werd geboren in Friesland maar groeide op in Den Haag, waar ze de ‘HBS voor jongens’ doorliep. Vanwege haar aanleg voor wiskunde besloot ze in Delft te gaan studeren. In 1922 studeerde ze cum laude af in de scheikundige technologie en werd ze voor twee jaar assistente bij analytische scheikunde. Ze vervolgde haar opleiding in Delft door bij professor Scheffer een promotieonderzoek te doen. In 1930 promoveerde ze met lof op een onderwerp over koperchloride als katalysator. Van de 26 dissertaties die binnen het lab van professor Scheffer werden geschreven waren er 5 van de hand van vrouwen - voor die tijd een hoog percentage.</p><p>Begin jaren dertig werkte Korvezee met een toelage van het Delfts Hogeschoolfonds enige semesters in Parijs bij Irène Curie aan het toen nieuwe specialisme van radioactiviteit. Terug in Delft werd ze in 1935 privaatdocente in dit vakgebied. In status stelde dit niet veel voor, maar vaak kon dit dienen als een opstap naar een nieuw te creëren leerstoel.</p><p>Door tussenkomst van de Tweede Wereldoorlog liep het voor Korvezee echter anders. Ze vertrok uit Delft en werkte bij een bedrijf in Venlo. Na de oorlog keerde ze terug naar Delft, waar inmiddels een andere wind woei: de laboratoriumsfeer had plaatsgemaakt voor de ingenieursaanpak van de wederopbouw en het industrialisatiestreven volgens Amerikaans model. Nieuwe speerpunten waren procesindustrie, petrochemische industrie en kernenergie.</p><p>Op dat laatst gebied was Korvezee deskundige, zodat ze in 1948 werd benoemd tot lector. Bij de opvolging in 1953 van haar leermeester Scheffer werd ze echter gepasseerd en bij de voorbereiding om te komen tot een prestigieus instituut voor kernenergie-onderwijs werd ze niet betrokken. Haar taken verschoven in de richting van het onderwijs. Ze begeleide vijf promovendi, maar vestigde geen eigen school. In 1954 werd ze alsnog benoemd tot buitengewoon hoogleraar in de theoretische scheikunde. Vanaf 1959 voelde ze zich ziek en klaagde ze over ‘een alles overheersende vermoeidheid’. Haar ziekzijn noopte haar om ontslag te vragen. Haar afscheid gebeurde met stille trom. Ze overleed in Den Haag in 1978.</p><p>Opvolgsters heeft Korvezee niet gekend. Na de oorlog waren er aan de TH enkel bij de afdeling Technische Natuurkunde en bij de vakgroep Vezeltechniek nog enkel vrouwelijke collega’s werkzaam. Ondanks de grote uitbreiding van het aantal leerstoelen in de jaren vijftig en zestig duurde het 25 jaar voordat er weer een vrouw tot hoogleraar werd benoemd: Franziska Bollerey, die in 1979 hoogleraar in de architectuur- en stedenbouwgeschiedenis werd bij de afdeling Bouwkunde. In 1989 werd aan de TU een jaarlijkse emancipatieprijs ingesteld, de Antonia Korvezeeprijs, maar deze werd na enige jaren weer opgeheven.</p><p>Meer lezen: Frida de Jong, Standhouden in Delft, Gewina 20 (1997), pp. 227-243.</p>
+```
 
 
 
+## Canvas 7: Info Panel for next canvas
+
+This Canvas and the next are a similar pair to the previous two, just the other way round.
+
+Create another 1000 x 1000 info panel, with `behavior` values:
+
+```
+info
+w-4
+h-5
+```
+
+Now create a `painting` annotation with a textual body, using the values:
+
+English (en):
+
+```
+<h1>‘My husband is not an architect – The architecture firm is mine'</h1>
+
+<p>The legal 'incapacity of women' was abolished in the Netherlands in 1956. As a result, married female engineers could actually start to practise their profession.</p>
+
+<p>In the soon to be published book 'Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs' (Eight Women in a Man’s World: From Delft Novices to Engineers)  Marian Geense describes the lives of her 1956 DVSV fellow freshers, and the prejudices women had to deal with in their profession. Here you can read a preprint version of the book based on 8 quotations.</p>
+```
+
+Dutch (nl):
+
+```
+<h1>'Mijn man is geen architect; dat architectenbureau is van mij'</h1>
+
+<p>In 1956 werd de zogenoemde handelingsonbekwaamheid voor vrouwen in Nederland afgeschaft. Dit had als gevolg dat gehuwde vrouwelijke ingenieurs ook daadwerkelijk hun beroep konden gaan uitoefenen.</p>
+
+<p>In het te verschijnen boek 'Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs' beschrijft Marian Geense de levensloop van haar jaarclub van de DVSV uit 1956, en de vooroordelen waarmee de vrouwen te maken krijgen in hun werkende leven. Lees hier een voorpublicatie van het boek op basis van acht citaten.</p>
+```
+
+And now a `describing` annotation, targeting the whole Canvas, with the values:
+
+English (en):
+
+```
+<h1>Eight Women in a Man’s World: From Delft Novices to Engineers</h1>
+
+<p><em>A preprint version based on eight quotations. Visit </em><a href="https://mariangeense.nl" rel="noopener noreferrer" target="_blank"><em>Marian Geense's website</em></a><em> for more information about the book.</em></p><h2>1. 'I want to design, develop an urban plan that will actually be built.'</h2><p>‘Ambitions? What do you intend to do, you like being a senior lecturer at TU Delft, don’t you?’</p><p>‘Yes.’ Hennie pauses and remains silent to let the tension rise. ‘It’s enjoyable, teaching and supervising projects. But after a while it also becomes boring. I became an urban planner for a reason – I want to practise my profession, I want to design, develop an urban plan that will actually be built. So, I’ve applied for a job at an urban planning firm.’</p><p>‘Wow, good for you!’</p><p>‘Before I turn forty, so before 1979, I want to be working for an urban planning firm,’ says Hennie, with determination.</p><h2>2. ‘A woman is expected to give up her dreams and follow her husband all the way into the desert.'</h2><p>Siu Ling stands up, pours a cup of coffee, her forehead wrinkled in irritation. It’s absurd, she thinks, that in our culture, in our society, a man can develop all his talents, pursue his ambitions, seek work anywhere in the world. But a woman is expected to give up her dreams and follow her husband all the way into the desert of a developing region. If a woman chooses to pursue her ambitions, it’s considered scandalous. Why does a woman have to give up all her dreams while a man can choose any path he likes? I’m happy here, let Folkert follow me instead and look for a job here.</p><h2>3. ‘It might take some getting used to, but engineer Eygelaar is a woman.'</h2><p>The telephone on her desk is ringing loudly.</p><p>‘Good morning,’ she says, cheerfully. ‘Tineke Eygelaar speaking.’</p><p>‘Hello,’ says the voice at the other end of the line. ’Can you connect me to engineer Eygelaar?’</p><p>‘Speaking,’ she says.</p><p>‘Connect me to the engineer,’ the voice sounds impatient.</p><p>‘You are connected,’ she says.</p><p>‘Listen, miss. I have an urgent message for the engineer and you have to connect me with him.’</p><p>‘You’re speaking to the engineer,’ she repeats.</p><p>The man has had enough.</p><p>‘You listen to me, miss, enough of your jokes. I need engineer Eygelaar and right now!’</p><p>‘Oh, dear me.’ She struggles to stifle her laughter. ‘It might take some getting used to, but engineer Eygelaar is a woman.’</p><h2>4. 'This is how dictatorships are created.'</h2><p>The novices learn that there are society members and novices, the newcomers. Of course, the many tedious chores were for the novices.</p><p>‘Why did you come here?’ a society member asks Dorothee.</p><p>‘I want to study and become a DVSV member.’</p><p>‘Why the DVSV?’</p><p>‘My mother said that…’</p><p>‘We don’t accept mummy’s girls here. You can leave.’</p><p>‘The DVSV,’ she stammers,‘is the best student society there is, decent and intellectual – and I want nothing more than to do everything…’</p><p>This is how dictatorships are created, Dorothee thinks. But she adjusts and plays along to gain favour because being sent away isn’t an option.</p><h2>5. ‘Girls didn’t have to study, after all they’d find a husband later.'</h2><p>Maja experienced the first day of initiation in her own way at Oude Delft 26. She thinks back to how the day started, how her mother waved her goodbye. She realises how special that was. Her mother never did that. Apparently, her mother felt it was important that her daughter was going to study in Delft.</p><p>That morning, mummy said that she’d like to see her child build a career.</p><p>‘That’s what I raised you to do,’ she says. She herself never studied. Girls didn’t have to study, after all they’d find a husband later. And her husband didn’t encourage her to study. After all, he’s an inventor and a professor and that’s more than enough. Mummy considered that to be a structural flaw in the fabric of her life.</p><h2>6. ´I’m a sciences person, I don’t care about vague humanities fields.'</h2><p>I’m a sciences person, I don’t care about vague humanities fields. I want to go to Delft, thought Femke. And that means I have to approach things in a clever way.</p><p>And she did just that. When a late addition to the family arrived, her baby brother Hans, she seized the opportunity. This is my chance, she thought. Everyone was busy with the baby and while they were distracted for a moment, she set off for Delft to enrol.</p><p>‘Where are you going?’ grandma calls out.</p><p>‘Just to see a friend, I’ll be back in time for dinner.’</p><p>And she was gone.</p><p>The official at the Institute of Technology asked for the signature of her father’s or legal representative, but that was soon fixed. A quick walk around the corner, find a bench, forge a signature and… problem solved. How could the official know? Femke would worry about the bill for tuition fees arriving when the time came.</p><h2>7. ‘My career began when I read an alarming article about a village in Japan where people were becoming seriously ill due to pollution.'</h2><p>'We introduce technological knowledge and tools into the healthcare sector,’ explains Tineke, nestled in a large armchair, serving tea biscuits. ‘Our starting point is the context of the healthcare sector. There is a lot of interest in technological solutions. Various researchers from other countries come to our department to work for a time.’</p><p>‘It strikes me as interesting to translate a medical issue into an electrical engineering problem,’ says Marian. She’s sitting in an easy chair next to a cluttered side table where a plate of biscuits sits alongside a newspaper and Tineke’s glasses.</p><p>‘That’s what makes it exciting. You have to go beyond the boundaries of your own discipline and translate the problems you find there into a well-reasoned electrical engineering solution, and then translate it back into the medical situation.’</p><p>‘That’s something quite different to a port.’ Marian takes a biscuit and continues, ‘My career began when I read an alarming article about a village in Japan where people were becoming seriously ill due to pollution. Since then, increasingly more requirements are being set with the aim of protecting the environment. When we dredge a new port in a wildlife area, we have to create just such an area somewhere else.’</p><h2>8. ‘My husband is not an architect – the architecture firm is mine.'</h2><p>‘I’ll explain it to you in full,’ says the teacher, the corners of his small prim mouth turned down disdainfully. ‘A mother should be at home when her child comes home from school. A mother provides support, answers questions, helps with homework and any problems with friends and the like. But Barbara tells me that neither one of you is home when she gets back from school. It’s not good for a child to return to an empty house.’ He stares at them accusingly, removes his glasses and starts to polish the lenses to let his words have their full impact.</p><p>Hetty feels obliged to respond.</p><p>‘Yes, that’s the problem with running your own business,’ she says. ‘You have to call on the self-reliance of children much more. But the upside is that as a result, children become independent more quickly.’</p><p>‘You’re looking at it in completely the wrong way.’ The teacher sniffs loudly. ‘I have spoken extensively with Barbara. She is a particularly sweet girl. She didn’t want to blame you at first, but then the truth came out. She blames you for never being home and for neglecting her. And it’s my duty as your daughter’s class teacher to address this matter with you, madam.’ His piercing eyes focus on her like sharpened pencils.</p><p>‘What do you mean?’ asks Hetty.</p><p>‘I mean that a woman is meant to take care of her children and support her husband. A woman’s duty is to stay at home for her husband and children so that she can give sound advice and support her family with wise words. A woman protects her household. She doesn’t know what doing nothing means.’ He glares at her, brimming with self-satisfaction.</p><p>‘And what is a husband’s duty?’ asks Hetty, somewhat distraught.</p><p>‘Your husband is a major architect. He has his own architecture firm. That is a high-pressure job with a lot of responsibility and that’s why he has no time to take care of the children. That duty is yours, madam, as his wife.’</p><p>Something is going on inside Hetty.</p><p>‘You’re talking about the architecture firm LG102?’ she asks. ‘My husband is not an architect – the architecture firm is mine.’</p>
+```
+
+Dutch (nl):
+
+```
+<h1>Acht Vrouwen in een Mannenwereld: Van Delftsche Novieten tot Ingenieurs</h1>
+
+<p><em>Een voorpublicatie op basis van acht citaten. </em><a href="https://mariangeense.nl" rel="noopener noreferrer" target="_blank"><em>Bezoek de website van Marian Geense</em></a><em> voor meer informatie over het boek.</em></p><h2>1. 'Ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt'</h2><p>‘Ambities? Wat ben je van plan, het bevalt je toch goed als universitair docent op de TUD?’</p><p>‘Jawel.’ Hennie laat een stilte vallen om de spanning op te voeren. ‘Best leuk, hoor, dat lesgeven en projecten begeleiden, maar na een tijdje begint dat ook te vervelen. Ik ben niet voor niets stedenbouwer, ik wil de praktijk in, ik wil ontwerpen, een stadsplan ontwikkelen dat ook daadwerkelijk gerealiseerd wordt. Dus heb ik gesolliciteerd op een baan bij een stedenbouwkundig bureau.’</p><p>‘Goh, goed van je!’</p><p>‘Voor mijn veertigste, voor 1979 dus, wil ik bij een stedenbouwkundig bureau werken,’ zegt Hennie vastberaden.</p><h2>2. ‘Van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn'</h2><p>Siu Ling staat op, schenkt zich koffie in. Wrevelige rimpels op haar voorhoofd. Het is toch idioot, denkt ze, dat in onze cultuur, in onze maatschappij, een man wel al zijn talenten kan ontwikkelen, zijn eerzucht kan volgen, over de hele wereld werk kan zoeken. Maar van een vrouw wordt verwacht dat ze haar idealen opgeeft en haar man volgt tot in de woestijn van een onderontwikkeld gebied. Als een vrouw kiest voor haar ambitie en haar werk wordt er schande van gesproken. Waarom zou een vrouw al haar dromen op moeten geven en mag een man de richting kiezen die hij zelf wil? Hier ben ik gelukkig, laat Folkert mij maar volgen en hier een baan zoeken.</p><h2>3. Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw'</h2><p>De telefoon op haar bureau rinkelt dringend.</p><p>‘Goedemorgen,’ zegt ze opgewekt. ‘Met Tineke Eygelaar.’</p><p>‘Hallo,’ klinkt het aan de andere kant van de lijn. ’Mag ik ingenieur Eygelaar van u?’’</p><p>‘Daar spreekt u mee,’ zegt ze.</p><p>‘Verbind u mij door met de ingenieur,’ klinkt het ongeduldig.</p><p>‘U bent al doorverbonden,’ zegt ze.</p><p>‘Moet u luisteren, juffrouw. Ik heb een dringende boodschap voor de ingenieur en u moet mij nu met hem doorverbinden.’</p><p>‘Daar spreekt u mee,’ herhaalt ze.</p><p>De man verliest nu echt zijn geduld.</p><p>‘Hoor eens even hier, juffrouw, ik ben niet in voor grapjes. Ik heb ingenieur Eygelaar nodig en wel nú!’</p><p>‘Ach heden.’ Ze kan haar lachen niet meer inhouden. ‘Het zal wel even wennen zijn, maar ingenieur Eygelaar is een vrouw.’</p><h2>4. 'Zo worden dictatoriale regiems gemaakt'</h2><p>De novieten leren dat er clubleden zijn en novieten, de nieuwkomers dus. De vele corveediensten zijn uiteraard voor de novieten.</p><p>‘Wat kom je hier doen?’ vraagt een clublid aan Dorothee.</p><p>‘Ik wil studeren en lid worden van de DVSV.’</p><p>‘Waarom de DVSV?’</p><p>‘Mijn moeder zei dat ik me …’</p><p>‘Moederskindjes kunnen we hier niet accepteren. Je kunt gaan.’</p><p>‘De DVSV,’ hakkelt ze, ‘is de beste studentenvereniging die er is, waardig en intellectueel en ik wil niets liever dan alles doen …’</p><p>Zo worden dictatoriale regiems gemaakt, denkt Dorothee. Maar ze schikt en plooit zich om maar in de gunst te komen, want weggestuurd worden is geen optie.</p><h2>5. ‘Meisjes hoefden niet te studeren, die kregen later toch een man'</h2><p>Maja beleeft die eerste dag van de ontgroening op OD26 op haar eigen manier. Ze denkt terug hoe de dag begon, hoe ze die ochtend werd uitgezwaaid door haar moeder, en ze realiseert zich hoe bijzonder dat is. Dat doet haar moeder anders nooit. Kennelijk vindt ze het belangrijk dat haar dochter in Delft gaat studeren.</p><p>Vanmorgen zei mama dat ze graag zag dat haar kind een carrière zou opbouwen.</p><p>‘Daar heb ik je voor grootgebracht,’ zei ze. Zij heeft zelf niet gestudeerd. Meisjes hoefden niet te studeren, die kregen later toch een man. En haar man heeft haar ook niet gestimuleerd om te studeren. Hij is immers uitvinder en hoogleraar en dat is genoeg. Mama beschouwt dat als de weeffout van haar leven.</p><h2>6. Ik ben een bèta, niks vage alfastudies'</h2><p>Ik ben een bèta, niks vage alfastudies, ik wil naar Delft, dacht Femke. Dus moet ik dat slim aanpakken als ik naar Delft wil.</p><p>En dat heeft ze doorgezet. Toen het nakomertje, haar broertje Hans, geboren werd heeft ze haar wil doorgedreven. Dit is mijn kans, dacht ze. Iedereen had het druk met dat kind en toen ze even niet opletten, is ze afgereisd naar Delft om zich in te schrijven.</p><p>‘Waar ga je naartoe?’ riep oma nog.</p><p>‘Even naar mijn vriendin, ik ben met het avondeten weer terug.’</p><p>Weg was ze.</p><p>Die ambtenaar van de Technische Hogeschool vroeg nog om een handtekening van haar vader of wettelijke vertegenwoordiger, maar dat probleem was snel opgelost. Even een straatje om, op een bankje een valse handtekening zetten en de zaak was voor elkaar. Weet die ambtenaar veel en tegen de tijd dat de rekening van het collegegeld in de brievenbus valt, ziet ze wel weer.</p><h2>7. ‘Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen'</h2><p>'Wat wij doen is technologische kennis en hulpmiddelen introduceren in de gezondheidszorg,’ vertelt Tineke. Zij heeft zich in een ruime fauteuil genesteld en serveert thee met een koekje. ‘Wij gaan uit van de vraagstelling in de zorgsector. Voor technologische oplossingen is veel belangstelling. Verschillende buitenlandse onderzoekers komen tijdelijk bij onze vakgroep werken.’</p><p>‘Lijkt me interessant om een medisch vraagstuk te vertalen naar een elektrotechnisch probleem,’ meent Marian. Ze zit in een luie stoel naast een rommelig bijzettafeltje, waar naast krant en bril van Tineke nog een schaal met koekjes prijkt.</p><p>‘Dat is wat het boeiend maakt. Je moet buiten de grenzen van je eigen vakgebied kunnen kijken en de problemen die daar spelen vertalen naar een elektrotechnische opgaaf en daarna terugvertalen naar de medische wereld.’</p><p>‘Dat is nog eens wat anders dan een haven.’ Marian pakt een koekje en vervolgt: ‘Ik begon mijn carrière met een verontrustend artikel over een dorp in Japan waar mensen ernstig ziek werden door verontreinigingen. Sindsdien worden er steeds meer eisen gesteld om het milieu te beschermen. Als we een nieuwe haven baggeren in een natuurgebied moeten we elders nieuwe natuur creëren.’</p><h2>8. ‘Mijn man is geen architect. Dat architectenbureau is van mij'</h2><p>‘Dat zal ik u precies vertellen,’ zegt de docent. De mondhoeken van zijn pruimenmondje zakken misprijzend omlaag. ‘Als een kind thuiskomt, dan hoort daar de moeder te zijn, die haar ondersteunt en vragen kan beantwoorden en helpt bij huiswerk en problemen met vriendjes en zo. Maar Barbara heeft me verteld dat u geen van beiden thuis bent als zij uit school komt. Het is niet goed voor een kind om in een leeg huis te komen.’ Hij kijkt hen verwijtend aan, haalt zijn bril van zijn neus en begint die te poetsen om zijn woorden goed tot hen door te laten dringen.</p><p>Hetty voelt zich geroepen om ook wat te zeggen.</p><p>‘Ja, dat is het probleem met een eigen bedrijf,’ zegt ze. ‘Dan wordt er veel meer een beroep gedaan op de zelfredzaamheid van de kinderen. Maar het voordeel is wel dat kinderen hierdoor sneller onafhankelijk en zelfstandig worden.’</p><p>‘U ziet dat helemaal verkeerd.’ De docent snuift luidruchtig. ‘Ik heb uitgebreid met Barbara gesproken. Het is een bijzonder lief meisje. Ze wilde u eerst niets verwijten, maar toen kwam het hoge woord eruit. Zij verwijt u dat u nooit thuis bent en haar verwaarloost. En ik vind het mijn plicht, als klassendocent van uw dochter, om u, mevrouw, hierover aan te spreken.’ Zijn ogen priemen als een geslepen potlood in haar richting.</p><p>‘U bedoelt?’ zegt Hetty.</p><p>‘Ik bedoel dat een vrouw haar kinderen moet begeleiden en haar man moet ondersteunen. Het is de taak van een vrouw om thuis te zijn voor man en kinderen, zodat u ze goede raad kunt geven en met uw wijze woorden kunt ondersteunen. Een vrouw waakt over haar huishouding, nietsdoen is haar onbekend.’ Zelfvoldaan staart hij haar aan.</p><p>‘En wat is de taak van een man?’ vraagt Hetty, lichtelijk aangeslagen.</p><p>‘Uw man is een belangrijk architect. Hij heeft een eigen architectenbureau. Dat is een drukke en verantwoordelijke baan en hij heeft daarom geen tijd om de kinderen te begeleiden. Dat is de taak van de vrouw, van u, mevrouw.’</p><p>Er balt zich iets in Hetty samen.</p><p>‘Bedoelt u architectenbureau LG102?’ zegt ze. ‘Mijn man is geen architect. Dat architectenbureau is van mij.’</p>
+```
+
+## Canvas 8: The DVSV Club (circa 1956)
+
+This is a very simple panel to accompany the previous info panel.
+
+Create a new Canvas from content - this Image Service:
+
+```
+https://dlc.services/iiif-img/7/21/59cbd665-a7b3-5f8a-2c16-f406ca74f5fb
+```
+
+with the thumbnail from this Image service:
+
+```
+https://dlc.services/thumbs/7/21/59cbd665-a7b3-5f8a-2c16-f406ca74f5fb
+```
+
+Give the Canvas these `behavior` values:
+
+```
+left
+w-8
+h-5
+```
+
+And give the Canvas this `label`:
+
+English (en):
+
+```
+The DVSV Club (circa 1956)
+```
+
+Dutch (nl):
+
+```
+De Club van de DVSV
+```
 
 
+And then give the `painting` annotation itself (the media) the following:
+
+#### label
+
+English (en):
+
+```
+The DVSV Club (circa 1956)
+```
+
+Dutch (nl):
+
+```
+De Club van de DVSV (Rond 1956)
+```
+
+#### summary
+
+English (en):
+
+```
+First-year Architecture students carrying wood for the fireplace to the storage area in the cellar. The Club is on Oude Delft 26; the manager of the building is on the left of the photo.
+```
+
+Dutch (nl):
+
+```
+Eerstejaars Bouwkunde-studenten brengen het hout voor de open haard naar de opslag in de kelder. De Club bevond zich op de Oude Delft 26; links op de foto de beheerder van het pand.
+```
 
 
+## Canvas 9: Mejuffrouw, Mijne Heren (1964) (A video)
 
+This canvas is created from a Youtube video - the Manifest Editor has a special creator for this.
+
+Create a new Canvas using the Youtube creator. The video to use is:
+
+```
+https://www.youtube.com/watch?v=popa6e9Sv5E
+```
+
+This will create a `painting` annotation for the Youtube video, which is different from the Image annotations so far but can still be given a similar `label` and `summary`:
+
+#### label
+
+English (en):
+
+```
+Mejuffrouw, Mijne Heren (Miss and Gentlemen, 1964)
+```
+
+Dutch (nl):
+
+```
+Mejuffrouw, Mijne Heren (1964)
+```
+
+#### summary
+
+English (en):
+
+```
+Mart van den Busken’s film about student life in Delft in the 1960s. Narrated by one of the few female students.
+```
+
+Dutch (nl):
+
+```
+Fictieve documentaire van Mart van den Busken over het Delftse studentenleven in de jaren zestig. Verhaald door een van de weinige vrouwelijke studenten.
+```
+
+The Canvas has `behavior` values:
+
+```
+w-12
+h-9
+```
+
+It also has a thumbnail - this is used in the exhibition as a placeholder.
+
+This is just a single large image:
+
+```
+https://dlc.services/thumbs/7/21/5ee8ead6-8cdb-5062-b9b4-dd9f0c2dc956/full/full/0/default.jpg
+```
+
+The Manifest Editor will recognise that this is from an Image service, although the exhibition renderer might just use the image.
+
+> _We could turn that into a placeholderCanvas, later.
