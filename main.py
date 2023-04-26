@@ -547,7 +547,7 @@ def get_html_from_label_and_summary(resource, lang, convert_label=True):
     if convert_label:
         label = get_value(resource.get('label', None), lang)
         if label is not None and len(label) > 0 and label[0] is not None and label[0] != "":
-            html = f"<h1>{label[0]}</h1>\n\n"
+            html = f"<h2>{label[0]}</h2>\n\n"
     summary = get_value(resource.get("summary", None), lang)
     if summary is not None:
         for val in summary:

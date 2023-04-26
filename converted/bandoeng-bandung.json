@@ -20,7 +20,7 @@
                             "body": [
                                 {
                                     "type": "TextualBody",
-                                    "value": "<h1>Introduction</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p>\n\n<p>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021.</p>",
+                                    "value": "<h2>Introduction</h2>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p>\n\n<p>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021.</p>",
                                     "format": "text/html",
                                     "language": "en",
                                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/textualbody/a3ba7f54-4f49-14c3-25da-fa0586b086d1/en"
@@ -53,7 +53,7 @@
                             "body": [
                                 {
                                     "type": "TextualBody",
-                                    "value": "<h1>Bandoeng – Bandung</h1>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>",
+                                    "value": "<h2>Bandoeng – Bandung</h2>\n\n<p>TU Delft Library explores the long relationship between Delft and Indonesia, on the occasion of the centenary of Indonesia's oldest technical college: Bandung Institute of Technology (ITB).</p><p><em>NB:This is a preview of an online exhibition about the architecture of the city of Bandung. The full exhibition will be published in spring/summer 2021. See also Abel Streefland's article </em><a href=\"https://heritage.tudelft.nl/en/publications/tu-itb\" rel=\"noopener noreferrer\" target=\"_blank\"><em>The Shared History of TU Delft and Bandung Institute of Technology</em></a><em>.</em></p><p>With thanks to:</p><ul><li>Maria and Jan van Dullemen</li><li>Mo Smit and Céline Mugica</li></ul>",
                                     "format": "text/html",
                                     "language": "en",
                                     "id": "https://heritage.tudelft.nl/iiif/91625f87-e931-9a21-6702-ccde466d9e43/canvas/f74260ca-661b-f4c9-b2ef-c86f373cf768/annotations/0/en"
