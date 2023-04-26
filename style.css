@@ -52,7 +52,7 @@ div.tour-step {
     border: 1px solid #666;
 }
 
-div.tour-step-anno-body h1 {
+div.tour-step-anno-body h1, div.tour-step-anno-body h2 {
     font-size: 1em;
 }
 
