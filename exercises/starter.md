@@ -56,6 +56,111 @@ Key concepts:
 
 ## Building an example exhibition
 
+For this exercise we will use some digitised material from Wellcome as sources.
+
+First, open the [Manifest Editor](https://deploy-preview-239--manifest-editor-testing.netlify.app/). If you have previously used it, it may open on your last edited Manifest. 
+Click the Manifest Editor logo in the top l;eft to get to the home screen, then click *Create Empty Manifest*. The Manifest Editor switched to editing a new Manifest.
+
+You'll see the (as yet empty) Canvas List on the left. This contains a shortcut to "Edit Manifest" - that is, edit the properties of the Manifest itself.
+
+In the right-hand panel, change the title of this new Manifest to "Metamorphosis", by editing its `label` property:
+
+![Edit the label](label.png)
+
+Now create the first Canvas. Click "Add Canvas" on the left hand panel and pick "Add an annotation from an image service" in the list of shortcuts that appears on the right.
+
+Paste the following image service URl into the text box:
+
+```
+https://iiif.wellcomecollection.org/image/B0004724
+```
+
+This will create the canvas, and **fill it with a `painting` annotation** - you should see the pupa in the central panel.
+
+Give the canvas the following label:
+
+```
+Transgenic Drosophila melanogaster pupa
+```
+
+<!-- Create thumbnail? -->
+
+Now we add a couple of features that turn this into a Delf exhibition panel.
+
+In the **Technical** tab on the left, add two `behavior` values: `w-8` and `h-8`. These will control this panel's layout in the exhibition. As they are _custom_ behaviors they don't exist in the **Built-in behaviors** section, so you'll need to add them manually with **Add new value**:
+
+![Add behaviors](behaviors.png)
+
+Although we have already given the canvas a label, we need a slightly richer description for when the user pops open this panel to look more closely at the image. This is done by setting `label` and `summary` properties on the `painting` annotation we created earlier.
+While this is valid IIIF, it's not a common construction, so you'll need to click on the painting annotation itself - i.e., the first image entry under **Media** on the Canvas **Overview** tab. This allows you to add properties to the painting annotation.
+
+Open up the **Descriptive** section and add the values:
+
+#### label
+
+```
+Transgenic Drosophila melanogaster pupa expressing green fluorescent protein (GFP) throughout its body.
+```
+#### summary
+
+```
+During pupation the insect undergoes metamorphosis where the larval tissues restructure themselves into the adult forms.
+```
+
+![Setting descriptive properties on the painting annotation](painting-desc.png)
+
+If you now go back to the Overview (by pressing the back arrow at the head of the Right Hand panel) you'll see that the default label "Image with Image Service" has been replaced by the label you just gave it.
+The benefits of this approach will become apparent later when you start having multiple painting annotations on the same Canvas - where there are multiple images under **Media**.
+
+
+Now we will add a text panel, to serve as an introduction.
+
+In the left hand Canvas list, you'll now see the first Canvas with its label. Click **Add Canvas** and this time click **HTML Annotation** from the list of templates.
+
+Paste the following HTML into the **HTML Content** field and click "Create":
+
+```html
+<h2>Metamorphosis</h2>
+
+<p>Metamorphosis is a biological process by which an animal physically develops including birth transformation or hatching, involving a conspicuous and relatively abrupt change in the animal's body structure through cell growth and differentiation. Some insects, fish, amphibians, mollusks, crustaceans, cnidarians, echinoderms, and tunicates undergo metamorphosis, which is often accompanied by a change of nutrition source or behavior.</p>
+```
+
+Give the canvas a height and width of 1000 on the Technical tab (these are the default values and will probably be already set).
+
+Now we need some custom behaviors to inform the Delft exhibition what this panel is. These are:
+
+```
+info
+w-4
+h-4
+```
+
+![Setting behaviors for info panel](info-behaviors.png)
+
+
+The last thing is to set the longer text that appears when the user clicks "Read more" on this panel in the exhibition. This text is not visible initially, and is carried as a descriptive annotation on the canvas (NOT a painting annotation like the one we have just made).
+
+In the **Structure** tab on the right hand side, you can see an alternative view of the Canvas content. Under the **Media** heading is the `painting` annotation you already made, that will draw the text directly on the canvas.
+
+Underneath this is the **Annotation** section that lets us edit the `annotations` property of the Canvas. In IIIF, we organise annotations into **Annotation Pages** - so we need to create one of these before we can add our text. Click **Add annotations** and then **Create** to create an annotation page.
+
+Just underneath the message saying "No annotations", click **Create annotation**.
+
+The action now switches to the canvas itself. Usually, you would be drawing a box on the Canvas to describe a particular feature, but here we want to target the entire canvas.
+
+(todo)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
