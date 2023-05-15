@@ -127,6 +127,8 @@ Paste the following HTML into the **HTML Content** field and click "Create":
 
 Give the canvas a height and width of 1000 on the Technical tab (these are the default values and will probably be already set).
 
+The exhibition viewer doesn't use the `label` for an info Canvas, so just set it to something like `(info panel)` for convenience (the label is useful for identifying the canvas in the editor).
+
 Now we need some custom behaviors to inform the Delft exhibition what this panel is. These are:
 
 ```
@@ -146,7 +148,10 @@ Underneath this is the **Annotation** section that lets us edit the `annotations
 
 Just underneath the message saying "No annotations", click **Create annotation**.
 
-The action now switches to the canvas itself. Usually, you would be drawing a box on the Canvas to describe a particular feature, but here we want to target the entire canvas.
+The action now switches to the canvas itself. This is because usually, you would be drawing a box on part of the Canvas to describe a particular region, but for this info panel we want to target the entire canvas. To do this we will make a normal annotation and then update its `target` to reference the entire canvas.
+
+
+
 
 (todo)
 
