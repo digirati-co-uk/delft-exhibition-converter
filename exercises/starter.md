@@ -150,10 +150,66 @@ Just underneath the message saying "No annotations", click **Create annotation**
 
 The action now switches to the canvas itself. This is because usually, you would be drawing a box on part of the Canvas to describe a particular region, but for this info panel we want to target the entire canvas. To do this we will make a normal annotation and then update its `target` to reference the entire canvas.
 
+The Canvas (centre panel) will now be annotation mode, and you can draw a box. Draw the box anywhere. Once you have drawn the box the right hand panel offers some templates to base the annotation on. Choose _HTML Annotation_, which brings up a field you can paste the annotation content into:
+
+```html
+<h2>Metamorphosis and insects</h2>
+
+<p>Animals can be divided into species that undergo complete metamorphosis ("holometaboly"), incomplete metamorphosis ("hemimetaboly"), or no metamorphosis ("ametaboly").</p>
+<p>While ametabolous insects show very little difference between larval and adult forms (also known as "direct development"), both hemimetabolous and holometabolous insects have significant morphological and behavioral differences between larval and adult forms, the most significant being the inclusion, in holometabolus organisms, of a pupal or resting stage between the larval and adult forms.</p>
+
+<h3>Development and terminology</h3>
+
+<p>In a complete (holometabolous) metamorphosis the insect passes through four distinct phases, which produce an adult that does not resemble the larva. In an incomplete (hemimetabolous) metamorphosis an insect does not go through a full transformation, but instead transitions from a nymph to an adult by molting its exoskeleton as it grows.</p>
+<p>In hemimetabolous insects, immature stages are called nymphs. Development proceeds in repeated stages of growth and ecdysis (moulting); these stages are called instars. The juvenile forms closely resemble adults, but are smaller and lack adult features such as wings and genitalia. The size and morphological differences between nymphs in different instars are small, often just differences in body proportions and the number of segments; in later instars, external wing buds form. The period from one molt to the next is called a stadium.</p>
+<p>In holometabolous insects, immature stages are called larvae and differ markedly from adults. Insects which undergo holometabolism pass through a larval stage, then enter an inactive state called pupa (called a "chrysalis" in butterfly species), and finally emerge as adults.</p>
+
+<h3>Evolution</h3>
+<p>The earliest insect forms showed direct development (ametabolism), and the evolution of metamorphosis in insects is thought to have fuelled their dramatic radiation (1,2). Some early ametabolous "true insects" are still present today, such as bristletails and silverfish. Hemimetabolous insects include cockroaches, grasshoppers, dragonflies, and true bugs. Phylogenetically, all insects in the Pterygota undergo a marked change in form, texture and physical appearance from immature stage to adult. These insects either have hemimetabolous development, and undergo an incomplete or partial metamorphosis, or holometabolous development, which undergo a complete metamorphosis, including a pupal or resting stage between the larval and adult forms.</p>
+```
+
+Now click _Create_ under the HTML box to create this annotation. On the new annotation's **Technical** tab, set the `motivation` property to "describing" (if it isn't already).
+
+You can set the `label` property of the annotation, and the `label` of the annotation page you created to hold it, which makes things easier to identify in the Manifest Editor even though they are not used in the exhibition. 
+
+> **NOT POSSIBLE**
+> Here we would reset the annotation target to the whole canvas - but the `target` UI is missing.
+
+This info Canvas now has the following content:
+
+![Info Canvas Structure](info-canvas-structure.png)
+
+ - In the **Media** list, a single `painting` annotation with a textual body. 
+ - In the **Annotations** list, a single _internal_ annotation page, and this annotation page comprises a single annotation - the 
+
+The INT (_internal_) designation indicates that the annotations within this annotation page are included within the manifest; it's not a link to an external page of annotations (which you would not be able to edit in the Manifest Editor).
+
+Navigating into this annotation page shows the annotation we just made (here given the `label` "Pop-out text"). Later on, we will add multiple annotations here.
+
+You can also see a section called "Add describing annotations", with the same `painting` annotation seen in the Media tab. This is a special piece of functionality that allows you to create a `describing` annotation that points at a `painting` annotation. This is not something you would typically encounter in a IIIF Manifest, but is used to more easily turn collages (canvases with multiple images on them) into guided tours. Don't click this for now, we will use it later on another canvas.
+
+![Contents of annotation page](anno-page-contents.png)
+
+The Information Panel Canvas is now complete.
+
+You should save your work. If the Manifest Editor is configured with a storage provider, you can save to that - otherwise (the default), simply export the Manifest (from the File menu), downloading it to your computer.
+
+> **EXPORT NOT WORKING** 
+> Export is stubs, not a fully expanded manifest
+
+You can now also preview the exhibition, if the Manifest Editor is configured with Delft preview as a target:
+
+![Delft preview](preview.png)
+
+This launches the current Manifest in a new window, with the panels you have made so far (just two, plus the automatic yellow panel derived from the manifest title).
+
+![first preview](preview1.png)
+
+> **PROBLEMS WITH PREVIEW** 
+> - Read More link doesn't work on info panel
+> - Hard-coded labels on canvases and tour, rather than from content
 
 
-
-(todo)
 
 
 
