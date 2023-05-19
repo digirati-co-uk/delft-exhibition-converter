@@ -210,11 +210,73 @@ This launches the current Manifest in a new window, with the panels you have mad
 
 ![first preview](preview1.png)
 
+You can see that:
+
+ - The canvas label is displayed for the large image
+ - clicking the large image shows the painting annotation label and summary
+ - The info panel `painting` annotation (media) appears directly on the panel
+ - The info panel `describing` annotation is revealed by clicking "Read more" *
+
 > **⚠ PROBLEMS WITH PREVIEW** 
-> - Read More link doesn't work on info panel
+> - *Read More link doesn't work on info panel
 > - Hard-coded labels on canvases and tour, rather than from content
 > - (e.g., "Photos of post-war commemorations" as canvas label, "FEMALE VOICES IN SPEECH RECOGNITION TECHNOLOGY" on tour step)
 > - These strings are not present in the manifest being previewed.
+
+## Canvas 3: Combo summary panel
+
+The next example of an exhibition panel acts like a combination of the previous two panels. There's room for longer text alongside the main feature, and this text can be to the left, right, above or below. One difference from the previous info panel is that it doesn't support pop-out text that appears in a full page overlay.
+
+In the Canvas List on the left, click **Add Canvas**. Pick **Image Service** from the templates as with the first Canvas, using this image service:
+
+```
+https://iiif.wellcomecollection.org/image/B0009275
+```
+
+Give this Canvas `label` and `summary` properties. Rather than using HTML, for this kind of info panel, we just supply our paragraphs as separate string values:
+
+#### label
+
+```
+Bee Pupa
+```
+
+#### summary
+
+```
+A pupa (Latin: pupa, "doll"; plural: pupae) is the life stage of some insects undergoing transformation between immature and mature stages. Insects that go through a pupal stage are holometabolous: they go through four distinct stages in their life cycle, the stages thereof being egg, larva, pupa, and imago. The processes of entering and completing the pupal stage are controlled by the insect's hormones, especially juvenile hormone, prothoracicotropic hormone, and ecdysone. The act of becoming a pupa is called pupation, and the act of emerging from the pupal case is called eclosion or emergence.
+
+The pupae of different groups of insects have different names such as chrysalis for the pupae of butterflies and tumbler for those of the mosquito family. Pupae may further be enclosed in other structures such as cocoons, nests, or shells.
+```
+
+Supplying the summary as two separate values looks like this:
+
+![multiple value summary](multi-value-summary.png)
+
+This panel occupies the full 12 unit width of our grid, even though the picture is squarer than that - we are allowing for the text panel making it wider. On the **Technical** tab, give the Canvas the following `behavior` values:
+
+```
+right
+w-12
+h-6
+```
+
+The `right` behavior identifies the type of panel and the text location.
+
+This kind of layout also uses the `requiredStatement` property to provide a credit note. This is also on the **Descriptive** tab. Add a Required statement, setting the `label` of the required statement blank and giving the value:
+
+```
+Newcastle EM Research Service, Newcastle University
+```
+
+As with the first Canvas, we are going to give a `label` and `summary` to the painting annotation itself. Scroll down on the **Overview** and select the single entry under **Media** - this should be the bee pupa `painting` annotation (you can also access this from the **Structure** tab).
+
+
+
+
+
+
+
 
 
 
