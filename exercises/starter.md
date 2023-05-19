@@ -67,6 +67,8 @@ In the right-hand panel, change the title of this new Manifest to "Metamorphosis
 
 ![Edit the label](label.png)
 
+## Canvas 1: Simple Deep Zoom Image
+
 Now create the first Canvas. Click "Add Canvas" on the left hand panel and pick "Add an annotation from an image service" in the list of shortcuts that appears on the right.
 
 Paste the following image service URl into the text box:
@@ -83,9 +85,9 @@ Give the canvas the following label:
 Transgenic Drosophila melanogaster pupa
 ```
 
-<!-- Create thumbnail? -->
+> **⚠** We would also like to create a thumbnail automatically at this point
 
-Now we add a couple of features that turn this into a Delf exhibition panel.
+Now we add a couple of features that turn this into a Delft exhibition panel.
 
 In the **Technical** tab on the left, add two `behavior` values: `w-8` and `h-8`. These will control this panel's layout in the exhibition. As they are _custom_ behaviors they don't exist in the **Built-in behaviors** section, so you'll need to add them manually with **Add new value**:
 
@@ -112,6 +114,7 @@ During pupation the insect undergoes metamorphosis where the larval tissues rest
 If you now go back to the Overview (by pressing the back arrow at the head of the Right Hand panel) you'll see that the default label "Image with Image Service" has been replaced by the label you just gave it.
 The benefits of this approach will become apparent later when you start having multiple painting annotations on the same Canvas - where there are multiple images under **Media**.
 
+## Canvas 2: Text-only panel
 
 Now we will add a text panel, to serve as an introduction.
 
@@ -172,7 +175,8 @@ Now click _Create_ under the HTML box to create this annotation. On the new anno
 
 You can set the `label` property of the annotation, and the `label` of the annotation page you created to hold it, which makes things easier to identify in the Manifest Editor even though they are not used in the exhibition. 
 
-> **NOT POSSIBLE**
+> **⚠ NOT POSSIBLE**
+> 
 > Here we would reset the annotation target to the whole canvas - but the `target` UI is missing.
 
 This info Canvas now has the following content:
@@ -194,7 +198,8 @@ The Information Panel Canvas is now complete.
 
 You should save your work. If the Manifest Editor is configured with a storage provider, you can save to that - otherwise (the default), simply export the Manifest (from the File menu), downloading it to your computer.
 
-> **EXPORT NOT WORKING** 
+> **⚠ EXPORT NOT WORKING** 
+> 
 > Export is stubs, not a fully expanded manifest
 
 You can now also preview the exhibition, if the Manifest Editor is configured with Delft preview as a target:
@@ -205,9 +210,13 @@ This launches the current Manifest in a new window, with the panels you have mad
 
 ![first preview](preview1.png)
 
-> **PROBLEMS WITH PREVIEW** 
+> **⚠ PROBLEMS WITH PREVIEW** 
 > - Read More link doesn't work on info panel
 > - Hard-coded labels on canvases and tour, rather than from content
+> - (e.g., "Photos of post-war commemorations" as canvas label, "FEMALE VOICES IN SPEECH RECOGNITION TECHNOLOGY" on tour step)
+> - These strings are not present in the manifest being previewed.
+
+
 
 
 
