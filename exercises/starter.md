@@ -269,7 +269,131 @@ This kind of layout also uses the `requiredStatement` property to provide a cred
 Newcastle EM Research Service, Newcastle University
 ```
 
-As with the first Canvas, we are going to give a `label` and `summary` to the painting annotation itself. Scroll down on the **Overview** and select the single entry under **Media** - this should be the bee pupa `painting` annotation (you can also access this from the **Structure** tab).
+As with the first Canvas, we are going to give a `label` and `summary` to the painting annotation itself, to display when the user launches into a large view of the image. Scroll down on the **Overview** and select the single entry under **Media** - this should be the bee pupa `painting` annotation (you can also access this from the **Structure** tab).
+
+#### label
+
+```
+The life cycle of the bee goes through 4 stages: egg, larva, pupa, adult.
+```
+
+#### summary
+
+```
+This image is a false-coloured SEM of a bee pupa just before the sixth and final moult (shedding of its outer skin). At the end of the pupa stage, the bee emerges as an adult having completed its transformation (metamorphosis). The bee is 8 mm in size.
+```
+
+If you now preview the exhibition you'll see the new type of panel - with the Canvas label and summary used to populate the text on the right, and the painting annotation label and summary providing the information about the image when clicked on.
+
+> **⚠ PROBLEMS WITH PREVIEW** 
+> - Same as above - hard-coded painting annotation label and summary
+
+
+## Canvas 4: A two-step tour on one image
+
+We'll make another one of these two-part canvases for the next panel, with the text on the left this time. But we'll make a more complex _tour_ from this single image.
+
+As before, in the Canvas List on the left, click **Add Canvas**. Pick **Image Service** from the templates, and use:
+
+```
+https://iiif.wellcomecollection.org/image/b28047345_0006.jp2
+```
+
+Give this Canvas `label` and `summary` properties. Again, supply the `summary` as two _separate_ values.
+
+#### label
+
+```
+The metamorphosis of the stag beetle
+```
+
+#### summary
+
+```
+A well-known species in much of Europe is Lucanus cervus, referred to in some European countries (including the United Kingdom) as the stag beetle; it is the largest terrestrial insect in Europe. Pliny the Elder noted that Nigidius called the beetle lucanus after the Italian region of Lucania where they were used as amulets. The scientific name of Lucanus cervus adds cervus, deer.
+
+The larvae feed for several years on rotting wood, growing through three larval stages until eventually pupating inside a pupal cell constructed from surrounding wood pieces and soil particles. In the final larval stage, "L3", the surviving grubs of larger species, such as Prosopocoilus giraffa, may be the size of a human finger.
+```
+
+This panel again occupies the full 12 unit width of our grid. Use the following `behavior` values:
+
+```
+left
+w-12
+h-10
+```
+
+> **⚠ Problem** 
+> - For some reason on this Canvas had real problems with the behavior input field losing focus after every keystroke.
+
+Again, supply a `requiredStatement` property to provide a credit note. This is also on the **Descriptive** tab. Add a Required statement, setting the `label` of the required statement blank and giving the value:
+
+```
+Image from The transformations (or metamorphoses) of insects; Duncan, P. Martin (Peter Martin), 1821-1891
+```
+
+As with the first Canvas, we are going to give a `label` and `summary` to the painting annotation itself, to display when the user launches into a large view of the image. Scroll down on the **Overview** and select the single entry under **Media** - this should be the bee pupa `painting` annotation (you can also access this from the **Structure** tab).
+
+#### label
+
+```
+Life cycle of the stag beetle
+```
+
+#### summary
+
+```
+Like all beetles, stag beetles have "complete" metamorphosis with egg, larval, pupal, and adult stages.  In many stag beetle species, females lay their eggs on or under the bark of dead, fallen trees.  Upon hatching, larvae chew their way into the tree and feed on the juices of the decaying wood.
+```
+
+If you now preview the exhibition you'll see that this is just like a flipped version of the previous Canvas.
+
+> **⚠ PROBLEMS WITH PREVIEW** 
+> - Can't get preview to update - even raw manifest!
+
+Now we are going to introduce _tour steps_.
+
+Our first tour step will be the whole image, and the second will zoom in on the bottom-left of the image.
+
+On the **Structure** tab, in the **Annotations** section, click "Add Annotations". There is no existing Annotation Page on this Canvas, so we'll need to click **Create** at the next step to make one to hold the tour step annotations.
+
+This is where the "advanced feature for exhibitions" comes in - it allows us to create an annotation for a tour step that simply points at (targets) an existing `painting` annotation and reuses its content.
+
+Click the painting annotation - the Manifest Editor creates a describing annotation from this and removes the painting annotation from the list of candidates.
+
+Now create another annotation by clicking **Create annotation**.
+
+This shifts focus to the Canvas. Draw a box around the pupa in the bottom left.
+
+> **⚠ This needs more visual feedback** 
+> - cursor change?
+> - some other indicator?
+
+Once you have created a box selection the right panel shows a choice of Annotation templates. Pick **HTML Annotation**.
+
+Supply the following content
+
+```
+<h2>From pupa to larva</h2>
+
+<p>After 6 years, the larva leaves the wood and makes a ‘cocoon’ in the soil. Next it turns into a pupa. This happens in late summer or autumn and lasts a few weeks. Then the pupa turns into a fully grown beetle which stays under the ground until the next summer when it comes out as an adult.</p>
+```
+
+![The stag beetle annotation](stag-pupa.png)
+
+It's not necessary for the exhibition, but may be convenient now to rename the _Annotation Page_ created earlier to "Tour steps" or similar:
+
+![Use labels for clarity](tour-steps.png)
+
+> **⚠ The describing annotation target "sticks"** 
+> - After creating the describing anno, the target stays drawn on other canvases.
+
+
+
+
+> **⚠ PROBLEMS WITH PREVIEW** 
+> - These tour steps do not show up on the preview.
+
 
 
 
