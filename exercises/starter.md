@@ -394,6 +394,38 @@ It's not necessary for the exhibition, but may be convenient now to rename the _
 > **⚠ PROBLEMS WITH PREVIEW** 
 > - These tour steps do not show up on the preview.
 
+## Canvas 5: A tour of a collage
+
+(use the LAST example on Novieten)
+
+(use the iiif explorer to find the canvas pages)
+
+## Canvas 6: Another info panel
+
+## Canvas 7: Another info panel (to balance)
+
+## Canvas 8: Another collage tour, this time with regions
+
+Use the iiif-explorer to pick whole image AND crops
+
+Make some tour steps that point to images and some that point to regions (good overlaps)
+
+re-order the tour steps.
+
+## Canvas 9: vertical text panels
+
+(you can even become a professor)
+
+## Canvas 10: A tour with ONLY regional annotations - around a single image
+
+## Canvas 11: A video on YouTube
+
+## Canvas 12: A video, as a text-combo, with a specific start point
+
+
+
+
+
 
 
 
