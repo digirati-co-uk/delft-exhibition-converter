@@ -52,5 +52,11 @@
         "original": "copied_source/voices-of-wis.json",
         "label": "Voices of Women in Science ",
         "homepage": "https://heritage.tudelft.nl/en/exhibitions/voices-of-wis"
+    },
+    {
+        "id": "exercises/starter-exported.json",
+        "original": "(none)",
+        "label": "Export of Starter Exercise",
+        "homepage": "https://github.com/digirati-co-uk/delft-exhibition-converter/blob/main/exercises/starter.md"
     }
 ]

@@ -1,0 +1,469 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Metamorphosis"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/f89d22f8-8f29-4e7d-a6ff-ed5f4255bf42",
+      "type": "Canvas",
+      "height": 1438,
+      "width": 1798,
+      "behavior": [
+        "w-8",
+        "h-8"
+      ],
+      "label": {
+        "en": [
+          "Transgenic Drosophila melanogaster pupa"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/f89d22f8-8f29-4e7d-a6ff-ed5f4255bf42/annotation-page/2d412a68-2ff9-43d2-8fd5-16b57f565a3a",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/1523b07e-0009-4036-9b8c-1ad2b42a0606",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Transgenic Drosophila melanogaster pupa expressing green fluorescent protein (GFP) throughout its body."
+                ]
+              },
+              "summary": {
+                "en": [
+                  "During pupation the insect undergoes metamorphosis where the larval tissues restructure themselves into the adult forms."
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/f89d22f8-8f29-4e7d-a6ff-ed5f4255bf42",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/B0004724/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1438,
+                "width": 1798,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.wellcomecollection.org/image/B0004724",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 1798,
+                    "height": 1438,
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8
+                        ]
+                      }
+                    ],
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 819
+                      },
+                      {
+                        "width": 400,
+                        "height": 320
+                      },
+                      {
+                        "width": 200,
+                        "height": 160
+                      },
+                      {
+                        "width": 100,
+                        "height": 80
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level1.json",
+                      {
+                        "formats": [
+                          "jpg"
+                        ],
+                        "qualities": [
+                          "native",
+                          "color",
+                          "gray"
+                        ],
+                        "supports": [
+                          "regionByPct",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "sizeAboveFull",
+                          "rotationBy90s",
+                          "mirroring",
+                          "gray"
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/B0004724"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "behavior": [
+        "info",
+        "w-4",
+        "h-4"
+      ],
+      "label": {
+        "en": [
+          "(info panel)"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d/annotation-page/bf157be2-cacf-4cd4-82d2-736b83e19a36",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/29e08e45-2659-4d3f-89f8-ca5de2b1abc8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d",
+              "label": {
+                "en": [
+                  "Painting annotation, text visible directly in the exhibition"
+                ]
+              },
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/29e08e45-2659-4d3f-89f8-ca5de2b1abc8/html/en/bdad6ac6-9ecf-4731-ab62-5aba9bba8dda",
+                "type": "TextualBody",
+                "format": "text/html",
+                "height": 1000,
+                "width": 1000,
+                "language": "en",
+                "value": "<h2>Metamorphosis</h2>\n\n<p>Metamorphosis is a biological process by which an animal physically develops including birth transformation or hatching, involving a conspicuous and relatively abrupt change in the animal's body structure through cell growth and differentiation. Some insects, fish, amphibians, mollusks, crustaceans, cnidarians, echinoderms, and tunicates undergo metamorphosis, which is often accompanied by a change of nutrition source or behavior.</p>"
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d/annotations/10d3fcdd-7b66-4f9f-a93b-caff5aa858d3",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Annotation Page for pop-out annotation"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d/annotations/10d3fcdd-7b66-4f9f-a93b-caff5aa858d3/annotation/f9ed55c1-2dbb-4233-bf7d-b742fe374b86",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Pop-out text"
+                ]
+              },
+              "summary": {
+                "en": [
+                  ""
+                ]
+              },
+              "motivation": "describing",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d#xywh=216,145,257,128",
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/d05396d0-365f-4656-910b-09863df5b29d/annotations/10d3fcdd-7b66-4f9f-a93b-caff5aa858d3/annotation/f9ed55c1-2dbb-4233-bf7d-b742fe374b86/html/en/39ecc921-ff19-4794-a7fa-df5f2e76d0dd",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>Metamorphosis and insects</h2>\n\n<p>Animals can be divided into species that undergo complete metamorphosis (\"holometaboly\"), incomplete metamorphosis (\"hemimetaboly\"), or no metamorphosis (\"ametaboly\").</p>\n<p>While ametabolous insects show very little difference between larval and adult forms (also known as \"direct development\"), both hemimetabolous and holometabolous insects have significant morphological and behavioral differences between larval and adult forms, the most significant being the inclusion, in holometabolus organisms, of a pupal or resting stage between the larval and adult forms.</p>\n\n<h3>Development and terminology</h3>\n\n<p>In a complete (holometabolous) metamorphosis the insect passes through four distinct phases, which produce an adult that does not resemble the larva. In an incomplete (hemimetabolous) metamorphosis an insect does not go through a full transformation, but instead transitions from a nymph to an adult by molting its exoskeleton as it grows.</p>\n<p>In hemimetabolous insects, immature stages are called nymphs. Development proceeds in repeated stages of growth and ecdysis (moulting); these stages are called instars. The juvenile forms closely resemble adults, but are smaller and lack adult features such as wings and genitalia. The size and morphological differences between nymphs in different instars are small, often just differences in body proportions and the number of segments; in later instars, external wing buds form. The period from one molt to the next is called a stadium.</p>\n<p>In holometabolous insects, immature stages are called larvae and differ markedly from adults. Insects which undergo holometabolism pass through a larval stage, then enter an inactive state called pupa (called a \"chrysalis\" in butterfly species), and finally emerge as adults.</p>\n\n<h3>Evolution</h3>\n<p>The earliest insect forms showed direct development (ametabolism), and the evolution of metamorphosis in insects is thought to have fuelled their dramatic radiation (1,2). Some early ametabolous \"true insects\" are still present today, such as bristletails and silverfish. Hemimetabolous insects include cockroaches, grasshoppers, dragonflies, and true bugs. Phylogenetically, all insects in the Pterygota undergo a marked change in form, texture and physical appearance from immature stage to adult. These insects either have hemimetabolous development, and undergo an incomplete or partial metamorphosis, or holometabolous development, which undergo a complete metamorphosis, including a pupal or resting stage between the larval and adult forms.</p>\n"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/b6101e1f-5936-4470-8fd1-594c9e2dfe5e",
+      "type": "Canvas",
+      "height": 3260,
+      "width": 4724,
+      "behavior": [
+        "right",
+        "w-12",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Bee pupa"
+        ]
+      },
+      "summary": {
+        "en": [
+          "A pupa (Latin: pupa, \"doll\"; plural: pupae) is the life stage of some insects undergoing transformation between immature and mature stages. Insects that go through a pupal stage are holometabolous: they go through four distinct stages in their life cycle, the stages thereof being egg, larva, pupa, and imago. The processes of entering and completing the pupal stage are controlled by the insect's hormones, especially juvenile hormone, prothoracicotropic hormone, and ecdysone. The act of becoming a pupa is called pupation, and the act of emerging from the pupal case is called eclosion or emergence.",
+          "The pupae of different groups of insects have different names such as chrysalis for the pupae of butterflies and tumbler for those of the mosquito family. Pupae may further be enclosed in other structures such as cocoons, nests, or shells."
+        ]
+      },
+      "requiredStatement": {
+        "label": {
+          "en": [
+            ""
+          ]
+        },
+        "value": {
+          "en": [
+            "Newcastle EM Research Service, Newcastle University"
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/b6101e1f-5936-4470-8fd1-594c9e2dfe5e/annotation-page/f695eb30-fca4-44ac-8416-578e3c8c8098",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/51e289de-cf1b-41db-80b8-8b726524ef42",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/b6101e1f-5936-4470-8fd1-594c9e2dfe5e",
+              "label": {
+                "en": [
+                  "The life cycle of the bee goes through 4 stages: egg, larva, pupa, adult."
+                ]
+              },
+              "summary": {
+                "en": [
+                  "This image is a false-coloured SEM of a bee pupa just before the sixth and final moult (shedding of its outer skin). At the end of the pupa stage, the bee emerges as an adult having completed its transformation (metamorphosis). The bee is 8 mm in size."
+                ]
+              },
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/B0009275/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3260,
+                "width": 4724,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/B0009275",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 4724,
+                    "height": 3260,
+                    "sizes": [
+                      {
+                        "width": 1024,
+                        "height": 707
+                      },
+                      {
+                        "width": 400,
+                        "height": 276
+                      },
+                      {
+                        "width": 200,
+                        "height": 138
+                      },
+                      {
+                        "width": 100,
+                        "height": 69
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/B0009275"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9",
+      "type": "Canvas",
+      "height": 4258,
+      "width": 2602,
+      "behavior": [
+        "left",
+        "w-12",
+        "h-8"
+      ],
+      "label": {
+        "en": [
+          "The metamorphosis of the stag beetle"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "<span>test <strong>hello</strong></span>",
+              "another label"
+            ]
+          },
+          "value": {
+            "en": [
+              "test"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "en": [
+          "A well-known species in much of Europe is Lucanus cervus, referred to in some European countries (including the United Kingdom) as the stag beetle; it is the largest terrestrial insect in Europe. Pliny the Elder noted that Nigidius called the beetle lucanus after the Italian region of Lucania where they were used as amulets. The scientific name of Lucanus cervus adds cervus, deer.",
+          "The larvae feed for several years on rotting wood, growing through three larval stages until eventually pupating inside a pupal cell constructed from surrounding wood pieces and soil particles. In the final larval stage, \"L3\", the surviving grubs of larger species, such as Prosopocoilus giraffa, may be the size of a human finger."
+        ]
+      },
+      "requiredStatement": {
+        "value": {
+          "en": [
+            "Image from The transformations (or metamorphoses) of insects; Duncan, P. Martin (Peter Martin), 1821-1891"
+          ]
+        },
+        "label": {
+          "en": [
+            ""
+          ]
+        }
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9/annotation-page/4db402bd-0c8f-42bf-8aba-3d40fe429b1d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/85f51540-b195-4843-82a9-eb0b6fbed083",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "Life cycle of the stag beetle"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Like all beetles, stag beetles have \"complete\" metamorphosis with egg, larval, pupal, and adult stages.  In many stag beetle species, females lay their eggs on or under the bark of dead, fallen trees.  Upon hatching, larvae chew their way into the tree and feed on the juices of the decaying wood."
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28047345_0006.jp2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4258,
+                "width": 2602,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28047345_0006.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 2602,
+                    "height": 4258,
+                    "sizes": [
+                      {
+                        "width": 626,
+                        "height": 1024
+                      },
+                      {
+                        "width": 244,
+                        "height": 400
+                      },
+                      {
+                        "width": 122,
+                        "height": 200
+                      },
+                      {
+                        "width": 61,
+                        "height": 100
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "id": "https://iiif.wellcomecollection.org/image/b28047345_0006.jp2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9/annotations/d4e37eed-af1f-475a-a596-54d5e096761d",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9/annotations/d4e37eed-af1f-475a-a596-54d5e096761d/annotation/2a263ffb-5cf3-4132-883f-88e5f283d1b9",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/85f51540-b195-4843-82a9-eb0b6fbed083",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9/annotations/d4e37eed-af1f-475a-a596-54d5e096761d/annotation/706f3ae2-e2bb-4a93-946c-a9826c2a8452",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9#xywh=260,2926,1449,994",
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/a0d7e62d-0c86-422a-b275-051d09c0a9e9/annotations/d4e37eed-af1f-475a-a596-54d5e096761d/annotation/706f3ae2-e2bb-4a93-946c-a9826c2a8452/html/en/f46351a7-b211-4f06-b403-688620333d60",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>From pupa to larva</h2>\n\n<p>After 6 years, the larva leaves the wood and makes a ‘cocoon’ in the soil. Next it turns into a pupa. This happens in late summer or autumn and lasts a few weeks. Then the pupa turns into a fully grown beetle which stays under the ground until the next summer when it comes out as an adult.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

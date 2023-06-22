@@ -173,6 +173,10 @@ The Canvas (centre panel) will now be annotation mode, and you can draw a box. D
 
 Now click _Create_ under the HTML box to create this annotation. On the new annotation's **Technical** tab, set the `motivation` property to "describing" (if it isn't already).
 
+> **⚠ Annotation Body is not an array**
+> I don't know if this matters but the existing converted Delft manifests have their info panels textual body as arrays. The Manifest Editor creates this as a direct object body. I needed to update the "text" renderer to accommodate.
+> The same is true of annos under `canvas.annotations`, both here and for the tour step pointers.
+
 You can set the `label` property of the annotation, and the `label` of the annotation page you created to hold it, which makes things easier to identify in the Manifest Editor even though they are not used in the exhibition. 
 
 > **⚠ NOT POSSIBLE**
@@ -200,7 +204,7 @@ You should save your work. If the Manifest Editor is configured with a storage p
 
 > **⚠ EXPORT NOT WORKING** 
 > 
-> Export is stubs, not a fully expanded manifest
+> Export is stubs, not a fully expanded manifest. This is also true of "Copy to clipboard" even though the JSON is visible. Copying the JSON directly from the text doesn't quite work either as it needs to have some line breaks escaped.
 
 You can now also preview the exhibition, if the Manifest Editor is configured with Delft preview as a target:
 
@@ -388,13 +392,98 @@ It's not necessary for the exhibition, but may be convenient now to rename the _
 > **⚠ The describing annotation target "sticks"** 
 > - After creating the describing anno, the target stays drawn on other canvases.
 
-
-
+> **⚠ Deleting a Canvas** 
+> - Deleting a Canvas in the left hand menu does remove it from the model, but it doesn't update the view.
 
 > **⚠ PROBLEMS WITH PREVIEW** 
 > - These tour steps do not show up on the preview.
 
 ## Canvas 5: A tour of a collage
+
+For this panel we will use multiple images on the same Canvas, and create a tour to take the user through each of the images.
+
+In the Canvas List on the left, click **Add Canvas**. This time, choose the **Empty Canvas** template. 
+
+Click "Create" to actually make the Canvas.
+
+Give the Canvas a label:
+
+#### label
+
+```
+Some pages from Transformations
+```
+
+This new Canvas is empty - it has no images. We want it to be a particular shape to continue the left-right flow we have established. Give it the following `behavior` values:
+
+```
+w-8
+h-6
+```
+
+> **⚠ Setting the Canvas w,h first** 
+> - I did want to set the Canvas dimensions first - but using the IIIF Browser later will reset the Canvas size when the first image is selected for the Canvas. So this is rewritten to add one image, then set canvas size, then add the rest.
+
+Now we want to add some images, and to do this we can select from an existing manifest. Go back to the Canvas _Detail_ tab and click **Add media**, then choose _IIIF Browser_. Paste in the following Manifest URL and press return:
+
+```
+https://iiif.wellcomecollection.org/presentation/b28047345
+```
+
+The IIIF Browser component loads the Manifest, showing thumbnails. Scroll through and find an interesting page. Click it to enlarge, and then click **Select**. This places this image on the Canvas, adjusting the size of the Canvas to fit (as it is the only image). However, we want to specify a different Canvas size, and we don't want the image filling the Canvas. The right hand panel should show the selected Media, but if you have moved away, re-select this particular media. At the foot of the right hand panel you should see the **Target** property, which specifies where the image is placed on the Canvas. It will say "This image fills the whole Canvas". Click **Change** and the image pops out from filling the whole Canvas. 
+
+Resize the image to make it significantly smaller - click the pencil icon in the central panel to enable editing of the image's position on the Canvas. Use the resize handles to end up with something like this:
+
+![Initial Tour Canvas State](initial_tour_canvas.png)
+
+Before positioning the image exactly, we can now give our Canvas the aspect ratio we want. On the Canvas _Technical_ tab, explicitly set the height to `679` and width to `1000` (previous canvases have acquired their height and width from the image):
+
+![Setting height and width](canvas_wh.png)
+
+Now the Canvas looks something like this:
+
+![Canvas with one image](one-image-canvas.png)
+
+Click **Finish Editing** on the centre panel.
+
+Now add three more images, going back to **Add media** on the Canvas _Overview_ tab. Again, use the IIIF Browser. This time it should remember the previous Manifest (if not, paste the URL again). Add another image - it will be placed in an unsuitable position, so click the pencil icon and change its size and position to something more useful. Do this for all images until you end up with something like this:
+
+![Four images on the Canvas](four-image-canvas.png)
+
+> **⚠ This feels very flaky, you keep having to reset viewer, navigate away etc., to get the view back.**
+> You also can't select an image on the Canvas itself which doesn't feel natural.
+
+> **⚠ If I click the back button on the Canvas right hand panel, I load a Canvas I'd previously deleted.
+
+Now give each image label and summary...
+
+
+Now make the tour step annos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> **⚠ Why the extra step?** 
+
+
 
 (use the LAST example on Novieten)
 

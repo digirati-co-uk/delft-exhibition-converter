@@ -87,7 +87,11 @@
     }
 
     function makeInfoPanel(canvas, panel){
-        for(const body of canvas.items[0].items[0].body){
+        let bodyAsList = canvas.items[0].items[0].body;
+        if(!Array.isArray(bodyAsList)){
+            bodyAsList = [bodyAsList];
+        }
+        for(const body of bodyAsList){
             if(body.language == language){
                 const infoBody = document.createElement("div");
                 infoBody.setAttribute("class", "infobody");
@@ -96,7 +100,11 @@
             }
         }
         if(canvas.annotations?.[0]["items"]){
-            for(const body of canvas.annotations?.[0].items[0].body){
+            let canvasAnnoBodyList = canvas.annotations?.[0].items[0].body;
+            if(!Array.isArray(canvasAnnoBodyList)){
+                canvasAnnoBodyList = [canvasAnnoBodyList];
+            }
+            for(const body of canvasAnnoBodyList){
                 if(body.language == language) {
                     const readMore = document.createElement("a");
                     readMore.innerText = "Read more";
@@ -201,7 +209,11 @@
                     }
                 }
                 if (annotation.body) {
-                    for (const body of annotation.body) {
+                    let annoBodyList = annotation.body;
+                    if(!Array.isArray(annoBodyList)){
+                        annoBodyList = [annoBodyList];
+                    }
+                    for (const body of annoBodyList) {
                         if (body.language == language) {
                             addPara(tourStep, "Using the annotation body of this tour step annotation:", true);
                             const tourDescribingAnno = document.createElement("div");
