@@ -464,6 +464,113 @@
           ]
         }
       ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403",
+      "type": "Canvas",
+      "height": 679,
+      "width": 1000,
+      "label": {
+        "en": [
+          "Some Pages from Transformations"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotation-page/d645533c-91fa-4961-b1dd-402391b96f8e",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0030.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=70,49,227,375",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28047345_0030.jp2/full/626,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4258,
+                "width": 2602,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28047345_0030.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 2602,
+                    "height": 4258
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0161.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=300,261,176,281",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28047345_0161.jp2/full/642,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4239,
+                "width": 2659,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28047345_0161.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 2659,
+                    "height": 4239
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0484.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=481,50,247,407",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28047345_0484.jp2/full/626,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4258,
+                "width": 2602,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28047345_0484.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 2602,
+                    "height": 4258
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0395.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=733,188,242,407",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28047345_0395.jp2/full/611,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4267,
+                "width": 2545,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28047345_0395.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 2545,
+                    "height": 4267
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
