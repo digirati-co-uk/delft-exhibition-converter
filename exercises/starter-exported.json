@@ -470,6 +470,10 @@
       "type": "Canvas",
       "height": 679,
       "width": 1000,
+      "behavior": [
+        "w-8",
+        "h-6"
+      ],
       "label": {
         "en": [
           "Some Pages from Transformations"
@@ -485,6 +489,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=70,49,227,375",
+              "label": {
+                "en": [
+                  "The Caterpillar of Sphinx ligustri"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Wellcome Collection"
+                ]
+              },
               "body": {
                 "id": "https://iiif.wellcomecollection.org/image/b28047345_0030.jp2/full/626,1024/0/default.jpg",
                 "type": "Image",
@@ -497,7 +511,8 @@
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level1.json",
                     "width": 2602,
-                    "height": 4258
+                    "height": 4258,
+                    "id": "https://iiif.wellcomecollection.org/image/b28047345_0030.jp2"
                   }
                 ]
               }
@@ -507,6 +522,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=300,261,176,281",
+              "label": {
+                "en": [
+                  "The moths and caterpillars of Cucullia verbasci"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Wellcome Collection"
+                ]
+              },
               "body": {
                 "id": "https://iiif.wellcomecollection.org/image/b28047345_0161.jp2/full/642,1024/0/default.jpg",
                 "type": "Image",
@@ -519,7 +544,8 @@
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level1.json",
                     "width": 2659,
-                    "height": 4239
+                    "height": 4239,
+                    "id": "https://iiif.wellcomecollection.org/image/b28047345_0161.jp2"
                   }
                 ]
               }
@@ -529,6 +555,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=481,50,247,407",
+              "label": {
+                "en": [
+                  "Mygale fodiens and its nest"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Wellcome Collection"
+                ]
+              },
               "body": {
                 "id": "https://iiif.wellcomecollection.org/image/b28047345_0484.jp2/full/626,1024/0/default.jpg",
                 "type": "Image",
@@ -541,7 +577,8 @@
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level1.json",
                     "width": 2602,
-                    "height": 4258
+                    "height": 4258,
+                    "id": "https://iiif.wellcomecollection.org/image/b28047345_0484.jp2"
                   }
                 ]
               }
@@ -551,6 +588,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403#xywh=733,188,242,407",
+              "label": {
+                "en": [
+                  "The metamorphoses of locusts (Acridium peregrinnum)"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "Wellcome Collection"
+                ]
+              },
               "body": {
                 "id": "https://iiif.wellcomecollection.org/image/b28047345_0395.jp2/full/611,1024/0/default.jpg",
                 "type": "Image",
@@ -563,10 +610,64 @@
                     "@type": "ImageService2",
                     "profile": "http://iiif.io/api/image/2/level1.json",
                     "width": 2545,
-                    "height": 4267
+                    "height": 4267,
+                    "id": "https://iiif.wellcomecollection.org/image/b28047345_0395.jp2"
                   }
                 ]
               }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotations/598ca8cd-d61b-4954-a0e2-a5e7d5e98f38",
+          "type": "AnnotationPage",
+          "label": {
+            "en": [
+              "Tour Steps"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotations/598ca8cd-d61b-4954-a0e2-a5e7d5e98f38/annotation/90208deb-16fb-4705-9504-4b2fed1a6a0e",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0030.jp2/painting/anno",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotations/598ca8cd-d61b-4954-a0e2-a5e7d5e98f38/annotation/32164e2d-6a21-49fc-9100-470a16192fff",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0161.jp2/painting/anno",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotations/598ca8cd-d61b-4954-a0e2-a5e7d5e98f38/annotation/24666dff-ef56-4cde-839e-bac5ba30d560",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0484.jp2/painting/anno",
+                "type": "Annotation"
+              },
+              "body": []
+            },
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/88aaf9cf-6d01-4be9-b048-31c95a306403/annotations/598ca8cd-d61b-4954-a0e2-a5e7d5e98f38/annotation/be36b2df-5893-43ed-92dd-e227858b4327",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b28047345/canvases/b28047345_0395.jp2/painting/anno",
+                "type": "Annotation"
+              },
+              "body": []
             }
           ]
         }

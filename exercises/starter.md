@@ -455,39 +455,27 @@ Now add three more images, going back to **Add media** on the Canvas _Overview_ 
 
 > **⚠ If I click the back button on the Canvas right hand panel, I load a Canvas I'd previously deleted.
 
-Now give each image label and summary...
+Now give each image a `label` and `summary`, on the _Descriptive_ section of each Image. Select the images in the right hand panel rather than on the Canvas.
 
+![Labelling the images in the collage](labelling-collage.png)
 
-Now make the tour step annos.
+It doesn't matter what text you use - the label is usually descriptive and for these tour steps, the summary is _usually_ a credit - but they can be used for anything.
 
+Labelling the media also gives them better names in the Manifest Editor user interface:
 
+![Labelled painting annotations](labelled-annos.png)
 
+This has created a collage, with labelled parts - but it's not yet a tour in the user interface. The Exhibition display does not automatically assume that the individual images are the tour steps (this will be shown in Canvas 7).
 
+You need to create tour steps from the painting annotations, and the Manifest Editor has a convenient mechanism for doing this. On the _Structures_ tab you can see the painting annotations (the media of the canvas) _and_ the links to annotations used for descriptive purposes (under the `annotations` property).
 
+Sets of annotations live in Annotation Pages - Click *Add Annotations* then click *Create* to make an annotation page. You can then create describing annotations that point at the painting annotations, and the exhibition viewer will treat these as tour steps. Just click each image annotation under "This is an advanced feature for exhibitions", to end up with this:
 
+![Tour steps from images](tour-steps-from-images.png)
 
+You can optionally label the Annotation Page to make it clearer later (this label is not used in the Exhibition user interface).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> **⚠ Why the extra step?** 
-
-
-
-(use the LAST example on Novieten)
-
-(use the iiif explorer to find the canvas pages)
+Now these four images form tour steps.
 
 ## Canvas 6: Another info panel
 

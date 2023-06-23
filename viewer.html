@@ -87,10 +87,7 @@
     }
 
     function makeInfoPanel(canvas, panel){
-        let bodyAsList = canvas.items[0].items[0].body;
-        if(!Array.isArray(bodyAsList)){
-            bodyAsList = [bodyAsList];
-        }
+        let bodyAsList = asArray(canvas.items[0].items[0].body);
         for(const body of bodyAsList){
             if(body.language == language){
                 const infoBody = document.createElement("div");
@@ -100,10 +97,7 @@
             }
         }
         if(canvas.annotations?.[0]["items"]){
-            let canvasAnnoBodyList = canvas.annotations?.[0].items[0].body;
-            if(!Array.isArray(canvasAnnoBodyList)){
-                canvasAnnoBodyList = [canvasAnnoBodyList];
-            }
+            let canvasAnnoBodyList = asArray(canvas.annotations?.[0].items[0].body);
             for(const body of canvasAnnoBodyList){
                 if(body.language == language) {
                     const readMore = document.createElement("a");
@@ -155,10 +149,7 @@
 
         // We are assuming an exhibition only has one media type per canvas, not images AND video for example
         // TODO - these will need to change if/when we change our video modelling
-        let bodyAsList = paintings[0].body;
-        if(!Array.isArray(bodyAsList)){
-            bodyAsList = [bodyAsList];
-        }
+        let bodyAsList = asArray(paintings[0].body);
         for(const b of bodyAsList){
             if(b.service?.[0]?.profile?.includes("objectifier")){
                 addPara(content, `Rendering a VIDEO from ${b.service[0].params.data}`, true);
@@ -208,11 +199,8 @@
                         addPara(tourStep, `This tour step targets a specific region, xywh=${regionTarget}.`, true);
                     }
                 }
-                if (annotation.body) {
-                    let annoBodyList = annotation.body;
-                    if(!Array.isArray(annoBodyList)){
-                        annoBodyList = [annoBodyList];
-                    }
+                if (annotation.body && !(Array.isArray(annotation.body) && annotation.body.length == 0)) {
+                    let annoBodyList = asArray(annotation.body);
                     for (const body of annoBodyList) {
                         if (body.language == language) {
                             addPara(tourStep, "Using the annotation body of this tour step annotation:", true);
@@ -340,6 +328,13 @@
         const vals = getStrings(langMap);
         if(vals) return vals[0];
         return "";
+    }
+
+    function asArray(theObj){
+        if(!Array.isArray(theObj)){
+            return [theObj];
+        }
+        return theObj;
     }
 
 </script>
