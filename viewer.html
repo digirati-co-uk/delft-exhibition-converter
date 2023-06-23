@@ -159,7 +159,7 @@
             }
         }
 
-        if(canvas.behavior.includes("placeholder")){
+        if(canvas.behavior?.includes("placeholder")){
             addPara(content, "The image in the canvas is a placeholder, and we will render something else on interaction.", true);
             addPara(content, `Rendering ${canvas.rendering[0].id}`, true);
         }

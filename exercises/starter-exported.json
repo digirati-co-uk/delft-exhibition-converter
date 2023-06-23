@@ -672,6 +672,276 @@
           ]
         }
       ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "behavior": [
+        "info",
+        "w-4",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Extra info panel  "
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9/annotation-page/2b5f5b3b-a7b4-4bc8-bfcd-4c28d5682376",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/90ef2ed4-92e5-480e-9d8c-9678daa69a77",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9",
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/90ef2ed4-92e5-480e-9d8c-9678daa69a77/html/en/5ac12aeb-d3dc-4a7a-bd3d-829409f7f6a6",
+                "type": "TextualBody",
+                "format": "text/html",
+                "height": 1000,
+                "width": 1000,
+                "language": "en",
+                "value": "<h2>An info panel</h2>"
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9/annotations/7d716326-eb96-40a5-9775-0f9a1c050338",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9/annotations/7d716326-eb96-40a5-9775-0f9a1c050338/annotation/dccf4059-c856-4164-9940-5b7aeaf14693",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9",
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/bb949097-b30d-4ffd-816f-0bdde8b16ae9/annotations/7d716326-eb96-40a5-9775-0f9a1c050338/annotation/dccf4059-c856-4164-9940-5b7aeaf14693/html/en/7b4636db-bd1b-4540-a202-7c880c18bc99",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>Thisisthepopup</h2><p>Whathappenedtothespace?</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/5826af6d-cb8d-43d1-bcdc-99c8236f9a8a",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "behavior": [
+        "info",
+        "w-4",
+        "h-6"
+      ],
+      "label": {
+        "en": [
+          "Untitled HTML canvas"
+        ]
+      },
+      "items": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/5826af6d-cb8d-43d1-bcdc-99c8236f9a8a/annotation-page/40fadd37-1f49-4b64-b7c7-212b31c9ea6d",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/528264e4-2379-4c93-b2f3-f336b64fe555",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/5826af6d-cb8d-43d1-bcdc-99c8236f9a8a",
+              "body": {
+                "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/annotation/528264e4-2379-4c93-b2f3-f336b64fe555/html/en/d1179ad0-62f8-460e-accf-37075d0aa62b",
+                "type": "TextualBody",
+                "format": "text/html",
+                "height": 1000,
+                "width": 1000,
+                "language": "en",
+                "value": "<h2>Another info panel</h2>\n\n<p>Extra</p>"
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/98d4efc5-6ab0-45ba-b014-7f0c589e2e45/canvas/5826af6d-cb8d-43d1-bcdc-99c8236f9a8a/annotations/1fe179bf-446d-4808-b06b-fcb357094ca0",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2",
+      "type": "Canvas",
+      "height": 679,
+      "width": 1000,
+      "behavior": [
+        "w-8",
+        "h-6"
+      ],
+      "label": {
+        "none": [
+          "Temp Canvas 8"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://iiif.wellcomecollection.org/thumbs/b13151010_hin-wel-all-00005579_0007.jp2/full/64,100/0/default.jpg",
+          "type": "Image",
+          "height": 100,
+          "width": 64,
+          "service": [
+            {
+              "@id": "https://iiif.wellcomecollection.org/thumbs/b13151010_hin-wel-all-00005579_0007.jp2",
+              "@type": "ImageService2",
+              "profile": "http://iiif.io/api/image/2/level0.json",
+              "width": 660,
+              "height": 1024,
+              "sizes": [
+                {
+                  "width": 64,
+                  "height": 100
+                },
+                {
+                  "width": 129,
+                  "height": 200
+                },
+                {
+                  "width": 258,
+                  "height": 400
+                },
+                {
+                  "width": 660,
+                  "height": 1024
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/painting",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2#xywh=164,112,155,241",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b13151010_hin-wel-all-00005579_0007.jp2/full/660,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5188,
+                "width": 3344,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b13151010_hin-wel-all-00005579_0007.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 3344,
+                    "height": 5188
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0019.jp2/painting/anno",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2#xywh=232,304,144,224",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b13151010_hin-wel-all-00005579_0019.jp2/full/659,1024/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5176,
+                "width": 3332,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b13151010_hin-wel-all-00005579_0019.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 3332,
+                    "height": 5176
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b28638931/canvases/b28638931_0001.jp2/painting/anno",
+              "type": "Annotation",
+              "label": {
+                "en": [
+                  "The Duck"
+                ]
+              },
+              "summary": {
+                "en": [
+                  "That's a duck"
+                ]
+              },
+              "motivation": "painting",
+              "target": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2#xywh=387,22,593,407",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/image/b28638931_0001.jp2/full/1024,703/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3840,
+                "width": 5592,
+                "service": [
+                  {
+                    "@id": "https://iiif.wellcomecollection.org/image/b28638931_0001.jp2",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json",
+                    "width": 5592,
+                    "height": 3840
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/annotations/307e1e6d-8a11-418f-919f-7fe6bebdc0c4",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/annotations/307e1e6d-8a11-418f-919f-7fe6bebdc0c4/annotation/d126b42c-439d-4160-953c-6afffce371f7",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2#xywh=134,98,297,476",
+              "body": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/annotations/307e1e6d-8a11-418f-919f-7fe6bebdc0c4/annotation/d126b42c-439d-4160-953c-6afffce371f7/html/en/f7bc70f7-c9ac-4ab4-b7c0-3df6f366b963",
+                "type": "TextualBody",
+                "format": "text/html",
+                "language": "en",
+                "value": "<h2>This annotation targets a region of the canvas that happens to overlap two painting annos</h2>\n\n<p>ducks</p>"
+              }
+            },
+            {
+              "id": "https://iiif.wellcomecollection.org/presentation/b13151010/canvases/b13151010_hin-wel-all-00005579_0007.jp2/annotations/307e1e6d-8a11-418f-919f-7fe6bebdc0c4/annotation/64a7fa2e-b0d1-41af-b06b-fd4150f4b0a9",
+              "type": "Annotation",
+              "motivation": "describing",
+              "target": {
+                "id": "https://iiif.wellcomecollection.org/presentation/b28638931/canvases/b28638931_0001.jp2/painting/anno",
+                "type": "Annotation"
+              },
+              "body": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
